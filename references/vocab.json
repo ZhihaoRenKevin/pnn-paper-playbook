@@ -1,0 +1,750 @@
+{
+  "vocab_version": "v3.2.1-2026-10-29",
+  "materials": {
+    "SOI": [
+      "silicon-on-insulator",
+      "SOI",
+      "220 nm silicon",
+      "220-nm silicon",
+      "silicon photonic chip",
+      "silicon waveguide"
+    ],
+    "Si": [
+      "crystalline silicon",
+      "amorphous silicon",
+      "a-Si",
+      "c-Si",
+      "polysilicon",
+      "silicon nanopillar",
+      "silicon metasurface"
+    ],
+    "SiN": [
+      "silicon nitride",
+      "Si3N4",
+      "SiN",
+      "SiOxNy",
+      "silicon oxynitride",
+      "Hydex",
+      "TriPleX"
+    ],
+    "SiO2": [
+      "fused silica",
+      "silica glass",
+      "SiO2 waveguide",
+      "femtosecond laser-written waveguide",
+      "borosilicate glass"
+    ],
+    "Ge/GeSi": [
+      "germanium",
+      "Ge photodiode",
+      "Ge photodetector",
+      "GeSi",
+      "SiGe",
+      "Ge-on-Si"
+    ],
+    "TFLN": [
+      "thin-film lithium niobate",
+      "TFLN",
+      "LNOI",
+      "lithium niobate on insulator",
+      "LiNbO3"
+    ],
+    "BTO": [
+      "barium titanate",
+      "BaTiO3",
+      "BTO"
+    ],
+    "PZT/AlN": [
+      "lead zirconate titanate",
+      "PZT",
+      "aluminum nitride",
+      "AlN",
+      "ScAlN"
+    ],
+    "HZO": [
+      "hafnium zirconium oxide",
+      "HfZrO",
+      "Hf0.5Zr0.5O2",
+      "HZO",
+      "ferroelectric HfO2"
+    ],
+    "III-V": [
+      "III-V",
+      "GaAs",
+      "AlGaAs",
+      "InGaAs",
+      "InGaAsP",
+      "quantum dot laser",
+      "VCSEL"
+    ],
+    "InP": [
+      "indium phosphide",
+      "InP",
+      "InGaAsP/InP"
+    ],
+    "GST": [
+      "Ge2Sb2Te5",
+      "GST",
+      "GST-225",
+      "Ge-Sb-Te"
+    ],
+    "GSST": [
+      "Ge2Sb2Se4Te1",
+      "GSST",
+      "GeSbSeTe"
+    ],
+    "Sb2Se3": [
+      "Sb2Se3",
+      "Sb 2 Se 3",
+      "antimony selenide"
+    ],
+    "Sb2S3": [
+      "Sb2S3",
+      "Sb 2 S 3",
+      "antimony sulfide",
+      "antimony trisulfide"
+    ],
+    "VO2": [
+      "vanadium dioxide",
+      "VO2"
+    ],
+    "ITO": [
+      "indium tin oxide",
+      "ITO",
+      "epsilon-near-zero",
+      "ENZ modulator"
+    ],
+    "graphene": [
+      "graphene",
+      "monolayer graphene",
+      "bilayer graphene",
+      "CVD graphene",
+      "reduced graphene oxide",
+      "rGO"
+    ],
+    "MoS2": [
+      "MoS2",
+      "molybdenum disulfide"
+    ],
+    "WSe2": [
+      "WSe2",
+      "tungsten diselenide"
+    ],
+    "WS2": [
+      "WS2",
+      "tungsten disulfide",
+      "MoTe2",
+      "PdSe2",
+      "SnS2",
+      "ReS2",
+      "In2Se3",
+      "Bi2O2Se"
+    ],
+    "black-phosphorus": [
+      "black phosphorus",
+      "BP",
+      "phosphorene"
+    ],
+    "MXene": [
+      "MXene",
+      "Ti3C2Tx",
+      "Ti3C2",
+      "HE-MXene"
+    ],
+    "perovskite": [
+      "perovskite",
+      "CsPbBr3",
+      "MAPbI3",
+      "FAPbI3",
+      "CH3NH3PbI3",
+      "halide perovskite",
+      "CsPbI3"
+    ],
+    "oxide-memristor": [
+      "ZnO",
+      "IGZO",
+      "a-IGZO",
+      "TiO2",
+      "HfO2",
+      "WO3",
+      "MoO3",
+      "SrTiO3",
+      "NbOx",
+      "TaOx",
+      "Ga2O3",
+      "oxide synapse",
+      "optoelectronic memristor"
+    ],
+    "Ce:YIG": [
+      "Ce:YIG",
+      "cerium-substituted yttrium iron garnet",
+      "Bi:YIG",
+      "YIG",
+      "magneto-optic garnet"
+    ],
+    "plasmonic-metal": [
+      "plasmonic",
+      "surface plasmon",
+      "Au nanorod",
+      "gold waveguide",
+      "silver nanowire",
+      "metal-insulator-metal",
+      "MIM waveguide"
+    ],
+    "EO-polymer": [
+      "electro-optic polymer",
+      "EO polymer",
+      "silicon-organic hybrid",
+      "SOH",
+      "plasmonic-organic hybrid",
+      "POH",
+      "chromophore"
+    ],
+    "2PP-polymer": [
+      "two-photon polymerization",
+      "2PP",
+      "3D-printed polymer",
+      "Nanoscribe",
+      "IP-Dip",
+      "IP-S",
+      "SU-8",
+      "VeroBlackPlus",
+      "PLA diffractive"
+    ],
+    "chalcogenide-glass": [
+      "As2S3",
+      "As2Se3",
+      "GeSbS",
+      "chalcogenide waveguide",
+      "chalcogenide glass"
+    ],
+    "liquid-crystal": [
+      "liquid crystal",
+      "LC metasurface",
+      "nematic liquid crystal",
+      "LCoS"
+    ],
+    "metasurface-dielectric": [
+      "TiO2 nanopillar",
+      "TiO2 metasurface",
+      "GaN metasurface",
+      "dielectric metasurface",
+      "meta-atom",
+      "nanofin"
+    ],
+    "fiber/free-space": [
+      "single-mode fiber",
+      "SMF",
+      "multimode fiber",
+      "MMF",
+      "spatial light modulator",
+      "SLM",
+      "digital micromirror device",
+      "DMD",
+      "diffractive optical element"
+    ],
+    "N-GST": [
+      "N-doped GST",
+      "N-doped Ge2Sb2Te5",
+      "N-GST"
+    ],
+    "Ge3Sb2Te15": [
+      "Ge3Sb2Te15",
+      "Ge-rich GST"
+    ],
+    "GSSST": [
+      "GSSST",
+      "Ge14.6Sb",
+      "S-doped GSST"
+    ],
+    "GSSe": [
+      "Ge2Sb2Se5",
+      "GSSe",
+      "GeSbSe"
+    ],
+    "SbTe9": [
+      "SbTe9",
+      "Sb-Te"
+    ],
+    "Sb2Te3": [
+      "Sb2Te3",
+      "antimony telluride"
+    ],
+    "AIST": [
+      "AIST",
+      "AgInSbTe",
+      "Ag3In4Sb76Te17"
+    ],
+    "GeTe": [
+      "GeTe",
+      "germanium telluride"
+    ],
+    "Se": [
+      "elemental selenium",
+      "Se PCM",
+      "selenium phase-change"
+    ],
+    "Sb": [
+      "elemental antimony",
+      "thin-film Sb",
+      "Sb thin film"
+    ],
+    "In2Se3": [
+      "In2Se3",
+      "alpha-In2Se3",
+      "beta-In2Se3",
+      "indium selenide"
+    ]
+  },
+  "devices": {
+    "A1": [
+      "thermo-optic phase shifter",
+      "thermal phase shifter",
+      "microheater",
+      "TiN heater",
+      "doped-silicon heater",
+      "graphene heater",
+      "thermo-optic tuning"
+    ],
+    "A2": [
+      "electro-optic modulator",
+      "Mach-Zehnder modulator",
+      "MZM",
+      "Pockels modulator",
+      "carrier-depletion modulator",
+      "carrier-injection modulator",
+      "TFLN modulator",
+      "BTO modulator"
+    ],
+    "A3": [
+      "phase-change material",
+      "PCM cell",
+      "GST patch",
+      "GSST cell",
+      "Sb2Se3",
+      "Sb2S3",
+      "non-volatile photonic synapse",
+      "chalcogenide phase-change",
+      "optical phase-change memory"
+    ],
+    "A4": [
+      "MEMS phase shifter",
+      "magneto-optic memory",
+      "Ce:YIG",
+      "ferroelectric domain",
+      "liquid crystal tunable",
+      "piezoelectric actuator"
+    ],
+    "A5": [
+      "microring resonator",
+      "MRR weight bank",
+      "micro-ring",
+      "add-drop ring",
+      "ring modulator",
+      "MRR array"
+    ],
+    "A6": [
+      "MZI mesh",
+      "Mach-Zehnder interferometer mesh",
+      "Clements mesh",
+      "Reck mesh",
+      "unitary mesh",
+      "interferometric mesh",
+      "coherent MZI"
+    ],
+    "B1": [
+      "Kerr microcomb",
+      "soliton microcomb",
+      "frequency comb",
+      "dissipative Kerr soliton",
+      "DKS",
+      "micro-comb"
+    ],
+    "B2": [
+      "VCSEL array",
+      "DFB laser array",
+      "on-chip laser",
+      "microlaser array",
+      "semiconductor laser array"
+    ],
+    "C1": [
+      "photodetector",
+      "balanced photodetector",
+      "BPD",
+      "Ge photodiode",
+      "InGaAs photodiode",
+      "avalanche photodiode",
+      "graphene photodetector"
+    ],
+    "D1": [
+      "saturable absorber",
+      "all-optical nonlinearity",
+      "Kerr nonlinearity",
+      "semiconductor optical amplifier",
+      "SOA",
+      "optical bistability",
+      "nonlinear optical activation"
+    ],
+    "D2": [
+      "optoelectronic activation",
+      "O-E-O nonlinearity",
+      "electro-absorption modulator neuron",
+      "PD-modulator feedback",
+      "opto-electronic nonlinear"
+    ],
+    "E1": [
+      "diffractive deep neural network",
+      "D2NN",
+      "diffractive layer",
+      "diffractive optical network",
+      "3D-printed diffractive",
+      "cascaded phase masks",
+      "diffractive processor"
+    ],
+    "E2": [
+      "computational metasurface",
+      "spatial differentiator",
+      "metasurface edge detection",
+      "meta-optic convolution",
+      "metasurface kernel",
+      "metalens array"
+    ],
+    "E3": [
+      "spatial light modulator",
+      "SLM",
+      "digital micromirror device",
+      "DMD",
+      "LCoS SLM"
+    ],
+    "F1": [
+      "time-delay reservoir",
+      "delay-loop reservoir",
+      "photonic reservoir computing",
+      "optoelectronic oscillator reservoir",
+      "fiber loop reservoir",
+      "virtual nodes"
+    ],
+    "G1": [
+      "spiking laser",
+      "excitable laser",
+      "VCSEL neuron",
+      "DFB-SA",
+      "micropillar laser neuron",
+      "photonic spiking neuron",
+      "leaky integrate-and-fire"
+    ],
+    "H1": [
+      "coherent Ising machine",
+      "CIM",
+      "photonic Ising machine",
+      "spatial photonic Ising",
+      "SPIM",
+      "degenerate optical parametric oscillator",
+      "DOPO"
+    ],
+    "I1": [
+      "in-sensor computing",
+      "retinomorphic sensor",
+      "optoelectronic synapse",
+      "phototransistor array",
+      "photomemristor",
+      "neuromorphic vision sensor",
+      "persistent photoconductivity"
+    ]
+  },
+  "functions": {
+    "Optical Convolution / Feature Extraction": [
+      "optical convolution",
+      "convolutional layer",
+      "kernel convolution",
+      "convolutional front-end",
+      "image convolution"
+    ],
+    "Linear MVM / Tensor Core": [
+      "matrix-vector multiplication",
+      "MVM",
+      "matrix multiplication",
+      "tensor core",
+      "inner product",
+      "dot product",
+      "MAC operations"
+    ],
+    "Fourier / Diffractive Spatial Transform & Phase Recovery": [
+      "Fourier transform",
+      "diffractive transform",
+      "quantitative phase imaging",
+      "phase retrieval",
+      "holographic reconstruction"
+    ],
+    "Nonlinear Activation Function": [
+      "nonlinear activation",
+      "activation function",
+      "all-optical activation",
+      "optoelectronic activation",
+      "ReLU-like",
+      "sigmoid activation"
+    ],
+    "In-Situ / On-Chip Training": [
+      "in situ training",
+      "on-chip training",
+      "in situ backpropagation",
+      "hardware-in-the-loop training",
+      "physics-aware training",
+      "forward-only training"
+    ],
+    "Non-Volatile Photonic Memory / In-Memory Computing": [
+      "in-memory computing",
+      "non-volatile weight",
+      "non-volatile photonic memory",
+      "phase-change weight bank",
+      "zero static power"
+    ],
+    "Reservoir Computing / Temporal Sequence Processing": [
+      "reservoir computing",
+      "echo state network",
+      "temporal sequence",
+      "time-series prediction",
+      "delay-based reservoir"
+    ],
+    "Spiking / Integrate-and-Fire Neuron Dynamics": [
+      "spiking neural network",
+      "SNN",
+      "integrate-and-fire",
+      "LIF neuron",
+      "spike-timing-dependent plasticity",
+      "STDP"
+    ],
+    "Optical Logic Gates & Digital Computing": [
+      "optical logic gate",
+      "all-optical logic",
+      "XOR gate",
+      "AND gate",
+      "OR gate",
+      "half-adder",
+      "directed logic"
+    ],
+    "In-Sensor Visual Perception & Adaptation": [
+      "in-sensor computing",
+      "retinomorphic",
+      "sensory adaptation",
+      "in-sensor image preprocessing",
+      "neuromorphic vision"
+    ],
+    "Optical Generative / Diffusion Models": [
+      "generative model",
+      "diffusion model",
+      "variational autoencoder",
+      "VAE",
+      "generative adversarial",
+      "GAN",
+      "image generation"
+    ],
+    "Reinforcement Learning / Decision Making & Robotics Control": [
+      "reinforcement learning",
+      "Q-learning",
+      "multi-armed bandit",
+      "CartPole",
+      "decision-making"
+    ],
+    "Analog Wave Calculus / Differential & Integral Equation Solving": [
+      "spatial differentiation",
+      "edge detection",
+      "integral equation solver",
+      "Fredholm integral",
+      "PDE solver",
+      "analog calculus"
+    ],
+    "Combinatorial Optimization / Coherent Ising Machine": [
+      "Ising machine",
+      "Max-Cut",
+      "combinatorial optimization",
+      "spin glass",
+      "traveling salesman",
+      "number partitioning"
+    ],
+    "Attention / Transformer Primitives": [
+      "Transformer",
+      "self-attention",
+      "attention mechanism",
+      "multi-head attention",
+      "large language model"
+    ],
+    "High-Speed Communications Equalization & RF Blind Source Separation": [
+      "nonlinear equalization",
+      "channel equalization",
+      "dispersion compensation",
+      "blind source separation",
+      "RF interference cancellation"
+    ]
+  },
+  "benchmarks": {
+    "MNIST": [
+      "MNIST"
+    ],
+    "Fashion-MNIST": [
+      "Fashion-MNIST",
+      "FMNIST",
+      "Fashion MNIST"
+    ],
+    "CIFAR-10": [
+      "CIFAR-10",
+      "CIFAR10"
+    ],
+    "CIFAR-100": [
+      "CIFAR-100",
+      "CIFAR100"
+    ],
+    "ImageNet / Tiny-ImageNet": [
+      "ImageNet",
+      "Tiny-ImageNet",
+      "TinyImageNet"
+    ],
+    "EMNIST / Letters": [
+      "EMNIST",
+      "letter recognition",
+      "handwritten letters"
+    ],
+    "Omniglot / Few-Shot Learning": [
+      "Omniglot",
+      "few-shot learning"
+    ],
+    "KTH / Weizmann Human Action": [
+      "KTH action",
+      "Weizmann action",
+      "human action recognition"
+    ],
+    "Iris": [
+      "Iris dataset",
+      "Iris classification",
+      "Fisher Iris"
+    ],
+    "Wine": [
+      "Wine dataset",
+      "UCI Wine"
+    ],
+    "Breast Cancer (WDBC)": [
+      "Breast Cancer",
+      "WDBC",
+      "Wisconsin Diagnostic"
+    ],
+    "UCI Handwritten Digits (8x8)": [
+      "8x8 digits",
+      "8×8 digits",
+      "UCI digits",
+      "Alpaydin digits"
+    ],
+    "TIDIGITS / Spoken Digits": [
+      "TIDIGITS",
+      "TI-46",
+      "spoken digit",
+      "AudioMNIST"
+    ],
+    "Google Speech Commands": [
+      "Speech Commands",
+      "Google Speech"
+    ],
+    "Vowel Recognition": [
+      "vowel recognition",
+      "Hillenbrand vowel",
+      "Japanese vowel"
+    ],
+    "Mackey-Glass Chaotic Time Series": [
+      "Mackey-Glass",
+      "Mackey–Glass"
+    ],
+    "Santa Fe Laser Chaotic Series": [
+      "Santa Fe",
+      "Santa-Fe laser"
+    ],
+    "Lorenz / Kuramoto Chaotic Prediction": [
+      "Lorenz attractor",
+      "Lorenz chaotic",
+      "Lorenz63",
+      "Kuramoto-Sivashinsky"
+    ],
+    "NARMA10 Nonlinear System Identification": [
+      "NARMA10",
+      "NARMA-10",
+      "NARMA"
+    ],
+    "Nonlinear XOR & Boolean Logic": [
+      "XOR task",
+      "nonlinear XOR",
+      "XOR classification"
+    ],
+    "Optical Fiber Nonlinear Equalization": [
+      "nonlinear equalization",
+      "PAM-4 equalization",
+      "PAM4 equalization",
+      "QPSK equalization",
+      "16-QAM equalization"
+    ],
+    "RF Blind Source Separation / Interference Cancellation": [
+      "blind source separation",
+      "self-interference cancellation",
+      "RF cancellation"
+    ],
+    "Max-Cut / Ising Combinatorial Optimization": [
+      "Max-Cut",
+      "MAXCUT",
+      "Ising problem",
+      "G-set"
+    ],
+    "Image Edge Detection & Spatial Differentiation": [
+      "edge detection",
+      "spatial differentiation",
+      "USAF 1951",
+      "resolution target"
+    ],
+    "ECG Arrhythmia / Biomedical Signals": [
+      "ECG arrhythmia",
+      "MIT-BIH",
+      "electrocardiogram"
+    ]
+  },
+  "anti_truncation_tokens": [
+    "CIFAR-10",
+    "CIFAR10",
+    "CIFAR-100",
+    "CIFAR100",
+    "NARMA10",
+    "NARMA-10",
+    "Lorenz63",
+    "Lorenz-63",
+    "Lorenz96",
+    "TI-46",
+    "USAF-1951",
+    "USAF 1951",
+    "ResNet-18",
+    "ResNet-50",
+    "VGG-16",
+    "Ge2Sb2Te5",
+    "Ge2Sb2Se4Te1",
+    "Sb2Se3",
+    "Sb2S3",
+    "Ti3C2Tx",
+    "Si3N4",
+    "LiNbO3",
+    "BaTiO3",
+    "MoS2",
+    "WSe2",
+    "WS2",
+    "VO2",
+    "SiO2",
+    "Al2O3",
+    "HfO2",
+    "Ga2O3"
+  ],
+  "e1_material_subtypes": [
+    "Objet/SLA 3D-printed polymer",
+    "2PP/TPL polymer",
+    "a-Si metasurface",
+    "TiO2 metasurface",
+    "SiO2/fused-silica phase plate",
+    "perovskite",
+    "liquid-crystal",
+    "SLM/DMD",
+    "on-chip SOI/SiN slab",
+    "numerical-only (no physical medium)"
+  ]
+}

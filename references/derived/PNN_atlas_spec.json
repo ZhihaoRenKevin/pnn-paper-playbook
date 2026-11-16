@@ -1,0 +1,3497 @@
+{
+ "classes": {
+  "A1": "thermo-optic phase shifters / heaters",
+  "A2": "electro-optic modulators / phase shifters",
+  "A3": "phase-change material devices",
+  "A4": "other non-volatile / programmable elements",
+  "A5": "microring weight banks / filters",
+  "A6": "MZI meshes / unitary processors",
+  "B1": "microcombs / multi-wavelength sources",
+  "B2": "lasers / VCSEL arrays (sources or neurons)",
+  "C1": "photodetectors",
+  "D1": "all-optical nonlinear elements",
+  "D2": "optoelectronic nonlinear activation",
+  "E1": "diffractive networks",
+  "E2": "computing metasurfaces / analog spatial differentiators",
+  "E3": "SLM / DMD hardware",
+  "F1": "delay / physical reservoir computing",
+  "G1": "photonic spiking neurons",
+  "H1": "photonic Ising machines / combinatorial optimisation",
+  "I1": "in-sensor computing / optoelectronic synapses",
+  "J": "system-level metrics"
+ },
+ "label_fields": {
+  "A1": [
+   "material"
+  ],
+  "A2": [
+   "material"
+  ],
+  "A3": [
+   "material",
+   "device_type"
+  ],
+  "A4": [
+   "material"
+  ],
+  "A5": [
+   "platform"
+  ],
+  "A6": [
+   "platform"
+  ],
+  "B1": [
+   "platform"
+  ],
+  "B2": [
+   "platform"
+  ],
+  "C1": [
+   "material"
+  ],
+  "D1": [
+   "material"
+  ],
+  "D2": [
+   "platform"
+  ],
+  "E1": [
+   "platform"
+  ],
+  "E2": [
+   "platform"
+  ],
+  "E3": [
+   "platform"
+  ],
+  "F1": [
+   "platform"
+  ],
+  "G1": [
+   "platform"
+  ],
+  "H1": [
+   "platform"
+  ],
+  "I1": [
+   "material"
+  ],
+  "J": [
+   "platform"
+  ]
+ },
+ "material_families": [
+  {
+   "family": "Si (SOI, doped, amorphous)",
+   "labels": [
+    [
+     "A1",
+     "material",
+     [
+      "doped_Si"
+     ]
+    ],
+    [
+     "A2",
+     "material",
+     [
+      "Si_carrier"
+     ]
+    ],
+    [
+     "A5",
+     "platform",
+     [
+      "SOI"
+     ]
+    ],
+    [
+     "A6",
+     "platform",
+     [
+      "SOI"
+     ]
+    ],
+    [
+     "C1",
+     "material",
+     [
+      "Si"
+     ]
+    ],
+    [
+     "I1",
+     "material",
+     [
+      "Si"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3",
+    "C1",
+    "D1",
+    "I1"
+   ],
+   "text": "\\bSOI\\b|(?i:silicon[- ]on[- ]insulator)|(?<!crystal on )(?<!Crystal on )(?<!CRYSTAL ON )(?i:silicon)(?! (?i:nitride|dioxide|oxide|carbide|oxynitride|substrates?|wafers?))(?![- ](?i:rich))|\\b(?:a-|c-|poly-?)?Si\\b(?![-–](?:rich|N|O))",
+   "unless": []
+  },
+  {
+   "family": "SiN",
+   "labels": [
+    [
+     "A5",
+     "platform",
+     [
+      "SiN"
+     ]
+    ],
+    [
+     "A6",
+     "platform",
+     [
+      "SiN"
+     ]
+    ],
+    [
+     "B1",
+     "platform",
+     [
+      "Si3N4"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3",
+    "C1",
+    "D1",
+    "I1"
+   ],
+   "text": "\\bSi3N4\\b|\\bSiNx?\\b|(?i:silicon nitride)",
+   "unless": []
+  },
+  {
+   "family": "SiO2 / silica glass (as the guiding or diffracting material)",
+   "labels": [
+    [
+     "A6",
+     "platform",
+     [
+      "silica_PLC"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3",
+    "C1",
+    "D1",
+    "I1"
+   ],
+   "text": "(?i:(?:silica|glass)[- ](?:waveguides?|PLC|planar lightwave|chips?|microfib\\w*|fib(?:er|re)s?|microspheres?|resonators?|metasurfaces?|layers?|diffractive|plates?|slabs?|microrings?|microdisks?))|(?i:inside (?:a )?(?:silica|glass)|(?:fs|femtosecond)-laser-written waveguides|in (?:borosilicate )?glass\\b)|(?i:fused[- ]silica (?:metasurfaces?|layers?|plates?|diffractive|phase))|\\bJGS1\\b|\\bPLC\\b",
+   "unless": []
+  },
+  {
+   "family": "Hydex (doped silica)",
+   "labels": [
+    [
+     "B1",
+     "platform",
+     [
+      "Hydex"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:hydex)",
+   "unless": []
+  },
+  {
+   "family": "LiNbO3 (TFLN, LNOI, PPLN)",
+   "labels": [
+    [
+     "A2",
+     "material",
+     [
+      "TFLN"
+     ]
+    ],
+    [
+     "A5",
+     "platform",
+     [
+      "LNOI"
+     ]
+    ],
+    [
+     "A6",
+     "platform",
+     [
+      "LNOI"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:lithium niobate)|LiNbO3|\\bTFLN\\b|\\bLNOI\\b|\\bPPLN\\b|\\bLN\\b",
+   "unless": []
+  },
+  {
+   "family": "III-V (InP, GaAs, InGaAs, AlGaAs, GaN, AlN …)",
+   "labels": [
+    [
+     "A2",
+     "material",
+     [
+      "III_V"
+     ]
+    ],
+    [
+     "A5",
+     "platform",
+     [
+      "III_V"
+     ]
+    ],
+    [
+     "B1",
+     "platform",
+     [
+      "AlGaAs"
+     ]
+    ],
+    [
+     "C1",
+     "material",
+     [
+      "InGaAs"
+     ]
+    ],
+    [
+     "I1",
+     "material",
+     [
+      "III_V"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "\\bInP\\b|\\bInGaAsP?\\b|\\bGaAs\\b|\\bAlGaAs\\b|\\bInAs\\b|\\bGaN\\b|\\bAlN\\b|\\bIII[-–]V\\b|\\bInGaN\\b|\\bGaP\\b",
+   "unless": []
+  },
+  {
+   "family": "Ge / SiGe",
+   "labels": [
+    [
+     "C1",
+     "material",
+     [
+      "Ge"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "\\bGe\\b(?![-–]?(?:Sb|Te|Se))|(?i:germanium)(?![- ]antimony)|\\bGeSi\\b|\\bSiGe\\b",
+   "unless": []
+  },
+  {
+   "family": "GST (Ge2Sb2Te5 and doped GST)",
+   "labels": [
+    [
+     "A3",
+     "material",
+     [
+      "GST",
+      "N-GST"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "\\bGST\\b|Ge2Sb2Te5|\\bGe[-–]Sb[-–]Te\\b",
+   "unless": []
+  },
+  {
+   "family": "GSST / GSSST",
+   "labels": [
+    [
+     "A3",
+     "material",
+     [
+      "GSSST",
+      "GSST"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "\\bGSST\\b|\\bGSSST\\b|Ge2Sb2Se4Te",
+   "unless": []
+  },
+  {
+   "family": "Sb2Se3",
+   "labels": [
+    [
+     "A3",
+     "material",
+     [
+      "Sb2Se3"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "Sb2Se3",
+   "unless": []
+  },
+  {
+   "family": "Sb2S3",
+   "labels": [
+    [
+     "A3",
+     "material",
+     [
+      "Sb2S3"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "Sb2S3|\\baSbS\\b",
+   "unless": []
+  },
+  {
+   "family": "phase-change materials (other or unspecified)",
+   "labels": [
+    [
+     "A3",
+     "material",
+     [
+      "AIST",
+      "GSSe",
+      "GeTe",
+      "Sb",
+      "SbTe",
+      "Se",
+      "Te",
+      "other"
+     ]
+    ],
+    [
+     "D1",
+     "material",
+     [
+      "PCM"
+     ]
+    ],
+    [
+     "G1",
+     "platform",
+     [
+      "PCM"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:phase[- ]change)|\\bPCMs?\\b|\\bAIST\\b|\\bGeTe\\b|\\bSb2Te3\\b",
+   "unless": [
+    "GST (Ge2Sb2Te5 and doped GST)",
+    "GSST / GSSST",
+    "Sb2Se3",
+    "Sb2S3"
+   ]
+  },
+  {
+   "family": "VO2",
+   "labels": [],
+   "skip": [
+    "A3"
+   ],
+   "text": "\\bVO2\\b|(?i:vanadium dioxide)",
+   "unless": []
+  },
+  {
+   "family": "ITO / transparent conducting oxides (as active layer)",
+   "labels": [
+    [
+     "A1",
+     "material",
+     [
+      "ITO"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "\\bITO\\b (?:(?i:micro)?heaters?|phase shifters?|modulators?|cells?|electro-?absorption)|(?i:indium tin oxide) (?:heaters?|modulators?)",
+   "unless": []
+  },
+  {
+   "family": "metal heaters / electrodes (TiN, NiCr, Pt, TiW, Cr, Au, Al …)",
+   "labels": [
+    [
+     "A1",
+     "material",
+     [
+      "TiN",
+      "metal_other"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3",
+    "C1",
+    "D1",
+    "E1",
+    "E2",
+    "I1"
+   ],
+   "text": "\\bTiN\\b|(?i:titanium nitride)|\\bNi-?Cr\\b|(?i:nichrome)|(?i:platinum)|\\bPt\\b|\\bTiW\\b|(?i:tungsten)|\\bCr\\b|(?i:chromium)|\\bTi\\b|\\bAu\\b|(?i:gold)|\\bAl\\b|(?i:alumin(?:i)?um)(?! (?i:oxide))|\\bAg\\b|(?i:silver)|\\bCu\\b|(?i:copper)|\\bAlCu\\b",
+   "unless": []
+  },
+  {
+   "family": "graphene",
+   "labels": [
+    [
+     "A1",
+     "material",
+     [
+      "graphene"
+     ]
+    ],
+    [
+     "A2",
+     "material",
+     [
+      "graphene"
+     ]
+    ],
+    [
+     "C1",
+     "material",
+     [
+      "graphene"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:graphene)(?![- ](?i:oxide|contacts?|electrodes?|top gate|electrode))",
+   "unless": []
+  },
+  {
+   "family": "2D semiconductors (all: TMDs, BP, In2Se3, MXene …)",
+   "labels": [
+    [
+     "C1",
+     "material",
+     [
+      "2D_other"
+     ]
+    ],
+    [
+     "D1",
+     "material",
+     [
+      "2D_material"
+     ]
+    ],
+    [
+     "I1",
+     "material",
+     [
+      "2D"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "\\bMoS2\\b|\\bWSe2\\b|\\bMoTe2\\b|\\bWS2\\b|\\bReS2\\b|\\bMoSe2\\b|\\bPtSe2\\b|\\bIn2Se3\\b|\\bGaSe\\b|\\bSnS2?\\b|(?i:black phosphorus)|(?i:phosphorene)|(?i:MXene)|Ti3C2|\\bTMDs?\\b|(?i:transition[- ]metal dichalcogenide)|(?i:\\b2D (?:material|semiconductor|heterostructure|crystal))",
+   "unless": []
+  },
+  {
+   "family": "MoS2",
+   "labels": [],
+   "skip": [
+    "A3"
+   ],
+   "text": "MoS2",
+   "unless": []
+  },
+  {
+   "family": "WSe2",
+   "labels": [],
+   "skip": [
+    "A3"
+   ],
+   "text": "WSe2",
+   "unless": []
+  },
+  {
+   "family": "black phosphorus",
+   "labels": [],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:black phosphorus)|(?i:phosphorene)|\\bBP\\b",
+   "unless": []
+  },
+  {
+   "family": "perovskite",
+   "labels": [
+    [
+     "C1",
+     "material",
+     [
+      "perovskite"
+     ]
+    ],
+    [
+     "I1",
+     "material",
+     [
+      "perovskite"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:perovskite)|CsPb|MAPb|FAPb|\\bMAPI\\b",
+   "unless": []
+  },
+  {
+   "family": "organic / polymer",
+   "labels": [
+    [
+     "C1",
+     "material",
+     [
+      "organic"
+     ]
+    ],
+    [
+     "I1",
+     "material",
+     [
+      "organic"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:\\borganic\\b|polymer|pentacene|hydrogel|photoresist)|\\bP3HT\\b|PEDOT|\\bPMMA\\b|\\bSU-8\\b|\\bIP-(?:Dip|S|L)\\b|\\bPDMS\\b|\\bOFETs?\\b|\\bOPDs?\\b|\\bOECTs?\\b",
+   "unless": []
+  },
+  {
+   "family": "oxide semiconductors / oxide memristors",
+   "labels": [
+    [
+     "I1",
+     "material",
+     [
+      "oxide"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "\\bIGZO\\b|\\bZnO\\b|\\bIn2O3\\b|\\bGa2O3\\b|\\bHfOx\\b|\\bTaOx\\b|\\bTa2O5\\b|\\bNiOx?\\b|\\bWO3\\b|\\bWOx\\b|\\bSnO2\\b|\\bTiOx\\b|\\bCuO\\b|\\bCu2O\\b|\\bMoO3\\b|\\bMoOx\\b|\\bVOx\\b|(?i:oxide (?:semiconductor|memristor|transistor|TFT))",
+   "unless": []
+  },
+  {
+   "family": "memristors / charge-trap / floating-gate",
+   "labels": [
+    [
+     "A4",
+     "material",
+     [
+      "charge_trap",
+      "memristor"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:memristor|memristive|charge[- ]trap|floating[- ]gate)|\\bRRAM\\b|\\bReRAM\\b",
+   "unless": []
+  },
+  {
+   "family": "ferroelectric",
+   "labels": [
+    [
+     "A4",
+     "material",
+     [
+      "ferroelectric"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:ferroelectric|barium titanate)|\\bBTO\\b|BaTiO3|\\bHZO\\b|\\bPZT\\b|CuInP2S6|\\bCIPS\\b|P\\(VDF-TrFE\\)|\\bBFO\\b|BiFeO3",
+   "unless": []
+  },
+  {
+   "family": "MEMS / NEMS / optomechanical",
+   "labels": [
+    [
+     "A4",
+     "material",
+     [
+      "MEMS"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "\\bMEMS\\b|\\bNEMS\\b|(?i:electromechanical|opto-?mechanical)",
+   "unless": []
+  },
+  {
+   "family": "magneto-optic",
+   "labels": [
+    [
+     "A4",
+     "material",
+     [
+      "magneto_optic"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:magneto-optic)(?!(?i:al trap))|\\b(?:Ce:)?YIG\\b|(?i:iron garnet)",
+   "unless": []
+  },
+  {
+   "family": "chalcogenide glass",
+   "labels": [],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:chalcogenide glass)|\\bAs2S3\\b|\\bAs2Se3\\b|\\bGLSO\\b",
+   "unless": []
+  },
+  {
+   "family": "liquid crystal (LC, LCoS)",
+   "labels": [
+    [
+     "E1",
+     "platform",
+     [
+      "liquid_crystal"
+     ]
+    ],
+    [
+     "E3",
+     "platform",
+     [
+      "LCoS_SLM",
+      "transmissive_SLM"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:liquid[- ]crystal)|\\bLCoS\\b|\\bLCOS\\b|\\bLCs?\\b",
+   "unless": []
+  },
+  {
+   "family": "dielectric metasurface materials (a-Si, TiO2, GaN, SiN …)",
+   "labels": [
+    [
+     "E1",
+     "platform",
+     [
+      "metasurface_dielectric"
+     ]
+    ],
+    [
+     "E2",
+     "platform",
+     [
+      "dielectric_metasurface"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3",
+    "C1",
+    "I1"
+   ],
+   "text": "\\ba-Si\\b|(?i:amorphous silicon|titanium dioxide|dielectric metasurface)|\\bTiO2\\b",
+   "unless": []
+  },
+  {
+   "family": "3D-printed / two-photon-printed polymer",
+   "labels": [
+    [
+     "E1",
+     "platform",
+     [
+      "3d_printed_polymer",
+      "two_photon_polymer"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:two-photon[- ](?:polymeri[sz]\\w*|lithograph\\w*|printed|printing|laser[- ]print\\w*|direct laser writ\\w*)|3D[- ]print\\w*|stereolithograph\\w*)|Nanoscribe|Objet30|VeroBlack",
+   "unless": []
+  },
+  {
+   "family": "PCB / microwave",
+   "labels": [
+    [
+     "E1",
+     "platform",
+     [
+      "pcb_microwave"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:printed circuit board|microstrip)|\\bPCB\\b",
+   "unless": []
+  },
+  {
+   "family": "optical fibre",
+   "labels": [],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:\\bfib(?:er|re)s?\\b)|\\bSMF\\b|\\bMMF\\b|\\bPMF\\b|\\bHNLF\\b",
+   "unless": []
+  },
+  {
+   "family": "plasmonic / metallic nanostructures",
+   "labels": [
+    [
+     "A2",
+     "material",
+     [
+      "plasmonic"
+     ]
+    ],
+    [
+     "E2",
+     "platform",
+     [
+      "metallic_metasurface"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:plasmon)",
+   "unless": []
+  },
+  {
+   "family": "quantum dots",
+   "labels": [
+    [
+     "D1",
+     "material",
+     [
+      "quantum_dot"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:quantum[- ]dots?)|\\bQDs?\\b",
+   "unless": []
+  },
+  {
+   "family": "atomic vapour",
+   "labels": [
+    [
+     "D1",
+     "material",
+     [
+      "atomic_vapor"
+     ]
+    ]
+   ],
+   "skip": [
+    "A3"
+   ],
+   "text": "(?i:atomic vapou?r|rubidium)|\\b(?:85|87)?Rb\\b",
+   "unless": []
+  }
+ ],
+ "rules": "1. Every number comes from one record (its record_id is given next to it) or is a count / median of records.\n 2. Units are converted only inside a unit group (UNITS below); a unit outside every group gets its own row with\n    direction 'none'.  µ (U+00B5) and μ (U+03BC) are treated as the same character.\n 3. Each record contributes one value, after unit conversion:\n    a. for a range or list (value_num .. value_num_hi) the better end for the parameter's direction: the upper end for\n       'max'; for 'min' the smallest end above zero (a sweep that starts at 0 is not a value of 0), except in dBm;\n    b. value_num for direction 'none';\n    c. A6 and E2 'bandwidth' given as a range of wavelengths (both ends >= 200 nm) is an operating band: the value is\n       its width (upper end minus lower end).\n 4. Best value: the largest ('max') or smallest ('min') value among the records of that status; ties are broken by\n    record_id.  Not eligible: a bound that points the wrong way ('<', '≤', '<=' for 'max'; '>', '≥', '>=' for 'min'),\n    because the true value is then worse than the number written; and, for 'min', a value of zero or below (except\n    in dBm).  Direction 'none' gives no best value (the parameter has no better direction, or the records mix tasks,\n    e.g. E1 accuracy, F1 task_metric, J accuracy - the benchmark ledger splits J accuracy by task).\n    best_measured_calc = 'yes' when the best record's condition or note says the value was calculated or estimated\n    (the class rules still count it as measured; see the README of PNN_params).\n 5. measured_min / median / max are over measured records only.  Simulated and predicted records are counted and\n    have their own best values, never mixed with measured ones.\n 6. Year = the two digits after the journal name in the paper's file name; tier = library folder (01..04 -> T1..T4).\n 7. Material families: a record joins a family through its class label (label rule) or through a material name in\n    its material_text (text rule; chemical formulas are matched case-sensitively).  Text rules are not applied to A3\n    (its label names the active phase-change material); several families skip classes where the material is usually\n    only a substrate, electrode or dielectric there (listed per family as 'skip'); 'phase-change materials (other or\n    unspecified)' takes by text only records not already in a named PCM family.  A record can be in several families.\n 8. Benchmark task: the first task rule that matches the record's condition (then value_text).  A record that matches\n    no rule and whose condition says 'same' ('same network', 'same task', ...) takes the task of the previous accuracy\n    record of the same paper.  Anything else is 'unspecified'.",
+ "tasks": [
+  {
+   "regex": "fashion|clothing|sneaker|trouser",
+   "task": "Fashion-MNIST"
+  },
+  {
+   "regex": "kmnist|kuzushiji",
+   "task": "KMNIST"
+  },
+  {
+   "regex": "emnist",
+   "task": "EMNIST"
+  },
+  {
+   "regex": "quickdraw|quick, draw",
+   "task": "QuickDraw"
+  },
+  {
+   "regex": "vowel",
+   "task": "vowel recognition"
+  },
+  {
+   "regex": "speech|spoken|audio|tidigits|ti-46|keyword spotting|\\bvoice\\b|\\bsound\\b",
+   "task": "speech / audio"
+  },
+  {
+   "regex": "sklearn|8 ?[×x] ?8 handwritten|8 ?[×x] ?8 digits|uci digits",
+   "task": "sklearn / UCI 8 × 8 digits"
+  },
+  {
+   "regex": "mnist|handwritten[- ]digit|hand-written digit|(?<!spoken )\\bdigits?\\b",
+   "task": "MNIST"
+  },
+  {
+   "regex": "cifar-?100",
+   "task": "CIFAR-100"
+  },
+  {
+   "regex": "cifar",
+   "task": "CIFAR-10"
+  },
+  {
+   "regex": "\\bsvhn\\b",
+   "task": "SVHN"
+  },
+  {
+   "regex": "imagenet|imagewoof|imagenette",
+   "task": "ImageNet (subset)"
+  },
+  {
+   "regex": "\\biris\\b",
+   "task": "Iris"
+  },
+  {
+   "regex": "\\bmoons?\\b|\\bcircles?\\b|\\bspirals?\\b|\\bgaussian \\(binary\\)|point separation|two-dimensional point|2d point|binary classification of \\d+ data points",
+   "task": "synthetic 2D sets (moons, circles, spirals, Gaussians)"
+  },
+  {
+   "regex": "banknote|\\bwine\\b|\\buci\\b|\\bseeds\\b|abalone|\\bionosphere\\b|\\bsonar\\b|seafloor",
+   "task": "small tabular sets (banknote, wine, sonar …)"
+  },
+  {
+   "regex": "omniglot|few-shot|\\d-shot",
+   "task": "few-shot (Omniglot …)"
+  },
+  {
+   "regex": "\\becg\\b|\\beeg\\b|\\bemg\\b|arrhythm|electrocardio|cardiac",
+   "task": "ECG / EEG / biosignals"
+  },
+  {
+   "regex": "x-ray|\\bct\\b|\\bmri\\b|lesion|tumou?r|cancer|patholog|cytolog|sipakmed|dermat|melanoma|fundus|retinal|covid|haemorrh|hemorrh|blood cell|malaria|histolog|organoid|medical|mednist|clinical|diagnos|cell classification|cell-organelle|\\bcells? \\(",
+   "task": "medical imaging"
+  },
+  {
+   "regex": "\\bfaces?\\b|facial|emotion|raf-db|\\bgaze\\b|eye[- ]tracking|unityeyes",
+   "task": "face / facial expression / gaze"
+  },
+  {
+   "regex": "gesture|\\baction|human activit|activity recognition|\\bmotion\\b|\\bpose\\b|\\bgait\\b|\\bvideo|\\bkth\\b|falling|skeleton|behaviou?r recognition",
+   "task": "gesture / action / motion / video"
+  },
+  {
+   "regex": "\\brf\\b|radar|\\bsar\\b|mstar|wireless|\\bradio\\b|rml2016|modulation (?:format )?(?:classification|recognition|identification)|signal classification|spectrum sensing|\\buwb\\b|microwave signal",
+   "task": "RF / radar / wireless"
+  },
+  {
+   "regex": "equali[sz]|nonlinearity compensation|fib(?:er|re) (?:transmission|link|nonlinearit)|\\bber\\b|q-factor|dispersion compensation|optical communication|transmission link|\\bpam-?4\\b|\\bqam\\b|signal recovery|demultiplex",
+   "task": "optical communication"
+  },
+  {
+   "regex": "max-?cut|\\bising\\b|sudoku|\\btsp\\b|travel?ling salesman|knapsack|graph colou?ring|\\bqubo\\b|spin glass",
+   "task": "Ising / combinatorial optimisation"
+  },
+  {
+   "regex": "\\bequations?\\b|\\bpdes?\\b|\\bodes?\\b|matrix[- ]inversion|inversion accuracy|linear system|eigen",
+   "task": "equation solving / linear algebra"
+  },
+  {
+   "regex": "differentiat|temporal integration|\\bintegrator\\b|hilbert",
+   "task": "signal processing (differentiation, integration, filtering)"
+  },
+  {
+   "regex": "mackey|santa fe|narma|lorenz|chaotic (?:time|series|system|signal)|time[- ]series|forecast",
+   "task": "time-series / chaotic prediction"
+  },
+  {
+   "regex": "reinforcement|\\brl task|\\batari\\b|\\bpong\\b|\\bgames?\\b|bandit|robot|navigation|\\bdrone|cart-?pole|\\bcontrol task|state-action",
+   "task": "reinforcement learning / games / control"
+  },
+  {
+   "regex": "generative|image generation|style transfer|\\bgan\\b|diffusion model",
+   "task": "generative models"
+  },
+  {
+   "regex": "edge detection|edge-detection|edge extraction|image processing|denois|segmentation|super-?resolution|deblur|pixel accuracy",
+   "task": "image processing (edge, denoise, segmentation)"
+  },
+  {
+   "regex": "\\blogic\\b|logic gate|\\bxor\\b|\\d+-bit parity|parity function|parity (?:task|check|problem|bit)|arithmetic|\\badder\\b|boolean",
+   "task": "logic / parity / arithmetic"
+  },
+  {
+   "regex": "\\bletters?\\b|alphabet|\\bcharacters?\\b|chinese",
+   "task": "letters / characters"
+  },
+  {
+   "regex": "sentiment|\\bimdb\\b|language model|text classification|\\bnlp\\b|\\bllm\\b|\\bbert\\b|\\bgpt|\\breviews?\\b",
+   "task": "language / text"
+  },
+  {
+   "regex": "\\bcora\\b|\\bgcn\\b|graph neural|node classification",
+   "task": "graph learning"
+  },
+  {
+   "regex": "\\bgene\\b|gene-sequence|protein|chemical|\\bdna\\b|\\bhiv|splice|liquid|mixture|wet / dry|odou?r|\\bgas\\b",
+   "task": "chemical / biological sensing and sequences"
+  },
+  {
+   "regex": "\\bdas\\b|event detection|event classification|anomaly|malware|intrusion|correlation detection",
+   "task": "event / anomaly detection"
+  },
+  {
+   "regex": "waveform|soliton states|stochastic bit streams|ray-box",
+   "task": "waveform / signal-state classification"
+  },
+  {
+   "regex": "coil-?\\d+|stl-?10|caltech|\\bvoc\\b|\\bcoco\\b|object|scene|traffic|vehicle|pattern|colou?r|spectr|\\bmaterials?\\b|fingerprint|texture|image recognition|image classification|polari[sz]ation and wavelength",
+   "task": "object / scene / pattern / texture recognition (other datasets)"
+  }
+ ],
+ "unit_groups": {
+  "A1|P_pi": [
+   {
+    "direction": "min",
+    "members": {
+     "mW": 1
+    },
+    "unit": "mW"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "V": 1
+    },
+    "unit": "V"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "mA": 1
+    },
+    "unit": "mA"
+   }
+  ],
+  "A1|heater_length": [
+   {
+    "direction": "none",
+    "members": {
+     "μm": 1
+    },
+    "unit": "μm"
+   }
+  ],
+  "A1|heater_resistance": [
+   {
+    "direction": "none",
+    "members": {
+     "Ω": 1
+    },
+    "unit": "Ω"
+   }
+  ],
+  "A1|insertion_loss": [
+   {
+    "direction": "min",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A1|response_time": [
+   {
+    "direction": "min",
+    "members": {
+     "fs": 1e-09,
+     "ms": 1000.0,
+     "ns": 0.001,
+     "ps": 1e-06,
+     "s": 1000000.0,
+     "μs": 1
+    },
+    "unit": "μs"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "kHz": 1
+    },
+    "unit": "kHz"
+   }
+  ],
+  "A1|thermal_crosstalk": [
+   {
+    "direction": "min",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "K": 1
+    },
+    "unit": "K"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "nm/mW": 1
+    },
+    "unit": "nm/mW"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "mm": 1000.0,
+     "μm": 1
+    },
+    "unit": "μm"
+   }
+  ],
+  "A1|tuning_efficiency": [
+   {
+    "direction": "max",
+    "members": {
+     "nm/mW": 1,
+     "pm/mW": 0.001
+    },
+    "unit": "nm/mW"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "mW/nm": 1
+    },
+    "unit": "mW/nm"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "nm/V": 1
+    },
+    "unit": "nm/V"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GHz/mW": 1
+    },
+    "unit": "GHz/mW"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "rad/mW": 1,
+     "π/mW": 3.141592653589793
+    },
+    "unit": "rad/mW"
+   }
+  ],
+  "A1|tuning_power": [
+   {
+    "direction": "min",
+    "members": {
+     "mW": 1
+    },
+    "unit": "mW"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "V": 1
+    },
+    "unit": "V"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "mA": 1
+    },
+    "unit": "mA"
+   }
+  ],
+  "A2|Vpi": [
+   {
+    "direction": "min",
+    "members": {
+     "V": 1,
+     "mV": 0.001
+    },
+    "unit": "V"
+   }
+  ],
+  "A2|VpiL": [
+   {
+    "direction": "min",
+    "members": {
+     "V·cm": 1
+    },
+    "unit": "V·cm"
+   }
+  ],
+  "A2|data_rate": [
+   {
+    "direction": "max",
+    "members": {
+     "Gb/s": 1
+    },
+    "unit": "Gb/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "Gbaud": 1
+    },
+    "unit": "Gbaud"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1,
+     "MHz": 0.001
+    },
+    "unit": "GHz"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GS/s": 1
+    },
+    "unit": "GS/s"
+   }
+  ],
+  "A2|energy_per_bit": [
+   {
+    "direction": "min",
+    "members": {
+     "fJ/bit": 1
+    },
+    "unit": "fJ/bit"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "aJ/symbol": 0.001,
+     "fJ/symbol": 1
+    },
+    "unit": "fJ/symbol"
+   }
+  ],
+  "A2|eo_bandwidth": [
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1,
+     "MHz": 0.001
+    },
+    "unit": "GHz"
+   }
+  ],
+  "A2|extinction_ratio": [
+   {
+    "direction": "max",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A2|insertion_loss": [
+   {
+    "direction": "min",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A2|length": [
+   {
+    "direction": "none",
+    "members": {
+     "cm": 10,
+     "mm": 1,
+     "μm": 0.001
+    },
+    "unit": "mm"
+   }
+  ],
+  "A2|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "A3|L_pi": [
+   {
+    "direction": "min",
+    "members": {
+     "μm": 1
+    },
+    "unit": "μm"
+   }
+  ],
+  "A3|cell_length": [
+   {
+    "direction": "none",
+    "members": {
+     "mm": 1000.0,
+     "nm": 0.001,
+     "μm": 1
+    },
+    "unit": "μm"
+   }
+  ],
+  "A3|contrast": [
+   {
+    "direction": "max",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "dB/cm": 0.0001,
+     "dB/μm": 1
+    },
+    "unit": "dB/μm"
+   }
+  ],
+  "A3|crosstalk": [
+   {
+    "direction": "none",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A3|delta_k": [
+   {
+    "direction": "none",
+    "members": {
+     "": 1
+    },
+    "unit": ""
+   }
+  ],
+  "A3|delta_n": [
+   {
+    "direction": "max",
+    "members": {
+     "": 1
+    },
+    "unit": ""
+   }
+  ],
+  "A3|delta_neff": [
+   {
+    "direction": "max",
+    "members": {
+     "": 1
+    },
+    "unit": ""
+   }
+  ],
+  "A3|endurance": [
+   {
+    "direction": "max",
+    "members": {
+     "cycles": 1,
+     "switching events": 1
+    },
+    "unit": "cycles"
+   }
+  ],
+  "A3|energy_density": [
+   {
+    "direction": "min",
+    "members": {
+     "aJ/nm3": 0.001,
+     "fJ/nm3": 1,
+     "pJ/nm3": 1000.0
+    },
+    "unit": "fJ/nm3"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "mJ/cm2": 1,
+     "nJ/μm2": 100.0,
+     "μJ/μm2": 100000.0
+    },
+    "unit": "mJ/cm2"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "μW/μm2": 1
+    },
+    "unit": "μW/μm2"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "nJ/dB": 1
+    },
+    "unit": "nJ/dB"
+   }
+  ],
+  "A3|film_thickness": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "A3|insertion_loss": [
+   {
+    "direction": "min",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A3|k_value": [
+   {
+    "direction": "none",
+    "members": {
+     "": 1
+    },
+    "unit": ""
+   }
+  ],
+  "A3|level_step": [
+   {
+    "direction": "none",
+    "members": {
+     "dB": 1,
+     "dB/level": 1,
+     "dB/state": 1
+    },
+    "unit": "dB"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   }
+  ],
+  "A3|levels": [
+   {
+    "direction": "max",
+    "members": {
+     "levels": 1
+    },
+    "unit": "levels"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "states": 1
+    },
+    "unit": "states"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "intermediate states": 1
+    },
+    "unit": "intermediate states"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "bits": 1
+    },
+    "unit": "bits"
+   }
+  ],
+  "A3|loss_per_pi": [
+   {
+    "direction": "min",
+    "members": {
+     "dB/π": 1
+    },
+    "unit": "dB/π"
+   }
+  ],
+  "A3|n_eff": [
+   {
+    "direction": "none",
+    "members": {
+     "": 1
+    },
+    "unit": ""
+   }
+  ],
+  "A3|n_value": [
+   {
+    "direction": "none",
+    "members": {
+     "": 1
+    },
+    "unit": ""
+   }
+  ],
+  "A3|phase_efficiency": [
+   {
+    "direction": "max",
+    "members": {
+     "rad/μm": 0.3183098861837907,
+     "π/μm": 1
+    },
+    "unit": "π/μm"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "nm/μm": 1
+    },
+    "unit": "nm/μm"
+   }
+  ],
+  "A3|propagation_loss": [
+   {
+    "direction": "min",
+    "members": {
+     "dB/mm": 0.001,
+     "dB/μm": 1
+    },
+    "unit": "dB/μm"
+   }
+  ],
+  "A3|pulse_amplitude": [
+   {
+    "direction": "none",
+    "members": {
+     "V": 1,
+     "mV": 0.001
+    },
+    "unit": "V"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "mW": 1
+    },
+    "unit": "mW"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "dBm": 1
+    },
+    "unit": "dBm"
+   }
+  ],
+  "A3|pulse_width": [
+   {
+    "direction": "min",
+    "members": {
+     "fs": 1e-09,
+     "ms": 1000.0,
+     "ns": 0.001,
+     "ps": 1e-06,
+     "s": 1000000.0,
+     "μs": 1
+    },
+    "unit": "μs"
+   }
+  ],
+  "A3|retention": [
+   {
+    "direction": "max",
+    "members": {
+     "days": 86400,
+     "h": 3600,
+     "hours": 3600,
+     "min": 60,
+     "months": 2629800,
+     "ms": 0.001,
+     "s": 1,
+     "weeks": 604800,
+     "years": 31557600
+    },
+    "unit": "s"
+   }
+  ],
+  "A3|switching_energy": [
+   {
+    "direction": "min",
+    "members": {
+     "aJ": 1e-06,
+     "fJ": 0.001,
+     "mJ": 1000000000.0,
+     "nJ": 1000.0,
+     "pJ": 1,
+     "zJ": 1e-09,
+     "μJ": 1000000.0
+    },
+    "unit": "pJ"
+   }
+  ],
+  "A3|switching_time": [
+   {
+    "direction": "min",
+    "members": {
+     "fs": 1e-09,
+     "ms": 1000.0,
+     "ns": 0.001,
+     "ps": 1e-06,
+     "s": 1000000.0,
+     "μs": 1
+    },
+    "unit": "μs"
+   }
+  ],
+  "A3|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1,
+     "μm": 1000.0
+    },
+    "unit": "nm"
+   }
+  ],
+  "A4|endurance": [
+   {
+    "direction": "max",
+    "members": {
+     "cycles": 1
+    },
+    "unit": "cycles"
+   }
+  ],
+  "A4|extinction_ratio": [
+   {
+    "direction": "max",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A4|insertion_loss": [
+   {
+    "direction": "min",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "dB/μm": 1
+    },
+    "unit": "dB/μm"
+   }
+  ],
+  "A4|levels": [
+   {
+    "direction": "max",
+    "members": {
+     "levels": 1
+    },
+    "unit": "levels"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "states": 1
+    },
+    "unit": "states"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "bits": 1
+    },
+    "unit": "bits"
+   }
+  ],
+  "A4|phase_shift": [
+   {
+    "direction": "max",
+    "members": {
+     "π": 1
+    },
+    "unit": "π"
+   }
+  ],
+  "A4|retention": [
+   {
+    "direction": "max",
+    "members": {
+     "days": 86400,
+     "h": 3600,
+     "hours": 3600,
+     "min": 60,
+     "months": 2629800,
+     "ms": 0.001,
+     "s": 1,
+     "weeks": 604800,
+     "years": 31557600
+    },
+    "unit": "s"
+   }
+  ],
+  "A4|standby_power": [
+   {
+    "direction": "min",
+    "members": {
+     "W": 1,
+     "fW": 1e-15,
+     "nW": 1e-09
+    },
+    "unit": "W"
+   }
+  ],
+  "A4|switching_time": [
+   {
+    "direction": "min",
+    "members": {
+     "fs": 1e-09,
+     "ms": 1000.0,
+     "ns": 0.001,
+     "ps": 1e-06,
+     "s": 1000000.0,
+     "μs": 1
+    },
+    "unit": "μs"
+   }
+  ],
+  "A4|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1,
+     "μm": 1000.0
+    },
+    "unit": "nm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "THz": 1
+    },
+    "unit": "THz"
+   }
+  ],
+  "A4|write_energy": [
+   {
+    "direction": "min",
+    "members": {
+     "aJ": 1e-06,
+     "fJ": 0.001,
+     "mJ": 1000000000.0,
+     "nJ": 1000.0,
+     "pJ": 1,
+     "zJ": 1e-09,
+     "μJ": 1000000.0
+    },
+    "unit": "pJ"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "pJ/μm2": 1
+    },
+    "unit": "pJ/μm2"
+   }
+  ],
+  "A4|write_voltage": [
+   {
+    "direction": "min",
+    "members": {
+     "V": 1
+    },
+    "unit": "V"
+   }
+  ],
+  "A5|FSR": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "GHz": 1,
+     "MHz": 0.001,
+     "THz": 1000.0
+    },
+    "unit": "GHz"
+   }
+  ],
+  "A5|Q_factor": [
+   {
+    "direction": "max",
+    "members": {
+     "": 1
+    },
+    "unit": ""
+   }
+  ],
+  "A5|channel_count": [
+   {
+    "direction": "max",
+    "members": {
+     "rings": 1
+    },
+    "unit": "rings"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "channels": 1
+    },
+    "unit": "channels"
+   }
+  ],
+  "A5|channel_spacing": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1,
+     "pm": 0.001
+    },
+    "unit": "nm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "GHz": 1
+    },
+    "unit": "GHz"
+   }
+  ],
+  "A5|crosstalk": [
+   {
+    "direction": "none",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A5|extinction_ratio": [
+   {
+    "direction": "max",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A5|linewidth": [
+   {
+    "direction": "min",
+    "members": {
+     "nm": 1,
+     "pm": 0.001
+    },
+    "unit": "nm"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "GHz": 1
+    },
+    "unit": "GHz"
+   }
+  ],
+  "A5|radius": [
+   {
+    "direction": "none",
+    "members": {
+     "μm": 1
+    },
+    "unit": "μm"
+   }
+  ],
+  "A5|tuning_efficiency": [
+   {
+    "direction": "max",
+    "members": {
+     "nm/V": 1,
+     "pm/V": 0.001
+    },
+    "unit": "nm/V"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "nm/mW": 1,
+     "pm/mW": 0.001
+    },
+    "unit": "nm/mW"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "mW/nm": 1
+    },
+    "unit": "mW/nm"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GHz/mW": 1
+    },
+    "unit": "GHz/mW"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "V/FSR": 1
+    },
+    "unit": "V/FSR"
+   }
+  ],
+  "A5|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "THz": 1
+    },
+    "unit": "THz"
+   }
+  ],
+  "A5|weight_precision": [
+   {
+    "direction": "max",
+    "members": {
+     "bit": 1
+    },
+    "unit": "bit"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "levels": 1
+    },
+    "unit": "levels"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "avg error": 1
+    },
+    "unit": "avg error"
+   }
+  ],
+  "A6|bandwidth": [
+   {
+    "direction": "max",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1,
+     "MHz": 0.001,
+     "THz": 1000.0
+    },
+    "unit": "GHz"
+   }
+  ],
+  "A6|crosstalk": [
+   {
+    "direction": "none",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   }
+  ],
+  "A6|extinction_ratio": [
+   {
+    "direction": "max",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A6|fidelity": [
+   {
+    "direction": "max",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "fraction": 1
+    },
+    "unit": "fraction"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "similarity": 1
+    },
+    "unit": "similarity"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "bit": 1
+    },
+    "unit": "bit"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "MSE": 1
+    },
+    "unit": "MSE"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "relative error %": 1
+    },
+    "unit": "relative error %"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A6|loss_per_stage": [
+   {
+    "direction": "min",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "dB/π": 1
+    },
+    "unit": "dB/π"
+   }
+  ],
+  "A6|mesh_size": [
+   {
+    "direction": "max",
+    "members": {
+     "ports": 1
+    },
+    "unit": "ports"
+   }
+  ],
+  "A6|mzi_count": [
+   {
+    "direction": "max",
+    "members": {
+     "MZIs": 1
+    },
+    "unit": "MZIs"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "phase shifters": 1
+    },
+    "unit": "phase shifters"
+   }
+  ],
+  "A6|total_insertion_loss": [
+   {
+    "direction": "min",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "A6|total_power": [
+   {
+    "direction": "min",
+    "members": {
+     "W": 1000.0,
+     "mW": 1
+    },
+    "unit": "mW"
+   }
+  ],
+  "A6|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "B1|comb_spacing": [
+   {
+    "direction": "none",
+    "members": {
+     "GHz": 1
+    },
+    "unit": "GHz"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "B1|line_count": [
+   {
+    "direction": "max",
+    "members": {
+     "lines": 1
+    },
+    "unit": "lines"
+   }
+  ],
+  "B1|power_per_line": [
+   {
+    "direction": "max",
+    "members": {
+     "mW": 1
+    },
+    "unit": "mW"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "dBm": 1
+    },
+    "unit": "dBm"
+   }
+  ],
+  "B1|pump_power": [
+   {
+    "direction": "min",
+    "members": {
+     "mW": 1
+    },
+    "unit": "mW"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "dBm": 1
+    },
+    "unit": "dBm"
+   }
+  ],
+  "B1|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "B2|device_count": [
+   {
+    "direction": "max",
+    "members": {
+     "lasers": 1
+    },
+    "unit": "lasers"
+   }
+  ],
+  "B2|energy": [
+   {
+    "direction": "min",
+    "members": {
+     "aJ": 0.001,
+     "fJ": 1,
+     "pJ": 1000.0
+    },
+    "unit": "fJ"
+   }
+  ],
+  "B2|modulation_bandwidth": [
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1
+    },
+    "unit": "GHz"
+   }
+  ],
+  "B2|output_power": [
+   {
+    "direction": "max",
+    "members": {
+     "mW": 1
+    },
+    "unit": "mW"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "dBm": 1
+    },
+    "unit": "dBm"
+   }
+  ],
+  "B2|threshold_current": [
+   {
+    "direction": "min",
+    "members": {
+     "mA": 1
+    },
+    "unit": "mA"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "μW": 1
+    },
+    "unit": "μW"
+   }
+  ],
+  "B2|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "C1|NEP": [
+   {
+    "direction": "min",
+    "members": {
+     "W/√Hz": 1
+    },
+    "unit": "W/√Hz"
+   }
+  ],
+  "C1|bandwidth": [
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1
+    },
+    "unit": "GHz"
+   }
+  ],
+  "C1|dark_current": [
+   {
+    "direction": "min",
+    "members": {
+     "nA": 1
+    },
+    "unit": "nA"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "nA/cm2": 1
+    },
+    "unit": "nA/cm2"
+   }
+  ],
+  "C1|responsivity": [
+   {
+    "direction": "max",
+    "members": {
+     "A/W": 1
+    },
+    "unit": "A/W"
+   }
+  ],
+  "C1|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "D1|gain": [
+   {
+    "direction": "max",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "D1|modulation_depth": [
+   {
+    "direction": "max",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "D1|response_time": [
+   {
+    "direction": "min",
+    "members": {
+     "fs": 0.001,
+     "ns": 1000.0,
+     "ps": 1
+    },
+    "unit": "ps"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1
+    },
+    "unit": "GHz"
+   }
+  ],
+  "D1|threshold": [
+   {
+    "direction": "min",
+    "members": {
+     "W": 1000.0,
+     "mW": 1,
+     "μW": 0.001
+    },
+    "unit": "mW"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "fJ": 0.001,
+     "pJ": 1
+    },
+    "unit": "pJ"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "MW/cm2": 1000000.0,
+     "W/cm2": 1,
+     "mW/cm2": 0.001,
+     "mW/μm2": 100000.0,
+     "nW/μm2": 0.1
+    },
+    "unit": "W/cm2"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "dBm": 1
+    },
+    "unit": "dBm"
+   }
+  ],
+  "D1|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "D2|bandwidth": [
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1
+    },
+    "unit": "GHz"
+   }
+  ],
+  "D2|energy_per_activation": [
+   {
+    "direction": "min",
+    "members": {
+     "fJ": 1
+    },
+    "unit": "fJ"
+   }
+  ],
+  "D2|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "E1|accuracy": [
+   {
+    "direction": "none",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   }
+  ],
+  "E1|efficiency": [
+   {
+    "direction": "max",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   }
+  ],
+  "E1|frequency": [
+   {
+    "direction": "none",
+    "members": {
+     "GHz": 1,
+     "THz": 1000.0
+    },
+    "unit": "GHz"
+   }
+  ],
+  "E1|input_distance": [
+   {
+    "direction": "none",
+    "members": {
+     "cm": 10,
+     "m": 1000.0,
+     "mm": 1,
+     "nm": 1e-06,
+     "μm": 0.001
+    },
+    "unit": "mm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "λ": 1
+    },
+    "unit": "λ"
+   }
+  ],
+  "E1|layer_count": [
+   {
+    "direction": "max",
+    "members": {
+     "layers": 1
+    },
+    "unit": "layers"
+   }
+  ],
+  "E1|layer_size": [
+   {
+    "direction": "none",
+    "members": {
+     "cm": 10,
+     "mm": 1,
+     "μm": 0.001
+    },
+    "unit": "mm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "λ": 1
+    },
+    "unit": "λ"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "mm²": 1
+    },
+    "unit": "mm²"
+   }
+  ],
+  "E1|layer_spacing": [
+   {
+    "direction": "none",
+    "members": {
+     "cm": 10,
+     "m": 1000.0,
+     "mm": 1,
+     "nm": 1e-06,
+     "μm": 0.001
+    },
+    "unit": "mm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "λ": 1
+    },
+    "unit": "λ"
+   }
+  ],
+  "E1|neurons_per_layer": [
+   {
+    "direction": "max",
+    "members": {
+     "features": 1
+    },
+    "unit": "features"
+   }
+  ],
+  "E1|output_distance": [
+   {
+    "direction": "none",
+    "members": {
+     "cm": 10,
+     "m": 1000.0,
+     "mm": 1,
+     "nm": 1e-06,
+     "μm": 0.001
+    },
+    "unit": "mm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "λ": 1
+    },
+    "unit": "λ"
+   }
+  ],
+  "E1|phase_levels": [
+   {
+    "direction": "max",
+    "members": {
+     "levels": 1
+    },
+    "unit": "levels"
+   }
+  ],
+  "E1|pixel_pitch": [
+   {
+    "direction": "none",
+    "members": {
+     "mm": 1000.0,
+     "nm": 0.001,
+     "μm": 1
+    },
+    "unit": "μm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "λ": 1
+    },
+    "unit": "λ"
+   }
+  ],
+  "E1|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "mm": 1000.0,
+     "nm": 0.001,
+     "μm": 1
+    },
+    "unit": "μm"
+   }
+  ],
+  "E2|NA": [
+   {
+    "direction": "max",
+    "members": {
+     "NA": 1
+    },
+    "unit": "NA"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "deg": 1
+    },
+    "unit": "deg"
+   }
+  ],
+  "E2|bandwidth": [
+   {
+    "direction": "max",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "THz": 1
+    },
+    "unit": "THz"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   }
+  ],
+  "E2|efficiency": [
+   {
+    "direction": "max",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   }
+  ],
+  "E2|resolution": [
+   {
+    "direction": "min",
+    "members": {
+     "μm": 1
+    },
+    "unit": "μm"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "lp/mm": 1
+    },
+    "unit": "lp/mm"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "λ": 1
+    },
+    "unit": "λ"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "fs": 1
+    },
+    "unit": "fs"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "cy/mrad": 1
+    },
+    "unit": "cy/mrad"
+   }
+  ],
+  "E2|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "GHz": 1,
+     "THz": 1000.0
+    },
+    "unit": "GHz"
+   }
+  ],
+  "E3|bit_depth": [
+   {
+    "direction": "max",
+    "members": {
+     "bit": 1
+    },
+    "unit": "bit"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "levels": 1
+    },
+    "unit": "levels"
+   }
+  ],
+  "E3|frame_rate": [
+   {
+    "direction": "max",
+    "members": {
+     "Hz": 1
+    },
+    "unit": "Hz"
+   }
+  ],
+  "E3|pixel_count": [
+   {
+    "direction": "max",
+    "members": {
+     "pixels": 1
+    },
+    "unit": "pixels"
+   }
+  ],
+  "E3|pixel_pitch": [
+   {
+    "direction": "min",
+    "members": {
+     "μm": 1
+    },
+    "unit": "μm"
+   }
+  ],
+  "E3|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "F1|delay": [
+   {
+    "direction": "none",
+    "members": {
+     "ms": 1000000.0,
+     "ns": 1,
+     "ps": 0.001,
+     "μs": 1000.0
+    },
+    "unit": "ns"
+   }
+  ],
+  "F1|sampling_rate": [
+   {
+    "direction": "max",
+    "members": {
+     "GBaud": 1,
+     "Gbaud": 1
+    },
+    "unit": "GBd"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GSa/s": 1,
+     "MSa/s": 0.001
+    },
+    "unit": "GSa/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1,
+     "Hz": 1e-09,
+     "MHz": 0.001
+    },
+    "unit": "GHz"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "images/s": 1
+    },
+    "unit": "images/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "frames/s": 1
+    },
+    "unit": "frames/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "words/s": 1
+    },
+    "unit": "words/s"
+   }
+  ],
+  "F1|task_metric": [
+   {
+    "direction": "none",
+    "members": {
+     "NMSE": 1
+    },
+    "unit": "NMSE"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "NRMSE": 1
+    },
+    "unit": "NRMSE"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "SER": 1
+    },
+    "unit": "SER"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "WER %": 1
+    },
+    "unit": "WER %"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "accuracy %": 1
+    },
+    "unit": "accuracy %"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "error %": 1
+    },
+    "unit": "error %"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "BER": 1
+    },
+    "unit": "BER"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "log(BER)": 1
+    },
+    "unit": "log(BER)"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "RMSE": 1
+    },
+    "unit": "RMSE"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "memory capacity": 1
+    },
+    "unit": "memory capacity"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "SSIM": 1
+    },
+    "unit": "SSIM"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "dB Q-factor gain": 1
+    },
+    "unit": "dB Q-factor gain"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "Lyapunov times": 1
+    },
+    "unit": "Lyapunov times"
+   }
+  ],
+  "F1|virtual_nodes": [
+   {
+    "direction": "max",
+    "members": {
+     "nodes": 1
+    },
+    "unit": "nodes"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "qubits": 1
+    },
+    "unit": "qubits"
+   }
+  ],
+  "F1|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   },
+   {
+    "direction": "none",
+    "members": {
+     "THz": 1
+    },
+    "unit": "THz"
+   }
+  ],
+  "G1|energy_per_spike": [
+   {
+    "direction": "min",
+    "members": {
+     "fJ": 0.001,
+     "nJ": 1000.0,
+     "pJ": 1
+    },
+    "unit": "pJ"
+   }
+  ],
+  "G1|firing_rate": [
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1
+    },
+    "unit": "GHz"
+   }
+  ],
+  "G1|pulse_width": [
+   {
+    "direction": "min",
+    "members": {
+     "ns": 1,
+     "ps": 0.001
+    },
+    "unit": "ns"
+   }
+  ],
+  "G1|refractory_period": [
+   {
+    "direction": "min",
+    "members": {
+     "ns": 1,
+     "ps": 0.001
+    },
+    "unit": "ns"
+   }
+  ],
+  "G1|threshold": [
+   {
+    "direction": "min",
+    "members": {
+     "μW": 1
+    },
+    "unit": "μW"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "fJ": 0.001,
+     "pJ": 1
+    },
+    "unit": "pJ"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "V": 1
+    },
+    "unit": "V"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "dBm": 1
+    },
+    "unit": "dBm"
+   }
+  ],
+  "G1|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "H1|solve_time": [
+   {
+    "direction": "none",
+    "members": {
+     "ms": 1000.0,
+     "ns": 0.001,
+     "s": 1000000.0,
+     "μs": 1
+    },
+    "unit": "μs"
+   }
+  ],
+  "H1|spin_count": [
+   {
+    "direction": "max",
+    "members": {
+     "spins": 1
+    },
+    "unit": "spins"
+   }
+  ],
+  "H1|success_probability": [
+   {
+    "direction": "none",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   }
+  ],
+  "H1|wavelength": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "I1|PPF_index": [
+   {
+    "direction": "none",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   }
+  ],
+  "I1|array_size": [
+   {
+    "direction": "max",
+    "members": {
+     "devices": 1
+    },
+    "unit": "devices"
+   }
+  ],
+  "I1|conductance_states": [
+   {
+    "direction": "max",
+    "members": {
+     "states": 1
+    },
+    "unit": "states"
+   }
+  ],
+  "I1|dynamic_range": [
+   {
+    "direction": "max",
+    "members": {
+     "ratio": 1
+    },
+    "unit": "ratio"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "dB": 1
+    },
+    "unit": "dB"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   }
+  ],
+  "I1|endurance": [
+   {
+    "direction": "max",
+    "members": {
+     "cycles": 1
+    },
+    "unit": "cycles"
+   }
+  ],
+  "I1|energy_per_event": [
+   {
+    "direction": "min",
+    "members": {
+     "aJ": 1e-06,
+     "fJ": 0.001,
+     "mJ": 1000000000.0,
+     "nJ": 1000.0,
+     "pJ": 1,
+     "zJ": 1e-09,
+     "μJ": 1000000.0
+    },
+    "unit": "pJ"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "nJ/cm2": 1
+    },
+    "unit": "nJ/cm2"
+   }
+  ],
+  "I1|nonlinearity_factor": [
+   {
+    "direction": "none",
+    "members": {
+     "dimensionless": 1
+    },
+    "unit": "dimensionless"
+   }
+  ],
+  "I1|responsivity": [
+   {
+    "direction": "max",
+    "members": {
+     "A/W": 1
+    },
+    "unit": "A/W"
+   }
+  ],
+  "I1|retention": [
+   {
+    "direction": "max",
+    "members": {
+     "days": 86400,
+     "h": 3600,
+     "hours": 3600,
+     "min": 60,
+     "months": 2629800,
+     "ms": 0.001,
+     "s": 1,
+     "weeks": 604800,
+     "years": 31557600
+    },
+    "unit": "s"
+   }
+  ],
+  "I1|wavelength_range": [
+   {
+    "direction": "none",
+    "members": {
+     "nm": 1
+    },
+    "unit": "nm"
+   }
+  ],
+  "J|accuracy": [
+   {
+    "direction": "none",
+    "members": {
+     "%": 1
+    },
+    "unit": "%"
+   }
+  ],
+  "J|clock_rate": [
+   {
+    "direction": "max",
+    "members": {
+     "GBd": 1,
+     "MBd": 0.001,
+     "kBd": 1e-06
+    },
+    "unit": "GBd"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GHz": 1,
+     "Hz": 1e-09,
+     "MHz": 0.001,
+     "THz": 1000.0,
+     "kHz": 1e-06
+    },
+    "unit": "GHz"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GS/s": 1,
+     "MS/s": 0.001
+    },
+    "unit": "GS/s"
+   }
+  ],
+  "J|compute_density": [
+   {
+    "direction": "max",
+    "members": {
+     "GOPS/mm2": 0.001,
+     "MOPS/mm2": 1e-06,
+     "POPS/mm2": 1000.0,
+     "TOPS/mm2": 1
+    },
+    "unit": "TOPS/mm2"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GMAC/s/mm2": 0.001,
+     "PMAC/s/mm2": 1000.0,
+     "TMAC/s/mm2": 1
+    },
+    "unit": "TMAC/s/mm2"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "TFLOPS/mm2": 1
+    },
+    "unit": "TFLOPS/mm2"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "Gb/s/mm2": 1
+    },
+    "unit": "Gb/s/mm2"
+   }
+  ],
+  "J|energy_efficiency": [
+   {
+    "direction": "max",
+    "members": {
+     "GOPS/W": 0.001,
+     "MOPS/W": 1e-06,
+     "POPS/W": 1000.0,
+     "TOPS/W": 1,
+     "aJ/OP": [
+      "inv",
+      1e-06
+     ],
+     "fJ/OP": [
+      "inv",
+      0.001
+     ],
+     "nJ/OP": [
+      "inv",
+      1000.0
+     ],
+     "pJ/OP": [
+      "inv",
+      1
+     ]
+    },
+    "unit": "TOPS/W"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GMAC/s/W": 0.001,
+     "TMAC/s/W": 1,
+     "aJ/MAC": [
+      "inv",
+      1e-06
+     ],
+     "fJ/MAC": [
+      "inv",
+      0.001
+     ],
+     "nJ/MAC": [
+      "inv",
+      1000.0
+     ],
+     "pJ/MAC": [
+      "inv",
+      1
+     ],
+     "zJ/MAC": [
+      "inv",
+      1e-09
+     ]
+    },
+    "unit": "TMAC/s/W"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "TFLOPS/W": 1
+    },
+    "unit": "TFLOPS/W"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "fJ/inference": 1e-06,
+     "mJ/inference": 1000000.0,
+     "nJ/inference": 1,
+     "pJ/inference": 0.001,
+     "μJ/inference": 1000.0
+    },
+    "unit": "nJ/inference"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "photons/MAC": 1
+    },
+    "unit": "photons/MAC"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "nJ/pixel": 1000.0,
+     "pJ/pixel": 1
+    },
+    "unit": "pJ/pixel"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "fJ/bit": 1
+    },
+    "unit": "fJ/bit"
+   },
+   {
+    "direction": "min",
+    "members": {
+     "pJ/b/MAC": 1
+    },
+    "unit": "pJ/b/MAC"
+   }
+  ],
+  "J|latency": [
+   {
+    "direction": "min",
+    "members": {
+     "fs": 1e-06,
+     "ms": 1000000.0,
+     "ns": 1,
+     "ps": 0.001,
+     "s": 1000000000.0,
+     "μs": 1000.0
+    },
+    "unit": "ns"
+   }
+  ],
+  "J|matrix_size": [
+   {
+    "direction": "max",
+    "members": {
+     "weights": 1
+    },
+    "unit": "weights"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "neurons": 1
+    },
+    "unit": "neurons"
+   }
+  ],
+  "J|precision": [
+   {
+    "direction": "max",
+    "members": {
+     "bits": 1
+    },
+    "unit": "bits"
+   }
+  ],
+  "J|throughput": [
+   {
+    "direction": "max",
+    "members": {
+     "GOPS": 0.001,
+     "MOPS": 1e-06,
+     "POPS": 1000.0,
+     "TOPS": 1
+    },
+    "unit": "TOPS"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GMAC/s": 0.001,
+     "MMAC/s": 1e-06,
+     "PMAC/s": 1000.0,
+     "TMAC/s": 1
+    },
+    "unit": "TMAC/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "GFLOPS": 0.001,
+     "MFLOPS": 1e-06,
+     "PFLOPS": 1000.0,
+     "TFLOPS": 1
+    },
+    "unit": "TFLOPS"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "images/s": 1
+    },
+    "unit": "images/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "frames/s": 1
+    },
+    "unit": "frames/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "inferences/s": 1
+    },
+    "unit": "inferences/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "samples/s": 1
+    },
+    "unit": "samples/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "Tb/s": 1
+    },
+    "unit": "Tb/s"
+   },
+   {
+    "direction": "max",
+    "members": {
+     "Gb/s/MAC": 1
+    },
+    "unit": "Gb/s/MAC"
+   }
+  ]
+ },
+ "unspecified_task": "unspecified (condition names no task)",
+ "wrong_way_bounds": {
+  "max": [
+   "<",
+   "<=",
+   "≤"
+  ],
+  "min": [
+   ">",
+   ">=",
+   "≥"
+  ]
+ }
+}

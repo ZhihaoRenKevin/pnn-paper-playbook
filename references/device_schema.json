@@ -1,0 +1,1699 @@
+{
+  "schema_version": "v3.2.1-2026-10-29",
+  "required_record_fields": [
+    "record_id",
+    "stem",
+    "device_code",
+    "material",
+    "material_quote",
+    "wavelength_nm",
+    "param_name",
+    "qualifier",
+    "value",
+    "value_text",
+    "value_num",
+    "unit",
+    "status",
+    "source_file",
+    "section",
+    "page",
+    "char_offset",
+    "quote"
+  ],
+  "allowed_statuses": [
+    "measured",
+    "simulated",
+    "predicted"
+  ],
+  "forbidden_sections": [
+    "references",
+    "acknowledgements",
+    "author_affiliations"
+  ],
+  "device_types": {
+    "A1": {
+      "code": "A1",
+      "name_zh": "热光移相器（金属/掺杂硅/石墨烯加热器）",
+      "name_en": "Thermo-Optic Phase Shifter (Metal / Doped-Si / Graphene Heater)",
+      "parameters": {
+        "P_pi": {
+          "label_zh": "每 π 功率 P_π",
+          "allowed_units": [
+            "mW",
+            "mW/pi",
+            "mW/π",
+            "uW",
+            "µW",
+            "mW per π",
+            "mW per pi",
+            "mW π−1",
+            "μW",
+            "uW/π",
+            "µW/π",
+            "μW/π"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.001,
+          "max_val": 1000.0
+        },
+        "response_time": {
+          "label_zh": "响应时间",
+          "allowed_units": [
+            "us",
+            "µs",
+            "ms",
+            "ns",
+            "μs",
+            "s"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 100000.0
+        },
+        "heater_length": {
+          "label_zh": "长度",
+          "allowed_units": [
+            "um",
+            "µm",
+            "mm",
+            "μm",
+            "nm"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.5,
+          "max_val": 5000.0
+        },
+        "insertion_loss": {
+          "label_zh": "插损",
+          "allowed_units": [
+            "dB",
+            "dB/cm",
+            "dB cm−1",
+            "dB/mm",
+            "dB mm−1",
+            "dB/µm",
+            "dB/μm",
+            "dB µm−1",
+            "dB/pi",
+            "dB/π",
+            "dB per π"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.001,
+          "max_val": 30.0
+        },
+        "thermal_crosstalk": {
+          "label_zh": "热串扰",
+          "allowed_units": [
+            "dB",
+            "%",
+            "K/mW",
+            "°C/mW"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 100.0
+        }
+      }
+    },
+    "A2": {
+      "code": "A2",
+      "name_zh": "电光调制器/移相器（TFLN、BTO、硅载流子、EO 聚合物、ITO 等）",
+      "name_en": "Electro-Optic Modulator / Phase Shifter (TFLN, BTO, Si Carrier, EO Polymer, ITO)",
+      "parameters": {
+        "VpiL": {
+          "label_zh": "半波电压长度积 VπL",
+          "allowed_units": [
+            "V·cm",
+            "V cm",
+            "V*cm",
+            "V·mm",
+            "V mm",
+            "Vcm",
+            "Vmm"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.001,
+          "max_val": 50.0
+        },
+        "Vpi": {
+          "label_zh": "半波电压 Vπ",
+          "allowed_units": [
+            "V",
+            "mV"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.05,
+          "max_val": 100.0
+        },
+        "eo_bandwidth": {
+          "label_zh": "电光带宽",
+          "allowed_units": [
+            "GHz",
+            "MHz"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.1,
+          "max_val": 500.0
+        },
+        "insertion_loss": {
+          "label_zh": "插损",
+          "allowed_units": [
+            "dB",
+            "dB/cm",
+            "dB/mm",
+            "dB cm−1",
+            "dB mm−1",
+            "dB/µm",
+            "dB/μm",
+            "dB µm−1"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 30.0
+        },
+        "extinction_ratio": {
+          "label_zh": "消光比",
+          "allowed_units": [
+            "dB"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 80.0
+        },
+        "switching_energy": {
+          "label_zh": "能耗",
+          "allowed_units": [
+            "fJ/bit",
+            "aJ/bit",
+            "pJ/bit",
+            "fJ",
+            "pJ",
+            "fJ bit−1",
+            "fJ per bit",
+            "aJ bit−1",
+            "pJ bit−1",
+            "pJ per bit",
+            "aJ",
+            "nJ"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 10000.0
+        }
+      }
+    },
+    "A3": {
+      "code": "A3",
+      "name_zh": "非易失相变材料单元（GST、GSST、Sb2Se3、Sb2S3 等分列）",
+      "name_en": "Non-Volatile Phase-Change Material (PCM) Cell (GST, GSST, Sb2Se3, Sb2S3, GeTe, AIST, In2Se3)",
+      "parameters": {
+        "delta_n": {
+          "label_zh": "折射率对比度 Δn",
+          "allowed_units": [
+            "RIU",
+            "dimensionless"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.05,
+          "max_val": 4.5
+        },
+        "delta_k": {
+          "label_zh": "消光系数对比度 Δk",
+          "allowed_units": [
+            "RIU",
+            "dimensionless"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.0,
+          "max_val": 3.5
+        },
+        "levels_or_bits": {
+          "label_zh": "级数或位数",
+          "allowed_units": [
+            "bit",
+            "bits",
+            "levels",
+            "states",
+            "transmission levels",
+            "weight levels",
+            "distinct levels",
+            "distinguishable levels",
+            "stable intermediate states",
+            "distinguishable intermediate states",
+            "intermediate crystalline states",
+            "intermediate amorphous states",
+            "clear distinct levels",
+            "amorphization levels",
+            "crystallization levels",
+            "output power states"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 2.0,
+          "max_val": 256.0
+        },
+        "switching_energy": {
+          "label_zh": "SET/RESET 写入能量",
+          "allowed_units": [
+            "fJ",
+            "nJ",
+            "pJ",
+            "uJ",
+            "µJ",
+            "μJ",
+            "mJ"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 100000.0
+        },
+        "write_time": {
+          "label_zh": "写入时间/脉冲宽度",
+          "allowed_units": [
+            "ms",
+            "ns",
+            "ps",
+            "us",
+            "µs",
+            "μs",
+            "fs",
+            "s"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 100000.0
+        },
+        "endurance_cycles": {
+          "label_zh": "循环耐久（次）",
+          "allowed_units": [
+            "cycles",
+            "switches",
+            "switching events",
+            "switching cycles",
+            "events",
+            "million cycles",
+            "000 cycles",
+            "000 switching cycles"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 10.0,
+          "max_val": 1000000000000.0
+        },
+        "retention_time": {
+          "label_zh": "保持时间",
+          "allowed_units": [
+            "days",
+            "h",
+            "hours",
+            "min",
+            "s",
+            "years",
+            "months",
+            "weeks"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 1000000000.0
+        },
+        "cell_insertion_loss": {
+          "label_zh": "单元插损",
+          "allowed_units": [
+            "dB",
+            "dB/cm",
+            "dB/um",
+            "dB/µm",
+            "dB/μm",
+            "dB µm−1",
+            "dB/mm",
+            "dB µm–1",
+            "dB μm−1"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.001,
+          "max_val": 30.0
+        },
+        "contrast_or_modulation_depth": {
+          "label_zh": "传输对比度/调制深度",
+          "allowed_units": [
+            "%",
+            "dB",
+            "dB/um",
+            "dB/µm",
+            "dB/μm",
+            "dB µm−1",
+            "dB µm–1",
+            "dB μm−1"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.5,
+          "max_val": 100.0
+        },
+        "cell_length": {
+          "label_zh": "单元长度/尺寸",
+          "allowed_units": [
+            "nm",
+            "um",
+            "µm",
+            "μm"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 1000.0
+        },
+        "drive_mechanism": {
+          "label_zh": "驱动方式",
+          "allowed_units": [
+            "categorical"
+          ],
+          "direction": "nominal"
+        },
+        "wavelength_nm": {
+          "label_zh": "工作波长",
+          "allowed_units": [
+            "nm",
+            "um",
+            "µm",
+            "μm"
+          ],
+          "direction": "nominal",
+          "min_val": 400.0,
+          "max_val": 3000.0
+        },
+        "energy_density": {
+          "label_zh": "体积写入能量密度",
+          "allowed_units": [
+            "aJ/nm³",
+            "aJ/nm3",
+            "aJ nm−3",
+            "aJ nm-3",
+            "fJ/nm³",
+            "fJ/nm3",
+            "pJ/µm³",
+            "pJ/um3",
+            "fJ/µm³",
+            "aJ nm–3"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.001,
+          "max_val": 100000.0
+        },
+        "loss_per_pi": {
+          "label_zh": "每 π 相移插损",
+          "allowed_units": [
+            "dB/π",
+            "dB/pi",
+            "dB per π",
+            "dB per pi",
+            "dB per π phase shift",
+            "dB π−1",
+            "dB π–1"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.0001,
+          "max_val": 30.0
+        },
+        "phase_shift_efficiency": {
+          "label_zh": "相移效率",
+          "allowed_units": [
+            "π/µm",
+            "π/μm",
+            "π/um",
+            "pi/um",
+            "rad/µm",
+            "rad/μm",
+            "rad/um",
+            "π µm−1",
+            "π μm−1"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.001,
+          "max_val": 20.0
+        },
+        "L_pi": {
+          "label_zh": "π 相移长度 L_π",
+          "allowed_units": [
+            "um",
+            "µm",
+            "μm",
+            "nm"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 5000.0
+        }
+      }
+    },
+    "A4": {
+      "code": "A4",
+      "name_zh": "其他非易失或可编程元件（铁电 BTO/HZO、MEMS、磁光 Ce:YIG 等）",
+      "name_en": "Other Non-Volatile / Programmable Elements (Ferroelectric BTO/HZO, MEMS, Magneto-Optic Ce:YIG, Liquid Crystal)",
+      "parameters": {
+        "levels_or_bits": {
+          "label_zh": "级数/位数",
+          "allowed_units": [
+            "levels",
+            "states",
+            "bits",
+            "bit",
+            "distinct levels",
+            "non-volatile states"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 2.0,
+          "max_val": 256.0
+        },
+        "retention_time": {
+          "label_zh": "保持时间",
+          "allowed_units": [
+            "s",
+            "h",
+            "days",
+            "years",
+            "min",
+            "hours",
+            "months"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 1000000000.0
+        },
+        "write_voltage_or_energy": {
+          "label_zh": "写入电压或能量",
+          "allowed_units": [
+            "V",
+            "pJ",
+            "nJ",
+            "fJ",
+            "mA",
+            "mV",
+            "uJ",
+            "µJ",
+            "μJ",
+            "mW"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 10000.0
+        },
+        "switching_speed": {
+          "label_zh": "速度/响应时间",
+          "allowed_units": [
+            "ns",
+            "us",
+            "µs",
+            "ms",
+            "MHz",
+            "GHz",
+            "ps",
+            "μs",
+            "s",
+            "kHz"
+          ],
+          "direction": "nominal",
+          "min_val": 0.01,
+          "max_val": 100000.0
+        },
+        "insertion_loss": {
+          "label_zh": "插损",
+          "allowed_units": [
+            "dB",
+            "dB/cm",
+            "dB/mm",
+            "dB cm−1",
+            "dB mm−1",
+            "dB/µm",
+            "dB/μm"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 30.0
+        },
+        "standby_power": {
+          "label_zh": "待机功耗",
+          "allowed_units": [
+            "nW",
+            "uW",
+            "µW",
+            "mW",
+            "pW",
+            "μW",
+            "W"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.0,
+          "max_val": 1000.0
+        }
+      }
+    },
+    "A5": {
+      "code": "A5",
+      "name_zh": "微环权重/滤波器组",
+      "name_en": "Microring Resonator (MRR) Weight Bank / Filter Array",
+      "parameters": {
+        "Q_factor": {
+          "label_zh": "品质因子 Q",
+          "allowed_units": [
+            "dimensionless"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 500.0,
+          "max_val": 100000000.0
+        },
+        "FSR": {
+          "label_zh": "自由光谱范围 FSR",
+          "allowed_units": [
+            "nm",
+            "GHz",
+            "THz",
+            "pm"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.1,
+          "max_val": 5000.0
+        },
+        "extinction_ratio": {
+          "label_zh": "消光比",
+          "allowed_units": [
+            "dB"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 60.0
+        },
+        "channel_spacing": {
+          "label_zh": "通道间隔",
+          "allowed_units": [
+            "nm",
+            "GHz",
+            "pm",
+            "MHz"
+          ],
+          "direction": "nominal",
+          "min_val": 0.05,
+          "max_val": 2000.0
+        },
+        "tuning_efficiency": {
+          "label_zh": "调谐效率",
+          "allowed_units": [
+            "nm/mW",
+            "pm/mW",
+            "pm/V",
+            "GHz/mW",
+            "GHz/V",
+            "nm/V",
+            "mW/nm",
+            "mW/FSR"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.01,
+          "max_val": 5000.0
+        },
+        "channel_count": {
+          "label_zh": "通道数/微环数",
+          "allowed_units": [
+            "channels",
+            "rings",
+            "MRRs",
+            "wavelengths",
+            "resonators",
+            "weights",
+            "N×M rings",
+            "N×M MRRs",
+            "N×M channels"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 512.0
+        },
+        "weight_precision": {
+          "label_zh": "权重精度",
+          "allowed_units": [
+            "bits",
+            "bit",
+            "levels",
+            "states"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 16.0
+        },
+        "crosstalk": {
+          "label_zh": "串扰",
+          "allowed_units": [
+            "dB",
+            "%"
+          ],
+          "direction": "lower_is_better",
+          "min_val": -80.0,
+          "max_val": 50.0
+        }
+      }
+    },
+    "A6": {
+      "code": "A6",
+      "name_zh": "MZI 网格/酉矩阵处理器",
+      "name_en": "Mach-Zehnder Interferometer (MZI) Mesh / Unitary Processor",
+      "parameters": {
+        "mesh_scale": {
+          "label_zh": "规模 N×N 或端口数",
+          "allowed_units": [
+            "ports",
+            "modes",
+            "channels",
+            "MZIs",
+            "N×N",
+            "N×M",
+            "N×M MZIs",
+            "N×M ports",
+            "N×M modes",
+            "N×M channels",
+            "phase shifters",
+            "interferometers"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 2.0,
+          "max_val": 512.0
+        },
+        "loss_per_stage": {
+          "label_zh": "每级插损",
+          "allowed_units": [
+            "dB",
+            "dB/stage",
+            "dB/MZI",
+            "dB per stage",
+            "dB per MZI",
+            "dB/cm",
+            "dB cm−1"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 10.0
+        },
+        "total_insertion_loss": {
+          "label_zh": "总插损",
+          "allowed_units": [
+            "dB",
+            "dB/cm"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 50.0
+        },
+        "matrix_fidelity": {
+          "label_zh": "矩阵保真度",
+          "allowed_units": [
+            "%",
+            "dimensionless",
+            "dB"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.5,
+          "max_val": 100.0
+        },
+        "total_power": {
+          "label_zh": "总功耗",
+          "allowed_units": [
+            "mW",
+            "W",
+            "uW",
+            "µW",
+            "μW"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 10000.0
+        }
+      }
+    },
+    "B1": {
+      "code": "B1",
+      "name_zh": "微梳/多波长光源",
+      "name_en": "Kerr Microcomb / Multi-Wavelength Comb Source",
+      "parameters": {
+        "comb_FSR": {
+          "label_zh": "梳齿间隔",
+          "allowed_units": [
+            "GHz",
+            "THz",
+            "nm",
+            "MHz",
+            "pm"
+          ],
+          "direction": "nominal",
+          "min_val": 0.1,
+          "max_val": 2000.0
+        },
+        "comb_lines": {
+          "label_zh": "可用梳线数",
+          "allowed_units": [
+            "lines",
+            "channels",
+            "wavelengths",
+            "comb lines",
+            "modes",
+            "teeth",
+            "N×M channels"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 2.0,
+          "max_val": 500.0
+        },
+        "power_per_line": {
+          "label_zh": "每线功率",
+          "allowed_units": [
+            "dBm",
+            "uW",
+            "µW",
+            "mW",
+            "μW",
+            "nW"
+          ],
+          "direction": "higher_is_better",
+          "min_val": -50.0,
+          "max_val": 100.0
+        },
+        "pump_power": {
+          "label_zh": "泵浦功率",
+          "allowed_units": [
+            "mW",
+            "W",
+            "dBm"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 5000.0
+        }
+      }
+    },
+    "B2": {
+      "code": "B2",
+      "name_zh": "激光器/VCSEL 阵列（作光源或神经元）",
+      "name_en": "Laser / VCSEL / DFB Array (as Source or Optical Neuron)",
+      "parameters": {
+        "laser_count": {
+          "label_zh": "激光器数量",
+          "allowed_units": [
+            "lasers",
+            "VCSELs",
+            "channels",
+            "elements",
+            "emitters",
+            "neurons",
+            "N×M VCSELs",
+            "N×M lasers",
+            "N×M channels",
+            "N×M elements"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 10000.0
+        },
+        "modulation_bandwidth": {
+          "label_zh": "调制带宽",
+          "allowed_units": [
+            "GHz",
+            "MHz",
+            "GSa/s",
+            "Gbps",
+            "Gb/s"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.1,
+          "max_val": 100.0
+        },
+        "energy_per_op": {
+          "label_zh": "能耗",
+          "allowed_units": [
+            "fJ/MAC",
+            "pJ/MAC",
+            "fJ/bit",
+            "pJ/bit",
+            "mW",
+            "aJ/MAC",
+            "fJ/OP",
+            "pJ/OP",
+            "fJ",
+            "pJ"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 10000.0
+        }
+      }
+    },
+    "C1": {
+      "code": "C1",
+      "name_zh": "光电探测器（Ge、InGaAs、石墨烯、二维材料）",
+      "name_en": "Photodetector / Balanced PD Array (Ge, InGaAs, Graphene, 2D)",
+      "parameters": {
+        "responsivity": {
+          "label_zh": "响应度",
+          "allowed_units": [
+            "A/W",
+            "mA/W",
+            "V/W",
+            "A W−1",
+            "A W–1",
+            "mA W−1"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.001,
+          "max_val": 1000000.0
+        },
+        "pd_bandwidth": {
+          "label_zh": "带宽",
+          "allowed_units": [
+            "GHz",
+            "MHz",
+            "kHz",
+            "Hz"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.001,
+          "max_val": 300.0
+        },
+        "dark_current": {
+          "label_zh": "暗电流",
+          "allowed_units": [
+            "nA",
+            "pA",
+            "uA",
+            "µA",
+            "mA",
+            "fA",
+            "μA"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.0001,
+          "max_val": 10000.0
+        },
+        "NEP": {
+          "label_zh": "等效噪声功率 NEP",
+          "allowed_units": [
+            "pW/Hz^0.5",
+            "fW/Hz^0.5",
+            "W/Hz^0.5",
+            "pW Hz−1/2",
+            "fW Hz−1/2"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 1e-18,
+          "max_val": 1000.0
+        }
+      }
+    },
+    "D1": {
+      "code": "D1",
+      "name_zh": "全光非线性元件（饱和吸收、Kerr、SOA、量子点、原子气体、热光双稳、相变材料）",
+      "name_en": "All-Optical Nonlinear Element (Saturable Absorber, Kerr, SOA, QD, Atomic Vapor, Bistable, PCM)",
+      "parameters": {
+        "threshold_power_or_energy": {
+          "label_zh": "阈值功率或能量",
+          "allowed_units": [
+            "mW",
+            "uW",
+            "µW",
+            "pJ",
+            "fJ",
+            "nJ",
+            "dBm",
+            "μW",
+            "W",
+            "uJ",
+            "µJ"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.001,
+          "max_val": 10000.0
+        },
+        "response_time": {
+          "label_zh": "响应时间",
+          "allowed_units": [
+            "fs",
+            "ps",
+            "ns",
+            "us",
+            "µs",
+            "ms",
+            "μs"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 100000.0
+        },
+        "modulation_depth_or_contrast": {
+          "label_zh": "调制深度或对比度",
+          "allowed_units": [
+            "dB",
+            "%"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.5,
+          "max_val": 100.0
+        },
+        "optical_gain": {
+          "label_zh": "光学增益",
+          "allowed_units": [
+            "dB",
+            "%"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.1,
+          "max_val": 50.0
+        }
+      }
+    },
+    "D2": {
+      "code": "D2",
+      "name_zh": "光电非线性（探测器加调制器、电光反馈）",
+      "name_en": "Opto-Electronic Nonlinear Activation (PD-Modulator / Electro-Optic Feedback)",
+      "parameters": {
+        "bandwidth": {
+          "label_zh": "带宽",
+          "allowed_units": [
+            "GHz",
+            "MHz",
+            "kHz"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.01,
+          "max_val": 200.0
+        },
+        "energy_per_activation": {
+          "label_zh": "每次激活能耗",
+          "allowed_units": [
+            "fJ",
+            "pJ",
+            "nJ",
+            "aJ",
+            "fJ/op",
+            "pJ/op",
+            "mW"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 100000.0
+        }
+      }
+    },
+    "E1": {
+      "code": "E1",
+      "name_zh": "衍射层 / 衍射神经网络",
+      "name_en": "Diffractive Layer / Diffractive Deep Neural Network (D2NN)",
+      "parameters": {
+        "operating_wavelength_or_freq": {
+          "label_zh": "工作波长或频段",
+          "allowed_units": [
+            "GHz",
+            "THz",
+            "mm",
+            "nm",
+            "um",
+            "µm",
+            "μm"
+          ],
+          "direction": "nominal",
+          "min_val": 0.01,
+          "max_val": 10000.0
+        },
+        "pixel_pitch": {
+          "label_zh": "像素间距/特征尺寸",
+          "allowed_units": [
+            "mm",
+            "nm",
+            "um",
+            "µm",
+            "μm",
+            "cm"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.05,
+          "max_val": 50000.0
+        },
+        "pixel_pitch_in_lambda": {
+          "label_zh": "像素间距（λ 倍数）",
+          "allowed_units": [
+            "lambda",
+            "λ"
+          ],
+          "direction": "nominal",
+          "min_val": 0.1,
+          "max_val": 100.0
+        },
+        "layer_count": {
+          "label_zh": "衍射层数",
+          "allowed_units": [
+            "3D-printed layers",
+            "cascaded layers",
+            "diffractive layers",
+            "layers",
+            "masks",
+            "metasurface layers",
+            "phase layers",
+            "plates",
+            "screens",
+            "surfaces",
+            "diffractive surfaces",
+            "transmissive layers",
+            "phase-only layers",
+            "trained layers",
+            "successive layers"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 50.0
+        },
+        "interlayer_distance": {
+          "label_zh": "层间距",
+          "allowed_units": [
+            "cm",
+            "mm",
+            "um",
+            "µm",
+            "μm"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 100000.0
+        },
+        "neurons_per_layer": {
+          "label_zh": "每层神经元/像素数",
+          "allowed_units": [
+            "elements",
+            "meta-atoms",
+            "neurons",
+            "pillars",
+            "pixels",
+            "features",
+            "diffractive neurons",
+            "N×M neurons",
+            "N×M pixels",
+            "N×M meta-atoms",
+            "N×M elements",
+            "N×M pillars",
+            "N×M features",
+            "million neurons"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 4.0,
+          "max_val": 1000000000.0
+        },
+        "diffraction_efficiency": {
+          "label_zh": "衍射效率/透过率",
+          "allowed_units": [
+            "%",
+            "dB"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.1,
+          "max_val": 100.0
+        },
+        "fabrication_method": {
+          "label_zh": "制备方式",
+          "allowed_units": [
+            "categorical"
+          ],
+          "direction": "nominal"
+        },
+        "aperture_size": {
+          "label_zh": "孔径/单层尺寸",
+          "allowed_units": [
+            "um",
+            "µm",
+            "μm",
+            "mm",
+            "cm"
+          ],
+          "direction": "nominal",
+          "min_val": 0.05,
+          "max_val": 500.0
+        },
+        "phase_levels_or_bits": {
+          "label_zh": "相位级数/量化位数",
+          "allowed_units": [
+            "levels",
+            "phase levels",
+            "height levels",
+            "bits",
+            "bit",
+            "bits of phase",
+            "bit phase"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 2.0,
+          "max_val": 4096.0
+        },
+        "frequency": {
+          "label_zh": "工作频率",
+          "allowed_units": [
+            "THz",
+            "GHz"
+          ],
+          "direction": "nominal",
+          "min_val": 0.01,
+          "max_val": 1000.0
+        }
+      }
+    },
+    "E2": {
+      "code": "E2",
+      "name_zh": "计算超表面（微分、边缘检测、卷积核）",
+      "name_en": "Computational Metasurface (Spatial Differentiation, Edge Detection, Convolution Kernel)",
+      "parameters": {
+        "numerical_aperture": {
+          "label_zh": "数值孔径 NA",
+          "allowed_units": [
+            "NA",
+            "dimensionless"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.01,
+          "max_val": 1.5
+        },
+        "wavelength_bandwidth": {
+          "label_zh": "波长带宽",
+          "allowed_units": [
+            "nm",
+            "um",
+            "µm",
+            "μm",
+            "THz",
+            "GHz"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 2000.0
+        },
+        "efficiency": {
+          "label_zh": "效率",
+          "allowed_units": [
+            "%",
+            "dB"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.1,
+          "max_val": 100.0
+        },
+        "spatial_resolution": {
+          "label_zh": "空间分辨率",
+          "allowed_units": [
+            "um",
+            "µm",
+            "nm",
+            "lp/mm",
+            "μm",
+            "mm"
+          ],
+          "direction": "nominal",
+          "min_val": 0.05,
+          "max_val": 10000.0
+        }
+      }
+    },
+    "E3": {
+      "code": "E3",
+      "name_zh": "SLM/DMD 系统",
+      "name_en": "Spatial Light Modulator (SLM) / Digital Micromirror Device (DMD) System",
+      "parameters": {
+        "pixel_count": {
+          "label_zh": "像素数/调制规模",
+          "allowed_units": [
+            "pixels",
+            "modes",
+            "micromirrors",
+            "elements",
+            "neurons",
+            "channels",
+            "N×M pixels",
+            "N×M micromirrors",
+            "N×M modes",
+            "N×M elements",
+            "N×M neurons"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 10.0,
+          "max_val": 100000000.0
+        },
+        "frame_rate": {
+          "label_zh": "帧率/刷新率",
+          "allowed_units": [
+            "Hz",
+            "kHz",
+            "fps",
+            "FPS",
+            "MHz"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 100000.0
+        },
+        "bit_depth": {
+          "label_zh": "位深",
+          "allowed_units": [
+            "bits",
+            "bit",
+            "levels",
+            "states"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 16.0
+        }
+      }
+    },
+    "F1": {
+      "code": "F1",
+      "name_zh": "时延储备池（光纤、环形、激光反馈）",
+      "name_en": "Time-Delay Reservoir Computing System (Fiber Loop, Microring, Laser Feedback)",
+      "parameters": {
+        "virtual_nodes": {
+          "label_zh": "虚拟节点数",
+          "allowed_units": [
+            "nodes",
+            "virtual nodes",
+            "neurons",
+            "channels",
+            "modes",
+            "N×M nodes",
+            "N×M neurons"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 4.0,
+          "max_val": 100000.0
+        },
+        "loop_delay": {
+          "label_zh": "环路延时",
+          "allowed_units": [
+            "ps",
+            "ns",
+            "us",
+            "µs",
+            "ms",
+            "μs"
+          ],
+          "direction": "nominal",
+          "min_val": 0.1,
+          "max_val": 100000.0
+        },
+        "sampling_rate": {
+          "label_zh": "采样/注入速率",
+          "allowed_units": [
+            "GSa/s",
+            "MSa/s",
+            "GBaud",
+            "Gbaud",
+            "GHz",
+            "MHz",
+            "Gbps",
+            "Gb/s",
+            "kHz"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.1,
+          "max_val": 500.0
+        }
+      }
+    },
+    "G1": {
+      "code": "G1",
+      "name_zh": "脉冲激光神经元（VCSEL、DFB-SA、FP-SA）",
+      "name_en": "Spiking Laser Neuron (VCSEL, DFB-SA, FP-SA, Excitable Micropillar)",
+      "parameters": {
+        "spike_width": {
+          "label_zh": "脉冲宽度",
+          "allowed_units": [
+            "ps",
+            "ns",
+            "fs",
+            "us",
+            "µs",
+            "μs"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 10000.0
+        },
+        "refractory_period": {
+          "label_zh": "不应期",
+          "allowed_units": [
+            "ps",
+            "ns",
+            "us",
+            "µs",
+            "μs",
+            "ms"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.1,
+          "max_val": 10000.0
+        },
+        "spike_energy": {
+          "label_zh": "每脉冲能量",
+          "allowed_units": [
+            "fJ",
+            "pJ",
+            "aJ",
+            "nJ",
+            "uJ",
+            "µJ"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 10000.0
+        },
+        "max_firing_rate": {
+          "label_zh": "最高发放率",
+          "allowed_units": [
+            "GHz",
+            "MHz",
+            "Gspikes/s",
+            "kHz",
+            "Mspikes/s",
+            "spikes/s"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.01,
+          "max_val": 200.0
+        }
+      }
+    },
+    "H1": {
+      "code": "H1",
+      "name_zh": "伊辛机 / 组合优化硬件",
+      "name_en": "Photonic Ising Machine / Combinatorial Optimization Hardware",
+      "parameters": {
+        "spin_count": {
+          "label_zh": "自旋数",
+          "allowed_units": [
+            "spins",
+            "nodes",
+            "variables",
+            "vertices",
+            "modes",
+            "channels",
+            "N×M spins",
+            "N×M nodes"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 2.0,
+          "max_val": 1000000.0
+        },
+        "time_to_solution": {
+          "label_zh": "求解时间 TTS",
+          "allowed_units": [
+            "ns",
+            "us",
+            "µs",
+            "ms",
+            "s",
+            "ps",
+            "μs"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.001,
+          "max_val": 100000.0
+        },
+        "success_probability": {
+          "label_zh": "成功概率/近似比",
+          "allowed_units": [
+            "%",
+            "dimensionless"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 100.0
+        }
+      }
+    },
+    "I1": {
+      "code": "I1",
+      "name_zh": "传感内器件（二维、氧化物、有机、钙钛矿光电突触管或忆阻器）",
+      "name_en": "In-Sensor Optoelectronic Synapse / Phototransistor / Photomemristor",
+      "parameters": {
+        "responsivity": {
+          "label_zh": "光响应度",
+          "allowed_units": [
+            "A/W",
+            "mA/W",
+            "A W−1",
+            "A W–1",
+            "mA W−1"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.001,
+          "max_val": 10000000.0
+        },
+        "PPF_index": {
+          "label_zh": "双脉冲易化指数 PPF",
+          "allowed_units": [
+            "%",
+            "dimensionless"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 100.0,
+          "max_val": 500.0
+        },
+        "conductance_states": {
+          "label_zh": "电导态数",
+          "allowed_units": [
+            "states",
+            "levels",
+            "bits",
+            "bit",
+            "conductance states",
+            "conductance levels"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 2.0,
+          "max_val": 2048.0
+        },
+        "retention_time": {
+          "label_zh": "保持时间",
+          "allowed_units": [
+            "s",
+            "min",
+            "h",
+            "days",
+            "hours",
+            "years"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 100000000.0
+        },
+        "energy_per_spike": {
+          "label_zh": "每事件能耗",
+          "allowed_units": [
+            "fJ",
+            "aJ",
+            "pJ",
+            "nJ",
+            "uJ",
+            "µJ",
+            "μJ",
+            "mJ"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.001,
+          "max_val": 100000.0
+        },
+        "dynamic_range": {
+          "label_zh": "动态范围",
+          "allowed_units": [
+            "dB"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 200.0
+        },
+        "endurance_cycles": {
+          "label_zh": "耐久循环",
+          "allowed_units": [
+            "cycles",
+            "switches",
+            "switching cycles"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 10.0,
+          "max_val": 1000000000.0
+        },
+        "array_size": {
+          "label_zh": "阵列规模",
+          "allowed_units": [
+            "pixels",
+            "devices",
+            "synapses",
+            "elements",
+            "sensors",
+            "N×M pixels",
+            "N×M devices",
+            "N×M synapses",
+            "N×M elements"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 2.0,
+          "max_val": 10000000.0
+        }
+      }
+    },
+    "J": {
+      "code": "J",
+      "name_zh": "系统级（每篇有系统演示的都要）",
+      "name_en": "System-Level Compute & Task Demonstration",
+      "parameters": {
+        "throughput": {
+          "label_zh": "算力",
+          "allowed_units": [
+            "TOPS",
+            "GOPS",
+            "TMAC/s",
+            "GMAC/s",
+            "POPS",
+            "MOPS",
+            "MMAC/s",
+            "TOPS/s",
+            "GOPS/s"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.001,
+          "max_val": 1000000.0
+        },
+        "energy_efficiency": {
+          "label_zh": "能效",
+          "allowed_units": [
+            "TOPS/W",
+            "GOPS/W",
+            "fJ/MAC",
+            "pJ/MAC",
+            "aJ/MAC",
+            "fJ/OP",
+            "pJ/OP",
+            "TOPS W−1",
+            "GOPS W−1",
+            "fJ MAC−1",
+            "pJ MAC−1",
+            "aJ/OP",
+            "fJ/bit",
+            "pJ/bit"
+          ],
+          "direction": "nominal",
+          "min_val": 0.001,
+          "max_val": 1000000.0
+        },
+        "compute_density": {
+          "label_zh": "计算密度",
+          "allowed_units": [
+            "TOPS/mm²",
+            "TOPS/mm2",
+            "GOPS/mm²",
+            "GOPS/mm2",
+            "TOPS mm−2",
+            "GOPS mm−2"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.001,
+          "max_val": 100000.0
+        },
+        "latency": {
+          "label_zh": "时延",
+          "allowed_units": [
+            "ps",
+            "ns",
+            "us",
+            "µs",
+            "ms",
+            "fs",
+            "μs",
+            "s"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 0.01,
+          "max_val": 1000000.0
+        },
+        "precision_bits": {
+          "label_zh": "系统有效精度",
+          "allowed_units": [
+            "bits",
+            "bit",
+            "levels"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 1.0,
+          "max_val": 16.0
+        },
+        "task_accuracy": {
+          "label_zh": "任务准确率",
+          "allowed_units": [
+            "%"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 10.0,
+          "max_val": 100.0
+        },
+        "task_error": {
+          "label_zh": "序列预测/回归归一化误差",
+          "allowed_units": [
+            "dimensionless",
+            "NRMSE",
+            "NMSE",
+            "RMSE",
+            "BER"
+          ],
+          "direction": "lower_is_better",
+          "min_val": 1e-05,
+          "max_val": 1.0
+        },
+        "signal_gain_or_suppression": {
+          "label_zh": "信号均衡增益/盲源分离抑制比",
+          "allowed_units": [
+            "dB"
+          ],
+          "direction": "higher_is_better",
+          "min_val": 0.2,
+          "max_val": 100.0
+        }
+      }
+    }
+  },
+  "optional_record_fields": [
+    "state",
+    "role",
+    "device_subtype",
+    "layer_type",
+    "material_composition",
+    "material_subtype",
+    "fabrication_method",
+    "checked_on_page_image",
+    "review_note",
+    "benchmark_task"
+  ],
+  "allowed_qualifiers": [
+    "",
+    "<",
+    "<=",
+    "≤",
+    "⩽",
+    ">",
+    ">=",
+    "≥",
+    "⩾",
+    "~",
+    "≈",
+    "∼",
+    "up to",
+    "over",
+    "more than",
+    "less than",
+    "below",
+    "above",
+    "at least",
+    "as low as",
+    "as high as",
+    "nearly",
+    "approximately",
+    "around",
+    "exceeds",
+    "exceeding",
+    "greater than"
+  ]
+}

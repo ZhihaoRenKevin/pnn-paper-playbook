@@ -1,0 +1,142 @@
+{
+ "counts": {
+  "accuracy_records": 559,
+  "accuracy_unspecified": 21,
+  "atlas_rows": 1688,
+  "coverage_rows": 133,
+  "ledger_rows": 146,
+  "materials_assignments": 10980,
+  "materials_rows": 1643,
+  "papers": 1133,
+  "records": 10087
+ },
+ "inputs": {
+  "A1_records.jsonl": {
+   "records": 247,
+   "sha256": "864b342511221a0f0e500493ddf0db8cfbd07e12df28b1c8dc327dc098b78ea1"
+  },
+  "A2_records.jsonl": {
+   "records": 203,
+   "sha256": "e12a4354822759faa3b23e89fd27e330f66fbdfe7332932d4b178747d15f4b08"
+  },
+  "A3_records.jsonl": {
+   "records": 1636,
+   "sha256": "d88d772d8598dc15ab4971425b90bb04027090eee0d8bc10b5d0e0f97240b4d2"
+  },
+  "A4_records.jsonl": {
+   "records": 108,
+   "sha256": "d5c96a2a764dbfc08e8fdc030781bd65f6faf8c72370962f3e101177a51cb663"
+  },
+  "A5_records.jsonl": {
+   "records": 467,
+   "sha256": "b74ddcbcead5b252b1fec46c37fa9f80e4a310506c9e30435b3e83d9ad651069"
+  },
+  "A6_records.jsonl": {
+   "records": 398,
+   "sha256": "a93ba492b7bed95d3715b945ec4dd9b532c196cb582afa872b31413e7f7ac4ee"
+  },
+  "B1_records.jsonl": {
+   "records": 111,
+   "sha256": "018c65fac94564f2e9fb11280545719ef929c7aadecfb3759a69530741365dc5"
+  },
+  "B2_records.jsonl": {
+   "records": 102,
+   "sha256": "4197163107f01e3aa86c53686e2204c109f01e43139359c805c64babced231ea"
+  },
+  "C1_records.jsonl": {
+   "records": 181,
+   "sha256": "aabde4b6bca37705c84528f3f739d2f04921504ec702d3aa361d34cb1deed3b7"
+  },
+  "D1_records.jsonl": {
+   "records": 192,
+   "sha256": "380108fe90bddc67bde6cf0a4f3e6657e9c5345eccd544af8ecc88905231adf4"
+  },
+  "D2_records.jsonl": {
+   "records": 65,
+   "sha256": "5e4d6edc4610dba960f1bcc0e3d921bb672b8167944eb9e24dc27e24bb8caf3e"
+  },
+  "E1_records.jsonl": {
+   "records": 1875,
+   "sha256": "3081346f7376e52514217a60163adf956333e0ab6727f1f1df5d15ba0577fdae"
+  },
+  "E2_records.jsonl": {
+   "records": 509,
+   "sha256": "c924a1fd7453173ad4c75aced5214235da02c3321311c8498a1dd2e0cae06ed5"
+  },
+  "E3_records.jsonl": {
+   "records": 551,
+   "sha256": "1af1fb3e2d85f8591c4a38db07c4446304a7732f8fef90e517101d64b72afbb0"
+  },
+  "F1_records.jsonl": {
+   "records": 391,
+   "sha256": "523effa6c591bab0a59d05b6d521b6095194decf461d8cf0700709141d2073bf"
+  },
+  "G1_records.jsonl": {
+   "records": 76,
+   "sha256": "228294985cef6955a58b93d6c159af47bbca1512f0dc7bfdf20d18675348f2b8"
+  },
+  "H1_records.jsonl": {
+   "records": 276,
+   "sha256": "9c34f6aae1bd9d25e10f7abe8c54f7c94fbf8da2f8f0620aec511a9890d073a7"
+  },
+  "I1_records.jsonl": {
+   "records": 1112,
+   "sha256": "efb7691bc80cd3f68d1e826df5b1fa63540091518d49dc1a7bc5df966c544266"
+  },
+  "J_records.jsonl": {
+   "records": 1587,
+   "sha256": "adf1983d8bd48c36247b624270bc1cde6de9840ff6cdfd64d7ed0a0e628cbeab"
+  }
+ },
+ "library_manifest_sha256": "3e7c70c788ffaad309157b32d658bc2a31d81b44c4938547676710ffcae33d0f",
+ "outputs": {
+  "PNN_atlas_spec.json": "153a5eb068e942b0a63d1509a42b683d9bdc669ae61b2debb40c6712e4d7a4f0",
+  "README_derived.md": "ea6e824421aeb52f1131166dd614dde500c957068333253da29b87ebb5000872",
+  "benchmark_ledger.csv": "f5fc75c04c13bba61256db3f771c4b281f9a7a55356100e1aa5e01728f6f547a",
+  "benchmark_ledger.md": "6450b0a3fd7ef65086268f3d0ed44bb370d04a56fdd0e1ab829fb5c4f30c6cc7",
+  "benchmark_task_assignment.csv": "5bbe10328baa0d65af520c0fa009477be322f580a1fca69d0b2221a316382acd",
+  "device_coverage.csv": "09960eda849a7aff593259e53f42ac03d5842dde720b28074fcf6fe3b9bd0b10",
+  "device_coverage.md": "b925d679f47c017aee15a8c9bc0aa8f93d0226fbb60b337eb492073221e38927",
+  "device_parameter_atlas.csv": "1e1a0549e96ee28863a5afb0a4fb57b8c92baf42e23130598ee56a314209cb65",
+  "device_parameter_atlas.md": "142b435b0dc28900d58928409ccc7120b199d5facb3e5e6583d327ceedb33166",
+  "materials_assignment.csv": "fc3618fc5b13bfd807eb220ca6ac70f339b1f3832f470981f690b22c6aad744e",
+  "materials_atlas.csv": "f1d1a43dde1ffe2c5195625eaa1fcab9cb9bcd08a202b94adebbd8cc2f625546",
+  "materials_atlas.md": "a597bcf4940b4cc962b24c34432750b9ee1879db59787f9cd628e101382fafe4"
+ },
+ "readme_sha256": "324cf6c8527d5ab168fcaaf842f0ead43b3c9ee81390e4e6d90b6ae699c8c443",
+ "script": "build_derived.py",
+ "script_sha256": "6bb74a45b68b0d785a7c5eaa5c495260e11b7b7b414d0b07d263a0d2a4043462",
+ "release": {
+  "date": "2026-11-16",
+  "removed_fields": {
+   "PNN_params/*_records.jsonl": [
+    "quote_text"
+   ],
+   "library_index.csv": [
+    "quote"
+   ]
+  },
+  "note": "The derived tables were computed from the records before the quote_text field was dropped (input hashes under 'inputs'); the record files here differ from those inputs only by that field. Their SHA-256 are below.",
+  "records_sha256": {
+   "A1_records.jsonl": "8ff7e8f0b45b33bf8308614707233905a5b38313d8fd41e54a25e053c5b43d4e",
+   "A2_records.jsonl": "e297eaea26799b386a70c7009b7ddd3fe5693505e130a2b2a63d06a7c9938674",
+   "A3_records.jsonl": "a5de6210b92fe73b3cb524943d5b6009d07b3844343d4497e6cdf06d48173cc5",
+   "A4_records.jsonl": "1d1d35c77a1b27ffc3a0c84a1351948fd279d70170af4dc2d915f0f8259cdc7d",
+   "A5_records.jsonl": "901316930de848a9d2e1759a68aa097ccd55f0834cd4c65ec6116f771a30f07e",
+   "A6_records.jsonl": "780292f47d5d31040750698356e70fe7fa936b9adad7d0f4d147f8f73a02044b",
+   "B1_records.jsonl": "1e78f28268e0414ad7f92b833d0fdfba4d6287b6b546e65072648d16ac88aaa7",
+   "B2_records.jsonl": "cb1fcff7596def9b62b4ec8a6a85a23719e4138505e90b0028572aa135bac605",
+   "C1_records.jsonl": "934eb400dbc3c837aa977628b160b209c5653289dbf082ecfb12daa7bec9286e",
+   "D1_records.jsonl": "2b5b281407a1d9bcb57142a6c30420bd7f1231a4fe41ec88668acf8988542a15",
+   "D2_records.jsonl": "cd7b9f9d1e3b7efa4a41d0ea7c44db2be3b0089602c95a69284a905803aa0ce2",
+   "E1_records.jsonl": "2cd9bf2146726ffb54d274d78ef256e3a8b305b7f62cd1b630b0b71ef64360bb",
+   "E2_records.jsonl": "0e3d43c6aa4f5e471c1d353de5c355e0176a5408253ce0a26a3569ebdd3182ff",
+   "E3_records.jsonl": "20723b1b9b869ac0269dfa82c5381d977b738f43144f7dd6238965a1515f765c",
+   "F1_records.jsonl": "cabb4c651fa10f1a6b5598eee38ec698fcbc5f9b1df02de77db5e43711c58bdf",
+   "G1_records.jsonl": "5071bd93757386a75cedfc90a31724e7628e8f2ede3172d115c80bd8ff084107",
+   "H1_records.jsonl": "20f0095f3268f3ecdeddf7aa2784bd10c5917313fc3c011f34a18a2507ae33d0",
+   "I1_records.jsonl": "6fe42bd49242fa0f8101390bddf29365f4fdcc215e4648a32cf831deacef5f32",
+   "J_records.jsonl": "e64360870d5e227326987485adb18ddba4162de940a17239fc2a8bb7704ae40d"
+  }
+ }
+}
