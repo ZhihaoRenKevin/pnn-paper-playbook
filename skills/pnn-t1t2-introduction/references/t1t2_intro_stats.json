@@ -1,0 +1,103 @@
+{
+  "T1_intro": {
+    "n_verbatim_sliced": 24,
+    "words": {
+      "n": 24,
+      "median": 516.5,
+      "q25": 381.25,
+      "q75": 675.25,
+      "mean": 555.71,
+      "min": 180.0,
+      "max": 1091.0
+    },
+    "para_count": {
+      "n": 33,
+      "median": 3.0,
+      "q25": 2.0,
+      "q75": 3.0,
+      "mean": 2.55,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "funnel_counts": {
+      "compute_wall": 27,
+      "application_wall": 3,
+      "overturned_wisdom": 2,
+      "physics_bound": 1
+    },
+    "here_we_para_counts": {
+      "1": 11,
+      "2": 17,
+      "3": 4
+    },
+    "final_para_has_scale_metrics_pct": 51.5
+  },
+  "T2_intro": {
+    "n_verbatim_sliced": 64,
+    "words": {
+      "n": 64,
+      "median": 421.0,
+      "q25": 286.25,
+      "q75": 792.75,
+      "mean": 573.08,
+      "min": 153.0,
+      "max": 1305.0
+    },
+    "para_count": {
+      "n": 80,
+      "median": 3.0,
+      "q25": 1.0,
+      "q75": 3.0,
+      "mean": 2.33,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "funnel_counts": {
+      "compute_wall": 49,
+      "application_wall": 26,
+      "missing_primitive": 2,
+      "physics_bound": 2,
+      "overturned_wisdom": 1
+    },
+    "here_we_para_counts": {
+      "1": 33,
+      "2": 35,
+      "3": 8
+    },
+    "final_para_has_scale_metrics_pct": 37.5
+  },
+  "T1T2_intro_all": {
+    "n_verbatim_sliced": 88,
+    "words": {
+      "n": 88,
+      "median": 450.0,
+      "q25": 304.25,
+      "q75": 698.0,
+      "mean": 568.34,
+      "min": 153.0,
+      "max": 1305.0
+    },
+    "para_count": {
+      "n": 113,
+      "median": 3.0,
+      "q25": 1.0,
+      "q75": 3.0,
+      "mean": 2.39,
+      "min": 1.0,
+      "max": 5.0
+    },
+    "funnel_counts": {
+      "compute_wall": 76,
+      "application_wall": 29,
+      "physics_bound": 3,
+      "overturned_wisdom": 3,
+      "missing_primitive": 2
+    },
+    "here_we_para_counts": {
+      "1": 44,
+      "2": 52,
+      "3": 12
+    },
+    "final_para_has_scale_metrics_pct": 41.6
+  }
+}

@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this skill or its data, please cite it as below, and cite the original papers for any numbers you use."
 title: "pnn-paper-playbook: an agent skill and parameter dataset for photonic neural network research"
-version: "3.4.1"
-date-released: 2026-11-16
+version: "3.5.0"
+date-released: 2026-11-20
 authors:
   - family-names: Ren
     given-names: Zhihao

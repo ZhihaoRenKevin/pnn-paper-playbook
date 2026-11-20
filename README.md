@@ -19,6 +19,32 @@ The source library holds 1,475 papers from 1989 to 2026 (46 *Nature* / *Science*
 
 The 13 sub-commands are `lit-search`, `related-work`, `sota-table`, `energy-latency-audit`, `referee-simulator`, `reviewer-finder`, `figure-blueprint`, `draft-linter`, `atlas`, `materials`, `coverage`, `benchmark` and `idea-gen`.
 
+<!-- v3.5-companion-skills-readme begin -->
+
+## Dedicated T1/T2 How-to-Write & How-to-Revise Companion Skills (`skills/`, v3.5.0)
+
+Version `3.5.0` separates **factual literature/parameter lookup (all tiers T1-T4, 1,475 papers, root skill)** from **manuscript writing, figure, and rebuttal craft (strictly T1 & T2 research articles, `n = 113`, zero T3/T4 or review dilution, with `2.0x` native-English-country `US/GB/CA/AU` weighting on all writing skills)**. Every companion skill provides step-by-step drafting recipes, 4-pass revision workflows, original Before -> After examples, and a zero-dependency Python CLI, while distributing **no verbatim text from published papers or peer-review files**.
+
+| Companion Skill (`skills/<name>/`) | Actionable Scope | Standalone CLI |
+| :--- | :--- | :--- |
+| `pnn-t1t2-editorial-audit` | Pre-drafting tier-fit, story elevation & 16-point pre-submission audit | `pnn_editorial_audit_tool.py` |
+| `pnn-t1t2-abstract` | Colon-free title + 7-sentence T1/T2 abstract drafting & revision | `pnn_abstract_tool.py` |
+| `pnn-t1t2-introduction` | 4-paragraph funnel drafting, diplomatic prior-art critique & revision | `pnn_intro_tool.py` |
+| `pnn-t1t2-results` | Claim-first Results subheadings, operator mapping & ablation narration | `pnn_results_tool.py` |
+| `pnn-t1t2-figure-color` | Empirical CIELAB `#HEX` palettes (520 pages) & Machado CVD checker | `pnn_color_tool.py` |
+| `pnn-t1t2-figure-caption` | *Nature* (`Fig. 1 |` `a,`) vs *Science* (`Fig. 1.` `(A)`) caption linter | `pnn_caption_tool.py` |
+| `pnn-t1t2-figure-arrangement` | Fig. 1-5 storyboarding, panel ceilings, hero layout & ED/SI triage | `pnn_arrangement_tool.py` |
+| `pnn-t1t2-data-presentation` | Physical-quantity chart selection & 5 mandatory physics ablations | `pnn_data_pres_tool.py` |
+| `pnn-t1t2-benchmarking` | 4-tier energy accounting, GPU parity & all-tier SOTA bridge | `pnn_benchmark_tool.py` |
+| `pnn-t1t2-conclusion` | Journal-exact closing headings, limitations & scaling roadmap | `pnn_conclusion_tool.py` |
+| `pnn-t1t2-methods` | Reproducible 7-subsection Methods & Data/Code disclosure audit | `pnn_methods_tool.py` |
+| `pnn-t1t2-si` | SI TOC, Supplementary Note blueprint & Main/SI sync audit | `pnn_si_tool.py` |
+| `pnn-t1t2-rebuttal` | 5-beat T1/T2 rebuttal framework & kill-shot C1-C8 defense moves | `pnn_rebuttal_tool.py` |
+| `low-aigc-nondefensive-writing` | Low-AIGC humanization, non-defensive authority & native `vocab-upgrade` | `aigc_nondefensive_auditor.py` |
+| `sci-tech-naming` | Pronounceable feature-linked tech naming + all-tier collision checker | `tech_naming_tool.py` |
+
+<!-- v3.5-companion-skills-readme end -->
+
 ## Install
 
 The skill follows the [Agent Skills](https://agentskills.io/specification) format: one folder with `SKILL.md` at its top, plus `references/` and `scripts/`. Any agent that reads `SKILL.md` skills can use it. The agent reads `SKILL.md` and runs the toolkit when it needs numbers.
@@ -88,7 +114,7 @@ The facts and bibliographic metadata of the cited papers are not claimed. When y
 
 ## Citation
 
-See `CITATION.cff`, or cite as: Zhihao Ren, *pnn-paper-playbook: an agent skill and parameter dataset for photonic neural network research*, version 3.4.1, 2026, https://github.com/ZhihaoRenKevin/pnn-paper-playbook.
+See `CITATION.cff`, or cite as: Zhihao Ren, *pnn-paper-playbook: an agent skill and parameter dataset for photonic neural network research*, version 3.5.0, 2026, https://github.com/ZhihaoRenKevin/pnn-paper-playbook.
 
 ## 中文简介
 

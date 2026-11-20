@@ -1,0 +1,315 @@
+{
+  "titles": {
+    "research_T1": {
+      "n": 33,
+      "word_count": {
+        "n": 33,
+        "median": 8.0,
+        "q25": 6.0,
+        "q75": 9.0,
+        "mean": 7.33,
+        "min": 3.0,
+        "max": 12.0
+      },
+      "has_colon_pct": 0.0,
+      "has_number_pct": 18.2,
+      "has_for_pct": 30.3,
+      "has_with_pct": 21.2,
+      "has_using_pct": 6.1
+    },
+    "research_T2": {
+      "n": 80,
+      "word_count": {
+        "n": 80,
+        "median": 8.0,
+        "q25": 6.75,
+        "q75": 10.0,
+        "mean": 8.35,
+        "min": 3.0,
+        "max": 17.0
+      },
+      "has_colon_pct": 0.0,
+      "has_number_pct": 1.2,
+      "has_for_pct": 26.2,
+      "has_with_pct": 23.8,
+      "has_using_pct": 6.2
+    },
+    "research_all": {
+      "n": 113,
+      "word_count": {
+        "n": 113,
+        "median": 8.0,
+        "q25": 6.0,
+        "q75": 10.0,
+        "mean": 8.05,
+        "min": 3.0,
+        "max": 17.0
+      },
+      "has_colon_pct": 0.0,
+      "has_number_pct": 6.2,
+      "has_for_pct": 27.4,
+      "has_with_pct": 23.0,
+      "has_using_pct": 6.2
+    }
+  },
+  "T1_abstract": {
+    "n_verbatim_sliced": 31,
+    "words": {
+      "n": 31,
+      "median": 179.0,
+      "q25": 131.5,
+      "q75": 210.0,
+      "mean": 172.39,
+      "min": 95.0,
+      "max": 234.0
+    },
+    "sentences": {
+      "n": 31,
+      "median": 7.0,
+      "q25": 5.5,
+      "q75": 8.5,
+      "mean": 6.94,
+      "min": 3.0,
+      "max": 10.0
+    },
+    "sent_len_words": {
+      "n": 215,
+      "median": 23.0,
+      "q25": 18.0,
+      "q75": 29.0,
+      "mean": 24.85,
+      "min": 2.0,
+      "max": 81.0
+    },
+    "has_here_we_pct": 58.1,
+    "has_however_yet_pct": 41.9,
+    "has_numbers_pct": 9.7,
+    "comparator_paired_pct": 75.8,
+    "dual_operating_points_pct": 0.0,
+    "move_presence_pct": {
+      "here_we": 97.0,
+      "system_bench": 90.9,
+      "device_metric": 81.8,
+      "gap": 69.7,
+      "context": 66.7,
+      "mechanism": 48.5,
+      "horizon": 12.1
+    },
+    "top_move_sequences": [
+      [
+        "context -> gap -> here_we -> device_metric -> system_bench",
+        7
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> device_metric -> system_bench",
+        5
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> system_bench",
+        4
+      ],
+      [
+        "here_we -> device_metric -> system_bench",
+        4
+      ],
+      [
+        "context -> gap -> here_we -> device_metric -> system_bench -> horizon",
+        2
+      ],
+      [
+        "context -> gap -> here_we -> system_bench",
+        2
+      ],
+      [
+        "here_we -> mechanism -> device_metric -> system_bench",
+        2
+      ],
+      [
+        "here_we -> mechanism -> device_metric",
+        1
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> device_metric -> system_bench -> horizon",
+        1
+      ],
+      [
+        "here_we -> mechanism -> device_metric -> system_bench -> horizon",
+        1
+      ]
+    ]
+  },
+  "T2_abstract": {
+    "n_verbatim_sliced": 79,
+    "words": {
+      "n": 79,
+      "median": 167.0,
+      "q25": 148.0,
+      "q75": 191.0,
+      "mean": 171.75,
+      "min": 73.0,
+      "max": 281.0
+    },
+    "sentences": {
+      "n": 79,
+      "median": 7.0,
+      "q25": 6.0,
+      "q75": 8.0,
+      "mean": 7.22,
+      "min": 4.0,
+      "max": 11.0
+    },
+    "sent_len_words": {
+      "n": 570,
+      "median": 22.0,
+      "q25": 17.0,
+      "q75": 28.0,
+      "mean": 23.8,
+      "min": 3.0,
+      "max": 82.0
+    },
+    "has_here_we_pct": 83.5,
+    "has_however_yet_pct": 59.5,
+    "has_numbers_pct": 29.1,
+    "comparator_paired_pct": 67.5,
+    "dual_operating_points_pct": 3.8,
+    "move_presence_pct": {
+      "here_we": 98.8,
+      "device_metric": 93.8,
+      "system_bench": 82.5,
+      "gap": 78.8,
+      "context": 72.5,
+      "mechanism": 51.2,
+      "horizon": 7.5,
+      "ablation": 5.0
+    },
+    "top_move_sequences": [
+      [
+        "context -> gap -> here_we -> device_metric -> system_bench",
+        20
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> device_metric -> system_bench",
+        17
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> device_metric",
+        7
+      ],
+      [
+        "here_we -> device_metric -> system_bench",
+        6
+      ],
+      [
+        "here_we -> mechanism -> device_metric -> system_bench",
+        5
+      ],
+      [
+        "gap -> here_we -> device_metric -> system_bench",
+        3
+      ],
+      [
+        "context -> gap -> here_we -> device_metric",
+        3
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> system_bench",
+        3
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> device_metric -> system_bench -> horizon",
+        2
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> device_metric -> system_bench -> ablation",
+        2
+      ]
+    ]
+  },
+  "T1T2_abstract_all": {
+    "n_verbatim_sliced": 110,
+    "words": {
+      "n": 110,
+      "median": 167.5,
+      "q25": 147.0,
+      "q75": 197.75,
+      "mean": 171.93,
+      "min": 73.0,
+      "max": 281.0
+    },
+    "sentences": {
+      "n": 110,
+      "median": 7.0,
+      "q25": 6.0,
+      "q75": 8.0,
+      "mean": 7.14,
+      "min": 3.0,
+      "max": 11.0
+    },
+    "sent_len_words": {
+      "n": 785,
+      "median": 22.0,
+      "q25": 18.0,
+      "q75": 28.0,
+      "mean": 24.09,
+      "min": 2.0,
+      "max": 82.0
+    },
+    "has_here_we_pct": 76.4,
+    "has_however_yet_pct": 54.5,
+    "has_numbers_pct": 23.6,
+    "comparator_paired_pct": 69.9,
+    "dual_operating_points_pct": 2.7,
+    "move_presence_pct": {
+      "here_we": 98.2,
+      "device_metric": 90.3,
+      "system_bench": 85.0,
+      "gap": 76.1,
+      "context": 70.8,
+      "mechanism": 50.4,
+      "horizon": 8.8,
+      "ablation": 3.5
+    },
+    "top_move_sequences": [
+      [
+        "context -> gap -> here_we -> device_metric -> system_bench",
+        27
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> device_metric -> system_bench",
+        22
+      ],
+      [
+        "here_we -> device_metric -> system_bench",
+        10
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> device_metric",
+        8
+      ],
+      [
+        "here_we -> mechanism -> device_metric -> system_bench",
+        7
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> system_bench",
+        7
+      ],
+      [
+        "gap -> here_we -> device_metric -> system_bench",
+        4
+      ],
+      [
+        "context -> gap -> here_we -> device_metric -> system_bench -> horizon",
+        4
+      ],
+      [
+        "context -> gap -> here_we -> device_metric",
+        3
+      ],
+      [
+        "context -> gap -> here_we -> mechanism -> device_metric -> system_bench -> horizon",
+        3
+      ]
+    ]
+  }
+}

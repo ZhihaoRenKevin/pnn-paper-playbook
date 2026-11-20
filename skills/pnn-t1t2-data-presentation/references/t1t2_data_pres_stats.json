@@ -1,0 +1,91 @@
+{
+  "T1_data_pres": {
+    "ablation_counts": {
+      "none": 25,
+      "perturb_recovery": 3,
+      "coh_incoh": 1
+    },
+    "sim_exp_pairing": {
+      "none": 27,
+      "overlaid": 5,
+      "adjacent": 1
+    },
+    "stat_rigor_counts": {
+      "mean_sd": 19,
+      "none": 13,
+      "repeats": 10,
+      "conf_mat_n": 3,
+      "uniformity": 3,
+      "drift": 2
+    }
+  },
+  "T2_data_pres": {
+    "ablation_counts": {
+      "none": 63,
+      "perturb_recovery": 5,
+      "laser_off": 2,
+      "digital_matched_bits": 2,
+      "bypass_identity": 1
+    },
+    "sim_exp_pairing": {
+      "none": 65,
+      "overlaid": 13,
+      "adjacent": 2
+    },
+    "stat_rigor_counts": {
+      "mean_sd": 43,
+      "none": 28,
+      "repeats": 24,
+      "uniformity": 14,
+      "conf_mat_n": 11,
+      "drift": 11
+    }
+  },
+  "T1T2_data_pres": {
+    "ablation_counts": {
+      "none": 88,
+      "perturb_recovery": 8,
+      "laser_off": 2,
+      "digital_matched_bits": 2,
+      "bypass_identity": 1,
+      "coh_incoh": 1
+    },
+    "sim_exp_pairing": {
+      "none": 92,
+      "overlaid": 18,
+      "adjacent": 3
+    },
+    "stat_rigor_counts": {
+      "mean_sd": 62,
+      "none": 41,
+      "repeats": 34,
+      "uniformity": 17,
+      "conf_mat_n": 14,
+      "drift": 13
+    }
+  },
+  "vlm_chart_types_pct": {
+    "schematic": 87.9,
+    "line_markers": 66.3,
+    "curve_fit": 28.7,
+    "micrograph_sem": 22.4,
+    "heatmap_field": 18.0,
+    "conf_mat": 12.8,
+    "bar_err": 12.8,
+    "spectrum": 8.4,
+    "3d_render": 5.4,
+    "hist_err": 4.4,
+    "train_errband": 3.1,
+    "eye_wave": 1.7,
+    "img_grid": 1.0,
+    "loglog_pareto": 0.4
+  },
+  "vlm_labeling_style_pct": {
+    "direct": 96.4,
+    "colorbar": 2.9,
+    "legend": 0.6
+  },
+  "vlm_err_vis_pct": 20.5,
+  "vlm_sim_exp_ov_pct": 29.1,
+  "vlm_ablation_vis_pct": 0.4
+}

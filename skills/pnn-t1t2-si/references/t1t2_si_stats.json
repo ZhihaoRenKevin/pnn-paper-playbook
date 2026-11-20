@@ -1,0 +1,200 @@
+{
+  "stage1b_si": {
+    "T1_si": {
+      "n": 22,
+      "pages": {
+        "n": 22,
+        "median": 39.5,
+        "q25": 28.5,
+        "q75": 49.25,
+        "mean": 40.14,
+        "min": 11.0,
+        "max": 77.0
+      },
+      "words": {
+        "n": 22,
+        "median": 10918.0,
+        "q25": 6019.5,
+        "q75": 16387.25,
+        "mean": 12568.09,
+        "min": 3303.0,
+        "max": 36097.0
+      },
+      "supp_figs": {
+        "n": 21,
+        "median": 18.0,
+        "q25": 13.0,
+        "q75": 25.0,
+        "mean": 19.0,
+        "min": 2.0,
+        "max": 40.0
+      },
+      "supp_tables": {
+        "n": 15,
+        "median": 4.0,
+        "q25": 2.0,
+        "q75": 5.0,
+        "mean": 3.6,
+        "min": 1.0,
+        "max": 7.0
+      },
+      "supp_notes": {
+        "n": 9,
+        "median": 3.0,
+        "q25": 1.0,
+        "q75": 7.0,
+        "mean": 4.33,
+        "min": 1.0,
+        "max": 10.0
+      },
+      "has_toc_pct": 45.5,
+      "has_movie_pct": 9.1,
+      "module_rates_pct": {
+        "theory_or_derivation": 40.9,
+        "fabrication_or_sem": 40.9,
+        "experimental_setup_diagram": 63.6,
+        "calibration_or_crosstalk": 86.4,
+        "energy_latency_accounting": 72.7,
+        "sota_comparison_table": 31.8,
+        "ablation_or_noise_sensitivity": 45.5,
+        "ml_architecture_and_hyperparams": 45.5
+      }
+    },
+    "T2_si": {
+      "n": 78,
+      "pages": {
+        "n": 78,
+        "median": 21.5,
+        "q25": 12.0,
+        "q75": 28.75,
+        "mean": 23.08,
+        "min": 3.0,
+        "max": 66.0
+      },
+      "words": {
+        "n": 78,
+        "median": 5060.5,
+        "q25": 3261.0,
+        "q75": 7569.75,
+        "mean": 5852.01,
+        "min": 427.0,
+        "max": 19169.0
+      },
+      "supp_figs": {
+        "n": 73,
+        "median": 12.0,
+        "q25": 7.0,
+        "q75": 20.0,
+        "mean": 14.05,
+        "min": 1.0,
+        "max": 58.0
+      },
+      "supp_tables": {
+        "n": 43,
+        "median": 2.0,
+        "q25": 1.0,
+        "q75": 4.0,
+        "mean": 2.86,
+        "min": 1.0,
+        "max": 11.0
+      },
+      "supp_notes": {
+        "n": 23,
+        "median": 7.0,
+        "q25": 5.5,
+        "q75": 11.5,
+        "mean": 8.65,
+        "min": 1.0,
+        "max": 20.0
+      },
+      "has_toc_pct": 41.0,
+      "has_movie_pct": 9.0,
+      "module_rates_pct": {
+        "theory_or_derivation": 33.3,
+        "fabrication_or_sem": 51.3,
+        "experimental_setup_diagram": 53.8,
+        "calibration_or_crosstalk": 61.5,
+        "energy_latency_accounting": 50.0,
+        "sota_comparison_table": 14.1,
+        "ablation_or_noise_sensitivity": 21.8,
+        "ml_architecture_and_hyperparams": 25.6
+      }
+    },
+    "T1T2_si_all": {
+      "n": 100,
+      "pages": {
+        "n": 100,
+        "median": 23.0,
+        "q25": 14.75,
+        "q75": 34.0,
+        "mean": 26.83,
+        "min": 3.0,
+        "max": 77.0
+      },
+      "words": {
+        "n": 100,
+        "median": 5801.5,
+        "q25": 3711.25,
+        "q75": 9437.75,
+        "mean": 7329.55,
+        "min": 427.0,
+        "max": 36097.0
+      },
+      "supp_figs": {
+        "n": 94,
+        "median": 13.0,
+        "q25": 8.0,
+        "q75": 22.0,
+        "mean": 15.16,
+        "min": 1.0,
+        "max": 58.0
+      },
+      "supp_tables": {
+        "n": 58,
+        "median": 2.0,
+        "q25": 1.0,
+        "q75": 4.0,
+        "mean": 3.05,
+        "min": 1.0,
+        "max": 11.0
+      },
+      "supp_notes": {
+        "n": 32,
+        "median": 7.0,
+        "q25": 4.5,
+        "q75": 10.0,
+        "mean": 7.44,
+        "min": 1.0,
+        "max": 20.0
+      },
+      "has_toc_pct": 42.0,
+      "has_movie_pct": 9.0,
+      "module_rates_pct": {
+        "theory_or_derivation": 35.0,
+        "fabrication_or_sem": 49.0,
+        "experimental_setup_diagram": 56.0,
+        "calibration_or_crosstalk": 67.0,
+        "energy_latency_accounting": 55.0,
+        "sota_comparison_table": 18.0,
+        "ablation_or_noise_sensitivity": 27.0,
+        "ml_architecture_and_hyperparams": 30.0
+      }
+    }
+  },
+  "stage2d_org_patterns": {
+    "thematic_sections_with_inline_figs": 65,
+    "numbered_notes_then_figs": 22,
+    "methods_plus_figs_tables": 13
+  },
+  "stage2d_core_modules": {
+    "ablation_noise": 87,
+    "setup_diagram": 84,
+    "calibration_crosstalk": 63,
+    "energy_latency_ledger": 53,
+    "theory_derivation": 39,
+    "sota_table_meas_proj": 39,
+    "scaling_projection": 33,
+    "ml_hyperparams": 18,
+    "fab_runsheet": 9
+  }
+}

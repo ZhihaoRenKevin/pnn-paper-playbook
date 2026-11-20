@@ -3,7 +3,7 @@ name: pnn-paper-playbook
 description: Use for photonic neural network and optical computing research, including planning, writing, illustrating or revising a paper, picking its journal tier, predicting and answering reviewers, and looking up measured device and system parameters, materials, benchmarks, coverage gaps, novelty, grant KPIs and new ideas from a 1,475-paper library.
 ---
 
-# PNN Paper Playbook (Photonic Neural Networks & Optical Computing — v3.4.1)
+# PNN Paper Playbook (Photonic Neural Networks & Optical Computing — v3.5.0)
 
 > **About the data.** This skill carries no text from the papers or from peer-review files. Each parameter record gives value, unit, status, conditions, page and DOI (`references/citations.csv`), so every number can be checked against the paper. Paths such as `00_Index/`, `08_Reading_Notes/`, `_work/`, `Peer_review_statistics.md` and the audit files under `verification/` refer to the source library the data were compiled from, which is not distributed; sub-commands that need it say so (§19).
 
@@ -23,6 +23,14 @@ Built from the PNN literature library (`<PNN_LIBRARY_ROOT>/`, see `08_Reading_No
 ## 0. How to use this skill
 - **Scope:** story, structure, figures, materials choice, novelty positioning, benchmarking, journal choice and reviewer strategy for PNN / optical-computing papers: integrated MZI/MRR/PCM/TFLN chips, diffractive and free-space optics, metasurface analog computing (differentiation, equation solving), meta-optic front ends, reservoir/spiking/physical-NN training, photonic tensor cores, Ising machines, in-sensor computing.
 - **Paths:** every path in this file is relative to the skill folder, the folder that holds this `SKILL.md`. Run the toolkit by its path in that folder, for example `python3 <skill folder>/scripts/pnn_research_toolkit.py --help` (or `python` where that is Python 3). It needs Python 3.8 or later and only the standard library, and it finds its data next to itself whatever the working directory.
+<!-- v3.5-t1t2-companion-skills begin -->
+- **Dedicated T1/T2 How-to-Write & How-to-Revise Companion Skills (`v3.5.0`, under `skills/`):**
+  - **Strict Separation Rule**: Information and factual SOTA lookups (`lit-search`, `atlas`, `materials`, `benchmark`, `sota-table`, `reviewer-finder`) use **all tiers (`T1-T4`, `1,475` papers)** here in the root playbook. Writing, visual, figure, benchmarking-narrative, SI, rebuttal, low-AIGC, and technology-naming craft live in **15 dedicated actionable companion skills** under `skills/`, calibrated strictly on **T1 & T2 research articles (`n = 113`, zero T3/T4 or review dilution, with `2.0x` native-English-country `US/GB/CA/AU` weighting on all writing skills)**:
+    - Editorial & Pre-Submission Gatekeeper: `skills/pnn-t1t2-editorial-audit/SKILL.md`
+    - Drafting & Revising Sections: `skills/pnn-t1t2-abstract/`, `pnn-t1t2-introduction/`, `pnn-t1t2-results/`, `pnn-t1t2-benchmarking/`, `pnn-t1t2-conclusion/`, `pnn-t1t2-methods/`, `pnn-t1t2-si/`, `pnn-t1t2-rebuttal/`
+    - Figures & Data Visuals: `skills/pnn-t1t2-figure-color/`, `pnn-t1t2-figure-caption/`, `pnn-t1t2-figure-arrangement/`, `pnn-t1t2-data-presentation/`
+    - Cross-Domain Writing Polish & Tech Naming: `skills/low-aigc-nondefensive-writing/`, `skills/sci-tech-naming/`
+<!-- v3.5-t1t2-companion-skills end -->
 - **Division of labour:** this skill decides *what* goes where and *why*; sentence-level voice, figure layout and grant or talk framing (§23) belong to your own writing, figure and proposal workflows.
 - **Tier weights when rules conflict (`R4.2`):** **T1** (*Nature*, *Science*) `1.00` · **T2** (*Nature* subjournals) `0.70` · **T3** (*Nat. Commun.*, *Sci. Adv.*) `0.45` · **T4** (`04_T4_IF_ranked`) `0.25`. Rules are tagged **[T1]**, **[T1–T2]**, **[T1–T3]** (consensus) or **[T3]/[T4]**.
 <!-- v3.4 begin §0 -->

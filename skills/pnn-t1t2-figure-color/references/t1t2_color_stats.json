@@ -1,0 +1,3339 @@
+{
+  "pixel_color_census": {
+    "research_all_t1t2": {
+      "n_pages": 520,
+      "whitespace_frac": {
+        "n": 520,
+        "median": 0.65,
+        "q25": 0.6,
+        "q75": 0.7,
+        "mean": 0.64,
+        "min": 0.31,
+        "max": 0.85
+      },
+      "chroma_ink_frac": {
+        "n": 520,
+        "median": 0.04,
+        "q25": 0.02,
+        "q75": 0.07,
+        "mean": 0.05,
+        "min": 0.0,
+        "max": 0.28
+      },
+      "chroma_med_Cstar": {
+        "n": 513,
+        "median": 28.2,
+        "q25": 22.6,
+        "q75": 36.8,
+        "mean": 31.51,
+        "min": 13.2,
+        "max": 87.4
+      },
+      "chroma_p90_Cstar": {
+        "n": 513,
+        "median": 51.8,
+        "q25": 41.1,
+        "q75": 67.7,
+        "mean": 55.33,
+        "min": 13.2,
+        "max": 129.4
+      },
+      "lightness_med_Lstar": {
+        "n": 513,
+        "median": 69.3,
+        "q25": 57.7,
+        "q75": 76.3,
+        "mean": 65.93,
+        "min": 11.9,
+        "max": 95.9
+      },
+      "cvd_deut_min_dE": {
+        "n": 506,
+        "median": 15.35,
+        "q25": 11.4,
+        "q75": 20.0,
+        "mean": 16.19,
+        "min": 1.6,
+        "max": 49.4
+      },
+      "cvd_prot_min_dE": {
+        "n": 506,
+        "median": 15.5,
+        "q25": 11.83,
+        "q75": 21.0,
+        "mean": 16.64,
+        "min": 1.1,
+        "max": 55.4
+      },
+      "canonical_hex_by_family": {
+        "sky_cerulean_blue": {
+          "empirical_medoid_hex": "#9AB8D8",
+          "accent_line_hex": "#7AA3EC",
+          "soft_fill_hex": "#9CBAD9",
+          "presence_pct": 69.4,
+          "mean_ink_share_pct": 20.18,
+          "L_med": 73.5,
+          "C_med": 20.0,
+          "H_mean_deg": 262.4,
+          "n_clusters": 498
+        },
+        "sage_emerald_green": {
+          "empirical_medoid_hex": "#9CC296",
+          "accent_line_hex": "#81C174",
+          "soft_fill_hex": "#A6C6A2",
+          "presence_pct": 47.5,
+          "mean_ink_share_pct": 11.67,
+          "L_med": 74.8,
+          "C_med": 27.6,
+          "H_mean_deg": 139.4,
+          "n_clusters": 399
+        },
+        "coral_salmon": {
+          "empirical_medoid_hex": "#E0A1A2",
+          "accent_line_hex": "#E97D7C",
+          "soft_fill_hex": "#E6ACAD",
+          "presence_pct": 47.5,
+          "mean_ink_share_pct": 9.81,
+          "L_med": 72.3,
+          "C_med": 25.0,
+          "H_mean_deg": 21.6,
+          "n_clusters": 357
+        },
+        "cobalt_navy_blue": {
+          "empirical_medoid_hex": "#4C6FA8",
+          "accent_line_hex": "#406DB5",
+          "soft_fill_hex": "#5C7499",
+          "presence_pct": 46.9,
+          "mean_ink_share_pct": 11.37,
+          "L_med": 46.6,
+          "C_med": 34.4,
+          "H_mean_deg": 277.3,
+          "n_clusters": 342
+        },
+        "gold_ochre": {
+          "empirical_medoid_hex": "#D8C48F",
+          "accent_line_hex": "#E0C361",
+          "soft_fill_hex": "#D4C49E",
+          "presence_pct": 45.6,
+          "mean_ink_share_pct": 10.35,
+          "L_med": 79.5,
+          "C_med": 29.1,
+          "H_mean_deg": 91.5,
+          "n_clusters": 366
+        },
+        "violet_plum": {
+          "empirical_medoid_hex": "#7E60A3",
+          "accent_line_hex": "#6845A2",
+          "soft_fill_hex": "#B29FC4",
+          "presence_pct": 35.8,
+          "mean_ink_share_pct": 8.7,
+          "L_med": 46.3,
+          "C_med": 40.5,
+          "H_mean_deg": 309.2,
+          "n_clusters": 297
+        },
+        "amber_orange": {
+          "empirical_medoid_hex": "#DCA582",
+          "accent_line_hex": "#E18C52",
+          "soft_fill_hex": "#E3BAA1",
+          "presence_pct": 35.2,
+          "mean_ink_share_pct": 7.71,
+          "L_med": 72.0,
+          "C_med": 30.5,
+          "H_mean_deg": 58.3,
+          "n_clusters": 268
+        },
+        "crimson_red": {
+          "empirical_medoid_hex": "#B34743",
+          "accent_line_hex": "#BA403A",
+          "soft_fill_hex": "#955D5D",
+          "presence_pct": 29.2,
+          "mean_ink_share_pct": 4.95,
+          "L_med": 45.0,
+          "C_med": 50.4,
+          "H_mean_deg": 30.0,
+          "n_clusters": 202
+        },
+        "cyan_teal": {
+          "empirical_medoid_hex": "#81C5CB",
+          "accent_line_hex": "#45CCC8",
+          "soft_fill_hex": "#86C5CA",
+          "presence_pct": 21.2,
+          "mean_ink_share_pct": 4.04,
+          "L_med": 75.5,
+          "C_med": 22.2,
+          "H_mean_deg": 205.0,
+          "n_clusters": 131
+        },
+        "magenta_rose": {
+          "empirical_medoid_hex": "#C293AE",
+          "accent_line_hex": "#DC6AAC",
+          "soft_fill_hex": "#CFA8BF",
+          "presence_pct": 7.5,
+          "mean_ink_share_pct": 1.51,
+          "L_med": 66.0,
+          "C_med": 23.5,
+          "H_mean_deg": 342.1,
+          "n_clusters": 51
+        },
+        "neutral_slate_grey": {
+          "empirical_medoid_hex": "#BFA3A8",
+          "accent_line_hex": "#BFA3A8",
+          "soft_fill_hex": "#BFA3A8",
+          "presence_pct": 2.1,
+          "mean_ink_share_pct": 0.2,
+          "L_med": 69.5,
+          "C_med": 11.3,
+          "H_mean_deg": 6.6,
+          "n_clusters": 11
+        }
+      }
+    },
+    "research_T1": {
+      "n_pages": 140,
+      "whitespace_frac": {
+        "n": 140,
+        "median": 0.64,
+        "q25": 0.59,
+        "q75": 0.69,
+        "mean": 0.63,
+        "min": 0.38,
+        "max": 0.83
+      },
+      "chroma_ink_frac": {
+        "n": 140,
+        "median": 0.04,
+        "q25": 0.02,
+        "q75": 0.07,
+        "mean": 0.06,
+        "min": 0.0,
+        "max": 0.27
+      },
+      "chroma_med_Cstar": {
+        "n": 136,
+        "median": 27.1,
+        "q25": 22.6,
+        "q75": 34.8,
+        "mean": 29.92,
+        "min": 13.2,
+        "max": 78.8
+      },
+      "chroma_p90_Cstar": {
+        "n": 136,
+        "median": 50.45,
+        "q25": 40.77,
+        "q75": 62.9,
+        "mean": 52.45,
+        "min": 20.8,
+        "max": 101.8
+      },
+      "lightness_med_Lstar": {
+        "n": 136,
+        "median": 68.3,
+        "q25": 58.7,
+        "q75": 75.22,
+        "mean": 66.28,
+        "min": 33.7,
+        "max": 89.5
+      },
+      "cvd_deut_min_dE": {
+        "n": 136,
+        "median": 15.0,
+        "q25": 11.6,
+        "q75": 18.2,
+        "mean": 15.6,
+        "min": 1.8,
+        "max": 40.7
+      },
+      "cvd_prot_min_dE": {
+        "n": 136,
+        "median": 15.0,
+        "q25": 12.0,
+        "q75": 18.5,
+        "mean": 16.17,
+        "min": 3.0,
+        "max": 45.3
+      },
+      "canonical_hex_by_family": {
+        "sky_cerulean_blue": {
+          "empirical_medoid_hex": "#9AB3D4",
+          "accent_line_hex": "#81A3EB",
+          "soft_fill_hex": "#9BB6D7",
+          "presence_pct": 62.9,
+          "mean_ink_share_pct": 15.27,
+          "L_med": 72.1,
+          "C_med": 19.7,
+          "H_mean_deg": 266.7,
+          "n_clusters": 113
+        },
+        "cobalt_navy_blue": {
+          "empirical_medoid_hex": "#5273A9",
+          "accent_line_hex": "#4C6FB0",
+          "soft_fill_hex": "#5F769D",
+          "presence_pct": 50.7,
+          "mean_ink_share_pct": 11.39,
+          "L_med": 48.1,
+          "C_med": 33.1,
+          "H_mean_deg": 277.5,
+          "n_clusters": 97
+        },
+        "gold_ochre": {
+          "empirical_medoid_hex": "#DCCA98",
+          "accent_line_hex": "#E3C86E",
+          "soft_fill_hex": "#DACAA4",
+          "presence_pct": 50.7,
+          "mean_ink_share_pct": 10.69,
+          "L_med": 81.6,
+          "C_med": 26.9,
+          "H_mean_deg": 91.6,
+          "n_clusters": 108
+        },
+        "sage_emerald_green": {
+          "empirical_medoid_hex": "#99BD8C",
+          "accent_line_hex": "#88C178",
+          "soft_fill_hex": "#9FBB95",
+          "presence_pct": 49.3,
+          "mean_ink_share_pct": 13.93,
+          "L_med": 72.8,
+          "C_med": 29.5,
+          "H_mean_deg": 135.8,
+          "n_clusters": 130
+        },
+        "coral_salmon": {
+          "empirical_medoid_hex": "#DD9E9E",
+          "accent_line_hex": "#E27C81",
+          "soft_fill_hex": "#E2A8A8",
+          "presence_pct": 46.4,
+          "mean_ink_share_pct": 9.73,
+          "L_med": 71.1,
+          "C_med": 25.2,
+          "H_mean_deg": 21.1,
+          "n_clusters": 86
+        },
+        "amber_orange": {
+          "empirical_medoid_hex": "#E3AB8A",
+          "accent_line_hex": "#DF9159",
+          "soft_fill_hex": "#E7BEA9",
+          "presence_pct": 42.1,
+          "mean_ink_share_pct": 9.34,
+          "L_med": 74.5,
+          "C_med": 29.6,
+          "H_mean_deg": 56.9,
+          "n_clusters": 88
+        },
+        "crimson_red": {
+          "empirical_medoid_hex": "#B04543",
+          "accent_line_hex": "#BF4843",
+          "soft_fill_hex": "#8B5957",
+          "presence_pct": 36.4,
+          "mean_ink_share_pct": 6.58,
+          "L_med": 44.1,
+          "C_med": 49.6,
+          "H_mean_deg": 29.0,
+          "n_clusters": 67
+        },
+        "violet_plum": {
+          "empirical_medoid_hex": "#846B9E",
+          "accent_line_hex": "#57358F",
+          "soft_fill_hex": "#B49EC5",
+          "presence_pct": 25.0,
+          "mean_ink_share_pct": 5.06,
+          "L_med": 49.3,
+          "C_med": 31.6,
+          "H_mean_deg": 310.5,
+          "n_clusters": 50
+        },
+        "cyan_teal": {
+          "empirical_medoid_hex": "#87BFC1",
+          "accent_line_hex": "#87BFC1",
+          "soft_fill_hex": "#8DC4C7",
+          "presence_pct": 25.0,
+          "mean_ink_share_pct": 5.34,
+          "L_med": 73.6,
+          "C_med": 18.7,
+          "H_mean_deg": 202.6,
+          "n_clusters": 43
+        },
+        "magenta_rose": {
+          "empirical_medoid_hex": "#CF8FB1",
+          "accent_line_hex": "#E171AC",
+          "soft_fill_hex": "#EEC5DC",
+          "presence_pct": 4.3,
+          "mean_ink_share_pct": 1.15,
+          "L_med": 66.6,
+          "C_med": 30.2,
+          "H_mean_deg": 345.0,
+          "n_clusters": 10
+        },
+        "neutral_slate_grey": {
+          "empirical_medoid_hex": "#C0A3A3",
+          "accent_line_hex": "#C0A3A3",
+          "soft_fill_hex": "#C0A3A3",
+          "presence_pct": 3.6,
+          "mean_ink_share_pct": 0.3,
+          "L_med": 69.5,
+          "C_med": 11.4,
+          "H_mean_deg": 20.8,
+          "n_clusters": 5
+        }
+      }
+    },
+    "research_T2": {
+      "n_pages": 380,
+      "whitespace_frac": {
+        "n": 380,
+        "median": 0.66,
+        "q25": 0.61,
+        "q75": 0.7,
+        "mean": 0.65,
+        "min": 0.31,
+        "max": 0.85
+      },
+      "chroma_ink_frac": {
+        "n": 380,
+        "median": 0.04,
+        "q25": 0.02,
+        "q75": 0.07,
+        "mean": 0.05,
+        "min": 0.0,
+        "max": 0.28
+      },
+      "chroma_med_Cstar": {
+        "n": 377,
+        "median": 29.0,
+        "q25": 22.6,
+        "q75": 39.6,
+        "mean": 32.09,
+        "min": 13.2,
+        "max": 87.4
+      },
+      "chroma_p90_Cstar": {
+        "n": 377,
+        "median": 52.4,
+        "q25": 41.7,
+        "q75": 69.6,
+        "mean": 56.37,
+        "min": 13.2,
+        "max": 129.4
+      },
+      "lightness_med_Lstar": {
+        "n": 377,
+        "median": 70.0,
+        "q25": 57.5,
+        "q75": 76.5,
+        "mean": 65.81,
+        "min": 11.9,
+        "max": 95.9
+      },
+      "cvd_deut_min_dE": {
+        "n": 370,
+        "median": 15.45,
+        "q25": 11.22,
+        "q75": 20.4,
+        "mean": 16.41,
+        "min": 1.6,
+        "max": 49.4
+      },
+      "cvd_prot_min_dE": {
+        "n": 370,
+        "median": 15.8,
+        "q25": 11.65,
+        "q75": 21.3,
+        "mean": 16.82,
+        "min": 1.1,
+        "max": 55.4
+      },
+      "canonical_hex_by_family": {
+        "sky_cerulean_blue": {
+          "empirical_medoid_hex": "#9AB9DA",
+          "accent_line_hex": "#77A2EB",
+          "soft_fill_hex": "#9CBBDB",
+          "presence_pct": 71.8,
+          "mean_ink_share_pct": 21.99,
+          "L_med": 74.0,
+          "C_med": 20.0,
+          "H_mean_deg": 261.3,
+          "n_clusters": 385
+        },
+        "coral_salmon": {
+          "empirical_medoid_hex": "#E1A2A2",
+          "accent_line_hex": "#E97E7B",
+          "soft_fill_hex": "#E7AFB0",
+          "presence_pct": 47.9,
+          "mean_ink_share_pct": 9.84,
+          "L_med": 72.5,
+          "C_med": 25.0,
+          "H_mean_deg": 21.7,
+          "n_clusters": 271
+        },
+        "sage_emerald_green": {
+          "empirical_medoid_hex": "#9FC69C",
+          "accent_line_hex": "#7BC170",
+          "soft_fill_hex": "#AACBA9",
+          "presence_pct": 46.8,
+          "mean_ink_share_pct": 10.84,
+          "L_med": 76.3,
+          "C_med": 27.4,
+          "H_mean_deg": 141.1,
+          "n_clusters": 269
+        },
+        "cobalt_navy_blue": {
+          "empirical_medoid_hex": "#4A6FA9",
+          "accent_line_hex": "#3C6CB5",
+          "soft_fill_hex": "#5A7196",
+          "presence_pct": 45.5,
+          "mean_ink_share_pct": 11.36,
+          "L_med": 46.5,
+          "C_med": 35.4,
+          "H_mean_deg": 277.3,
+          "n_clusters": 245
+        },
+        "gold_ochre": {
+          "empirical_medoid_hex": "#D7C38D",
+          "accent_line_hex": "#E1C25C",
+          "soft_fill_hex": "#D3C49D",
+          "presence_pct": 43.7,
+          "mean_ink_share_pct": 10.23,
+          "L_med": 79.3,
+          "C_med": 29.9,
+          "H_mean_deg": 91.4,
+          "n_clusters": 258
+        },
+        "violet_plum": {
+          "empirical_medoid_hex": "#7D5EA5",
+          "accent_line_hex": "#6946A3",
+          "soft_fill_hex": "#B8A5CA",
+          "presence_pct": 39.7,
+          "mean_ink_share_pct": 10.04,
+          "L_med": 45.8,
+          "C_med": 43.6,
+          "H_mean_deg": 309.0,
+          "n_clusters": 247
+        },
+        "amber_orange": {
+          "empirical_medoid_hex": "#DAA37F",
+          "accent_line_hex": "#E3884C",
+          "soft_fill_hex": "#E2B99F",
+          "presence_pct": 32.6,
+          "mean_ink_share_pct": 7.12,
+          "L_med": 71.3,
+          "C_med": 30.8,
+          "H_mean_deg": 59.0,
+          "n_clusters": 180
+        },
+        "crimson_red": {
+          "empirical_medoid_hex": "#B54843",
+          "accent_line_hex": "#B83C35",
+          "soft_fill_hex": "#9E6465",
+          "presence_pct": 26.6,
+          "mean_ink_share_pct": 4.35,
+          "L_med": 45.4,
+          "C_med": 51.0,
+          "H_mean_deg": 30.5,
+          "n_clusters": 135
+        },
+        "cyan_teal": {
+          "empirical_medoid_hex": "#78C7CE",
+          "accent_line_hex": "#45D0CE",
+          "soft_fill_hex": "#80C5CD",
+          "presence_pct": 19.7,
+          "mean_ink_share_pct": 3.57,
+          "L_med": 75.6,
+          "C_med": 24.9,
+          "H_mean_deg": 206.3,
+          "n_clusters": 88
+        },
+        "magenta_rose": {
+          "empirical_medoid_hex": "#C293AE",
+          "accent_line_hex": "#CF59A2",
+          "soft_fill_hex": "#CEA7BE",
+          "presence_pct": 8.7,
+          "mean_ink_share_pct": 1.64,
+          "L_med": 66.0,
+          "C_med": 23.5,
+          "H_mean_deg": 341.4,
+          "n_clusters": 41
+        },
+        "neutral_slate_grey": {
+          "empirical_medoid_hex": "#9C838B",
+          "accent_line_hex": "#9C838B",
+          "soft_fill_hex": "#9C838B",
+          "presence_pct": 1.6,
+          "mean_ink_share_pct": 0.17,
+          "L_med": 57.2,
+          "C_med": 11.3,
+          "H_mean_deg": 354.8,
+          "n_clusters": 6
+        }
+      }
+    },
+    "reviews_t1t2_separated": {
+      "n_pages": 151,
+      "whitespace_frac": {
+        "n": 151,
+        "median": 0.65,
+        "q25": 0.62,
+        "q75": 0.7,
+        "mean": 0.65,
+        "min": 0.33,
+        "max": 0.83
+      },
+      "chroma_ink_frac": {
+        "n": 151,
+        "median": 0.03,
+        "q25": 0.01,
+        "q75": 0.06,
+        "mean": 0.04,
+        "min": 0.0,
+        "max": 0.18
+      },
+      "chroma_med_Cstar": {
+        "n": 143,
+        "median": 25.1,
+        "q25": 20.5,
+        "q75": 32.0,
+        "mean": 26.74,
+        "min": 13.1,
+        "max": 61.3
+      },
+      "chroma_p90_Cstar": {
+        "n": 143,
+        "median": 45.3,
+        "q25": 32.55,
+        "q75": 57.75,
+        "mean": 46.28,
+        "min": 13.1,
+        "max": 92.6
+      },
+      "lightness_med_Lstar": {
+        "n": 143,
+        "median": 72.1,
+        "q25": 61.45,
+        "q75": 77.8,
+        "mean": 69.26,
+        "min": 26.8,
+        "max": 96.0
+      },
+      "cvd_deut_min_dE": {
+        "n": 140,
+        "median": 15.8,
+        "q25": 12.65,
+        "q75": 20.62,
+        "mean": 17.1,
+        "min": 2.5,
+        "max": 45.0
+      },
+      "cvd_prot_min_dE": {
+        "n": 140,
+        "median": 15.55,
+        "q25": 12.57,
+        "q75": 20.23,
+        "mean": 16.85,
+        "min": 3.1,
+        "max": 42.1
+      },
+      "canonical_hex_by_family": {
+        "sky_cerulean_blue": {
+          "empirical_medoid_hex": "#97BDDA",
+          "accent_line_hex": "#409DD0",
+          "soft_fill_hex": "#99BEDA",
+          "presence_pct": 74.8,
+          "mean_ink_share_pct": 25.14,
+          "L_med": 75.0,
+          "C_med": 19.3,
+          "H_mean_deg": 251.6,
+          "n_clusters": 161
+        },
+        "cobalt_navy_blue": {
+          "empirical_medoid_hex": "#50719E",
+          "accent_line_hex": "#336BAC",
+          "soft_fill_hex": "#5B7498",
+          "presence_pct": 51.7,
+          "mean_ink_share_pct": 11.6,
+          "L_med": 47.1,
+          "C_med": 28.0,
+          "H_mean_deg": 272.4,
+          "n_clusters": 117
+        },
+        "gold_ochre": {
+          "empirical_medoid_hex": "#DCCA97",
+          "accent_line_hex": "#E1C563",
+          "soft_fill_hex": "#E9DAB1",
+          "presence_pct": 50.3,
+          "mean_ink_share_pct": 12.19,
+          "L_med": 81.6,
+          "C_med": 27.5,
+          "H_mean_deg": 92.6,
+          "n_clusters": 119
+        },
+        "coral_salmon": {
+          "empirical_medoid_hex": "#E3A6A4",
+          "accent_line_hex": "#D86F6A",
+          "soft_fill_hex": "#E3ADAC",
+          "presence_pct": 46.4,
+          "mean_ink_share_pct": 8.79,
+          "L_med": 73.8,
+          "C_med": 24.3,
+          "H_mean_deg": 24.2,
+          "n_clusters": 91
+        },
+        "sage_emerald_green": {
+          "empirical_medoid_hex": "#9CBB90",
+          "accent_line_hex": "#76B36A",
+          "soft_fill_hex": "#ABC5A0",
+          "presence_pct": 37.1,
+          "mean_ink_share_pct": 9.93,
+          "L_med": 72.7,
+          "C_med": 25.9,
+          "H_mean_deg": 135.4,
+          "n_clusters": 84
+        },
+        "amber_orange": {
+          "empirical_medoid_hex": "#D49C7A",
+          "accent_line_hex": "#E18752",
+          "soft_fill_hex": "#DBB39B",
+          "presence_pct": 29.8,
+          "mean_ink_share_pct": 8.23,
+          "L_med": 68.8,
+          "C_med": 30.7,
+          "H_mean_deg": 56.9,
+          "n_clusters": 79
+        },
+        "cyan_teal": {
+          "empirical_medoid_hex": "#81C0C7",
+          "accent_line_hex": "#81C0C7",
+          "soft_fill_hex": "#84C3CA",
+          "presence_pct": 20.5,
+          "mean_ink_share_pct": 4.41,
+          "L_med": 74.0,
+          "C_med": 20.9,
+          "H_mean_deg": 207.7,
+          "n_clusters": 37
+        },
+        "crimson_red": {
+          "empirical_medoid_hex": "#AE5052",
+          "accent_line_hex": "#BF504A",
+          "soft_fill_hex": "#6D3E43",
+          "presence_pct": 19.9,
+          "mean_ink_share_pct": 3.88,
+          "L_med": 46.1,
+          "C_med": 42.4,
+          "H_mean_deg": 24.8,
+          "n_clusters": 42
+        },
+        "violet_plum": {
+          "empirical_medoid_hex": "#937BAA",
+          "accent_line_hex": "#583577",
+          "soft_fill_hex": "#9987AC",
+          "presence_pct": 17.9,
+          "mean_ink_share_pct": 3.38,
+          "L_med": 55.4,
+          "C_med": 28.6,
+          "H_mean_deg": 311.0,
+          "n_clusters": 36
+        },
+        "magenta_rose": {
+          "empirical_medoid_hex": "#E0A1C8",
+          "accent_line_hex": "#C552A2",
+          "soft_fill_hex": "#D8B3C8",
+          "presence_pct": 4.0,
+          "mean_ink_share_pct": 0.46,
+          "L_med": 73.2,
+          "C_med": 31.5,
+          "H_mean_deg": 340.1,
+          "n_clusters": 6
+        }
+      }
+    },
+    "by_journal_research": {
+      "Nature": {
+        "n_pages": 92,
+        "whitespace_frac": {
+          "n": 92,
+          "median": 0.65,
+          "q25": 0.59,
+          "q75": 0.69,
+          "mean": 0.64,
+          "min": 0.42,
+          "max": 0.83
+        },
+        "chroma_ink_frac": {
+          "n": 92,
+          "median": 0.04,
+          "q25": 0.02,
+          "q75": 0.07,
+          "mean": 0.06,
+          "min": 0.0,
+          "max": 0.27
+        },
+        "chroma_med_Cstar": {
+          "n": 88,
+          "median": 27.5,
+          "q25": 23.23,
+          "q75": 35.48,
+          "mean": 31.03,
+          "min": 13.2,
+          "max": 78.8
+        },
+        "chroma_p90_Cstar": {
+          "n": 88,
+          "median": 52.8,
+          "q25": 41.15,
+          "q75": 65.3,
+          "mean": 54.46,
+          "min": 20.8,
+          "max": 101.8
+        },
+        "lightness_med_Lstar": {
+          "n": 88,
+          "median": 68.0,
+          "q25": 57.73,
+          "q75": 76.3,
+          "mean": 66.14,
+          "min": 33.7,
+          "max": 89.5
+        },
+        "cvd_deut_min_dE": {
+          "n": 88,
+          "median": 14.8,
+          "q25": 11.57,
+          "q75": 17.73,
+          "mean": 15.21,
+          "min": 2.4,
+          "max": 40.7
+        },
+        "cvd_prot_min_dE": {
+          "n": 88,
+          "median": 14.75,
+          "q25": 12.07,
+          "q75": 18.5,
+          "mean": 15.73,
+          "min": 4.3,
+          "max": 43.8
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#98B4DA",
+            "accent_line_hex": "#85A1EF",
+            "soft_fill_hex": "#9BB6D9",
+            "presence_pct": 64.1,
+            "mean_ink_share_pct": 15.42,
+            "L_med": 72.4,
+            "C_med": 22.3,
+            "H_mean_deg": 268.2,
+            "n_clusters": 76
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#D7C493",
+            "accent_line_hex": "#DBC16A",
+            "soft_fill_hex": "#D8C79F",
+            "presence_pct": 51.1,
+            "mean_ink_share_pct": 11.06,
+            "L_med": 79.6,
+            "C_med": 27.0,
+            "H_mean_deg": 91.5,
+            "n_clusters": 71
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#9AC091",
+            "accent_line_hex": "#8DCA81",
+            "soft_fill_hex": "#98B590",
+            "presence_pct": 50.0,
+            "mean_ink_share_pct": 15.06,
+            "L_med": 74.0,
+            "C_med": 29.7,
+            "H_mean_deg": 137.7,
+            "n_clusters": 91
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#5676AF",
+            "accent_line_hex": "#5675B5",
+            "soft_fill_hex": "#596F96",
+            "presence_pct": 46.7,
+            "mean_ink_share_pct": 10.68,
+            "L_med": 49.4,
+            "C_med": 34.2,
+            "H_mean_deg": 278.6,
+            "n_clusters": 60
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#DEA0A0",
+            "accent_line_hex": "#EC828A",
+            "soft_fill_hex": "#E4AAAA",
+            "presence_pct": 39.1,
+            "mean_ink_share_pct": 8.49,
+            "L_med": 71.6,
+            "C_med": 25.0,
+            "H_mean_deg": 21.2,
+            "n_clusters": 47
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#DDA585",
+            "accent_line_hex": "#D98950",
+            "soft_fill_hex": "#DAB19D",
+            "presence_pct": 37.0,
+            "mean_ink_share_pct": 7.29,
+            "L_med": 72.1,
+            "C_med": 29.7,
+            "H_mean_deg": 55.7,
+            "n_clusters": 45
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#B03C3A",
+            "accent_line_hex": "#B83232",
+            "soft_fill_hex": "#905250",
+            "presence_pct": 33.7,
+            "mean_ink_share_pct": 6.69,
+            "L_med": 42.4,
+            "C_med": 54.1,
+            "H_mean_deg": 30.4,
+            "n_clusters": 45
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#81659D",
+            "accent_line_hex": "#5D3192",
+            "soft_fill_hex": "#BEA9D0",
+            "presence_pct": 29.3,
+            "mean_ink_share_pct": 5.99,
+            "L_med": 47.4,
+            "C_med": 34.8,
+            "H_mean_deg": 311.2,
+            "n_clusters": 41
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#92C9CA",
+            "accent_line_hex": "#92C9CA",
+            "soft_fill_hex": "#94CACC",
+            "presence_pct": 25.0,
+            "mean_ink_share_pct": 5.58,
+            "L_med": 77.3,
+            "C_med": 18.5,
+            "H_mean_deg": 199.4,
+            "n_clusters": 27
+          },
+          "neutral_slate_grey": {
+            "empirical_medoid_hex": "#907673",
+            "accent_line_hex": "#907673",
+            "soft_fill_hex": "#907673",
+            "presence_pct": 4.3,
+            "mean_ink_share_pct": 0.37,
+            "L_med": 52.0,
+            "C_med": 11.2,
+            "H_mean_deg": 28.9,
+            "n_clusters": 4
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#EC92C0",
+            "accent_line_hex": "#E171AC",
+            "soft_fill_hex": "#F2C9E0",
+            "presence_pct": 4.3,
+            "mean_ink_share_pct": 1.28,
+            "L_med": 71.1,
+            "C_med": 41.1,
+            "H_mean_deg": 346.5,
+            "n_clusters": 8
+          }
+        }
+      },
+      "Nature Computational Science": {
+        "n_pages": 24,
+        "whitespace_frac": {
+          "n": 24,
+          "median": 0.66,
+          "q25": 0.63,
+          "q75": 0.69,
+          "mean": 0.66,
+          "min": 0.53,
+          "max": 0.76
+        },
+        "chroma_ink_frac": {
+          "n": 24,
+          "median": 0.06,
+          "q25": 0.04,
+          "q75": 0.08,
+          "mean": 0.07,
+          "min": 0.01,
+          "max": 0.14
+        },
+        "chroma_med_Cstar": {
+          "n": 24,
+          "median": 26.25,
+          "q25": 22.73,
+          "q75": 30.85,
+          "mean": 29.2,
+          "min": 16.5,
+          "max": 72.8
+        },
+        "chroma_p90_Cstar": {
+          "n": 24,
+          "median": 50.5,
+          "q25": 39.27,
+          "q75": 57.32,
+          "mean": 50.01,
+          "min": 24.9,
+          "max": 81.6
+        },
+        "lightness_med_Lstar": {
+          "n": 24,
+          "median": 73.95,
+          "q25": 61.15,
+          "q75": 79.1,
+          "mean": 70.59,
+          "min": 52.3,
+          "max": 86.4
+        },
+        "cvd_deut_min_dE": {
+          "n": 24,
+          "median": 13.45,
+          "q25": 10.47,
+          "q75": 18.65,
+          "mean": 14.82,
+          "min": 2.1,
+          "max": 27.5
+        },
+        "cvd_prot_min_dE": {
+          "n": 24,
+          "median": 15.4,
+          "q25": 12.58,
+          "q75": 18.3,
+          "mean": 15.75,
+          "min": 6.1,
+          "max": 25.4
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#A2BBE0",
+            "accent_line_hex": "#93A5E9",
+            "soft_fill_hex": "#A1BDE0",
+            "presence_pct": 70.8,
+            "mean_ink_share_pct": 16.32,
+            "L_med": 75.2,
+            "C_med": 21.1,
+            "H_mean_deg": 268.8,
+            "n_clusters": 26
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#E6B081",
+            "accent_line_hex": "#E4A363",
+            "soft_fill_hex": "#E4C1A7",
+            "presence_pct": 54.2,
+            "mean_ink_share_pct": 16.36,
+            "L_med": 75.7,
+            "C_med": 34.5,
+            "H_mean_deg": 66.0,
+            "n_clusters": 19
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#DB9D9E",
+            "accent_line_hex": "#E18280",
+            "soft_fill_hex": "#E9B6B7",
+            "presence_pct": 54.2,
+            "mean_ink_share_pct": 14.62,
+            "L_med": 70.7,
+            "C_med": 24.7,
+            "H_mean_deg": 21.3,
+            "n_clusters": 23
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#E3CD9B",
+            "accent_line_hex": "#CCAB5C",
+            "soft_fill_hex": "#E5D5B1",
+            "presence_pct": 54.2,
+            "mean_ink_share_pct": 12.25,
+            "L_med": 83.2,
+            "C_med": 27.7,
+            "H_mean_deg": 89.4,
+            "n_clusters": 24
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#617699",
+            "accent_line_hex": "#2D78BF",
+            "soft_fill_hex": "#657694",
+            "presence_pct": 41.7,
+            "mean_ink_share_pct": 7.2,
+            "L_med": 49.4,
+            "C_med": 21.2,
+            "H_mean_deg": 273.1,
+            "n_clusters": 12
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#8CC1C8",
+            "accent_line_hex": "#8CC1C8",
+            "soft_fill_hex": "#8CC1C8",
+            "presence_pct": 33.3,
+            "mean_ink_share_pct": 9.37,
+            "L_med": 74.7,
+            "C_med": 17.9,
+            "H_mean_deg": 211.2,
+            "n_clusters": 12
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#9CCB98",
+            "accent_line_hex": "#8BC379",
+            "soft_fill_hex": "#C2E3C3",
+            "presence_pct": 29.2,
+            "mean_ink_share_pct": 6.33,
+            "L_med": 77.3,
+            "C_med": 32.4,
+            "H_mean_deg": 140.7,
+            "n_clusters": 10
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#974C46",
+            "accent_line_hex": "#AA352E",
+            "soft_fill_hex": "#B3696E",
+            "presence_pct": 29.2,
+            "mean_ink_share_pct": 5.01,
+            "L_med": 41.5,
+            "C_med": 35.6,
+            "H_mean_deg": 30.8,
+            "n_clusters": 9
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#8F73A5",
+            "accent_line_hex": "#5A2B65",
+            "soft_fill_hex": "#C2AEE1",
+            "presence_pct": 29.2,
+            "mean_ink_share_pct": 4.89,
+            "L_med": 52.7,
+            "C_med": 30.6,
+            "H_mean_deg": 312.5,
+            "n_clusters": 8
+          }
+        }
+      },
+      "Nature Electronics": {
+        "n_pages": 65,
+        "whitespace_frac": {
+          "n": 65,
+          "median": 0.67,
+          "q25": 0.62,
+          "q75": 0.7,
+          "mean": 0.65,
+          "min": 0.4,
+          "max": 0.83
+        },
+        "chroma_ink_frac": {
+          "n": 65,
+          "median": 0.05,
+          "q25": 0.03,
+          "q75": 0.09,
+          "mean": 0.06,
+          "min": 0.0,
+          "max": 0.24
+        },
+        "chroma_med_Cstar": {
+          "n": 65,
+          "median": 26.0,
+          "q25": 22.0,
+          "q75": 34.6,
+          "mean": 31.97,
+          "min": 15.4,
+          "max": 87.4
+        },
+        "chroma_p90_Cstar": {
+          "n": 65,
+          "median": 54.3,
+          "q25": 44.8,
+          "q75": 74.9,
+          "mean": 59.73,
+          "min": 17.7,
+          "max": 127.5
+        },
+        "lightness_med_Lstar": {
+          "n": 65,
+          "median": 74.1,
+          "q25": 62.1,
+          "q75": 78.1,
+          "mean": 68.31,
+          "min": 17.3,
+          "max": 87.5
+        },
+        "cvd_deut_min_dE": {
+          "n": 64,
+          "median": 15.0,
+          "q25": 10.23,
+          "q75": 20.5,
+          "mean": 16.59,
+          "min": 2.1,
+          "max": 49.4
+        },
+        "cvd_prot_min_dE": {
+          "n": 64,
+          "median": 15.35,
+          "q25": 11.78,
+          "q75": 19.75,
+          "mean": 16.75,
+          "min": 2.6,
+          "max": 55.4
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#9EBFDF",
+            "accent_line_hex": "#7DA3EB",
+            "soft_fill_hex": "#9EC0E0",
+            "presence_pct": 73.8,
+            "mean_ink_share_pct": 21.78,
+            "L_med": 76.0,
+            "C_med": 20.1,
+            "H_mean_deg": 258.9,
+            "n_clusters": 65
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#A5C69F",
+            "accent_line_hex": "#70B86C",
+            "soft_fill_hex": "#AECAA7",
+            "presence_pct": 55.4,
+            "mean_ink_share_pct": 13.6,
+            "L_med": 76.7,
+            "C_med": 24.4,
+            "H_mean_deg": 139.0,
+            "n_clusters": 56
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#E1CA89",
+            "accent_line_hex": "#E5CA6B",
+            "soft_fill_hex": "#DBCBA5",
+            "presence_pct": 50.8,
+            "mean_ink_share_pct": 12.62,
+            "L_med": 81.9,
+            "C_med": 35.6,
+            "H_mean_deg": 91.9,
+            "n_clusters": 51
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#ECADAC",
+            "accent_line_hex": "#EB7B78",
+            "soft_fill_hex": "#EFB9B9",
+            "presence_pct": 41.5,
+            "mean_ink_share_pct": 11.01,
+            "L_med": 76.4,
+            "C_med": 24.9,
+            "H_mean_deg": 22.8,
+            "n_clusters": 48
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#866AB7",
+            "accent_line_hex": "#6042B5",
+            "soft_fill_hex": "#C2AFD6",
+            "presence_pct": 41.5,
+            "mean_ink_share_pct": 11.15,
+            "L_med": 50.4,
+            "C_med": 46.0,
+            "H_mean_deg": 307.1,
+            "n_clusters": 50
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#5B76AC",
+            "accent_line_hex": "#5979C7",
+            "soft_fill_hex": "#5D6E90",
+            "presence_pct": 38.5,
+            "mean_ink_share_pct": 6.85,
+            "L_med": 49.6,
+            "C_med": 32.5,
+            "H_mean_deg": 279.5,
+            "n_clusters": 32
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#D4A182",
+            "accent_line_hex": "#DC8856",
+            "soft_fill_hex": "#E1B69C",
+            "presence_pct": 38.5,
+            "mean_ink_share_pct": 5.94,
+            "L_med": 70.2,
+            "C_med": 27.9,
+            "H_mean_deg": 58.0,
+            "n_clusters": 31
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#CE4840",
+            "accent_line_hex": "#CF3F31",
+            "soft_fill_hex": "#9F6A6F",
+            "presence_pct": 21.5,
+            "mean_ink_share_pct": 3.56,
+            "L_med": 49.6,
+            "C_med": 62.4,
+            "H_mean_deg": 32.6,
+            "n_clusters": 19
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#6FC9D0",
+            "accent_line_hex": "#26C0C8",
+            "soft_fill_hex": "#80CFD8",
+            "presence_pct": 16.9,
+            "mean_ink_share_pct": 3.72,
+            "L_med": 75.8,
+            "C_med": 27.6,
+            "H_mean_deg": 206.3,
+            "n_clusters": 13
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#F2CFE3",
+            "accent_line_hex": "#F2CFE3",
+            "soft_fill_hex": "#F2CFE3",
+            "presence_pct": 7.7,
+            "mean_ink_share_pct": 1.68,
+            "L_med": 86.6,
+            "C_med": 16.2,
+            "H_mean_deg": 341.2,
+            "n_clusters": 5
+          }
+        }
+      },
+      "Nature Machine Intelligence": {
+        "n_pages": 11,
+        "whitespace_frac": {
+          "n": 11,
+          "median": 0.64,
+          "q25": 0.6,
+          "q75": 0.7,
+          "mean": 0.63,
+          "min": 0.39,
+          "max": 0.73
+        },
+        "chroma_ink_frac": {
+          "n": 11,
+          "median": 0.03,
+          "q25": 0.02,
+          "q75": 0.04,
+          "mean": 0.04,
+          "min": 0.0,
+          "max": 0.12
+        },
+        "chroma_med_Cstar": {
+          "n": 10,
+          "median": 28.1,
+          "q25": 20.32,
+          "q75": 52.33,
+          "mean": 35.45,
+          "min": 13.2,
+          "max": 63.2
+        },
+        "chroma_p90_Cstar": {
+          "n": 10,
+          "median": 49.45,
+          "q25": 35.65,
+          "q75": 87.15,
+          "mean": 58.72,
+          "min": 13.2,
+          "max": 104.6
+        },
+        "lightness_med_Lstar": {
+          "n": 10,
+          "median": 76.0,
+          "q25": 59.75,
+          "q75": 80.75,
+          "mean": 70.7,
+          "min": 43.5,
+          "max": 93.4
+        },
+        "cvd_deut_min_dE": {
+          "n": 9,
+          "median": 14.5,
+          "q25": 13.3,
+          "q75": 14.7,
+          "mean": 14.31,
+          "min": 6.9,
+          "max": 24.6
+        },
+        "cvd_prot_min_dE": {
+          "n": 9,
+          "median": 12.9,
+          "q25": 10.8,
+          "q75": 22.4,
+          "mean": 14.99,
+          "min": 5.6,
+          "max": 25.3
+        },
+        "canonical_hex_by_family": {
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#95C595",
+            "accent_line_hex": "#74B873",
+            "soft_fill_hex": "#B5D9B6",
+            "presence_pct": 63.6,
+            "mean_ink_share_pct": 21.15,
+            "L_med": 75.1,
+            "C_med": 31.5,
+            "H_mean_deg": 143.0,
+            "n_clusters": 16
+          },
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#7BAECE",
+            "accent_line_hex": "#7BAECE",
+            "soft_fill_hex": "#7BAECE",
+            "presence_pct": 63.6,
+            "mean_ink_share_pct": 17.8,
+            "L_med": 68.7,
+            "C_med": 23.4,
+            "H_mean_deg": 248.1,
+            "n_clusters": 9
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#CA8A90",
+            "accent_line_hex": "#CA8A90",
+            "soft_fill_hex": "#CF969C",
+            "presence_pct": 45.5,
+            "mean_ink_share_pct": 4.57,
+            "L_med": 64.1,
+            "C_med": 26.1,
+            "H_mean_deg": 15.2,
+            "n_clusters": 5
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#4D78D3",
+            "accent_line_hex": "#4D74D7",
+            "soft_fill_hex": "#4D78D3",
+            "presence_pct": 36.4,
+            "mean_ink_share_pct": 10.06,
+            "L_med": 51.5,
+            "C_med": 53.5,
+            "H_mean_deg": 285.1,
+            "n_clusters": 6
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#745BCD",
+            "accent_line_hex": "#4B41CD",
+            "soft_fill_hex": "#745BCD",
+            "presence_pct": 36.4,
+            "mean_ink_share_pct": 11.92,
+            "L_med": 46.5,
+            "C_med": 67.3,
+            "H_mean_deg": 304.0,
+            "n_clusters": 6
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#E5CFA8",
+            "accent_line_hex": "#E5CFA8",
+            "soft_fill_hex": "#E5CFA8",
+            "presence_pct": 27.3,
+            "mean_ink_share_pct": 12.76,
+            "L_med": 84.0,
+            "C_med": 22.3,
+            "H_mean_deg": 85.2,
+            "n_clusters": 4
+          }
+        }
+      },
+      "Nature Materials": {
+        "n_pages": 21,
+        "whitespace_frac": {
+          "n": 21,
+          "median": 0.64,
+          "q25": 0.59,
+          "q75": 0.68,
+          "mean": 0.62,
+          "min": 0.31,
+          "max": 0.73
+        },
+        "chroma_ink_frac": {
+          "n": 21,
+          "median": 0.05,
+          "q25": 0.01,
+          "q75": 0.08,
+          "mean": 0.05,
+          "min": 0.0,
+          "max": 0.16
+        },
+        "chroma_med_Cstar": {
+          "n": 20,
+          "median": 32.05,
+          "q25": 23.18,
+          "q75": 53.15,
+          "mean": 38.21,
+          "min": 18.2,
+          "max": 79.9
+        },
+        "chroma_p90_Cstar": {
+          "n": 20,
+          "median": 57.45,
+          "q25": 40.32,
+          "q75": 88.75,
+          "mean": 64.27,
+          "min": 26.3,
+          "max": 129.4
+        },
+        "lightness_med_Lstar": {
+          "n": 20,
+          "median": 70.2,
+          "q25": 59.05,
+          "q75": 76.53,
+          "mean": 66.06,
+          "min": 25.6,
+          "max": 80.5
+        },
+        "cvd_deut_min_dE": {
+          "n": 20,
+          "median": 17.5,
+          "q25": 15.88,
+          "q75": 21.53,
+          "mean": 19.09,
+          "min": 7.7,
+          "max": 39.8
+        },
+        "cvd_prot_min_dE": {
+          "n": 20,
+          "median": 18.95,
+          "q25": 14.0,
+          "q75": 21.85,
+          "mean": 19.53,
+          "min": 6.9,
+          "max": 43.0
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#87B4DA",
+            "accent_line_hex": "#009DF2",
+            "soft_fill_hex": "#92B8D8",
+            "presence_pct": 81.0,
+            "mean_ink_share_pct": 30.82,
+            "L_med": 71.4,
+            "C_med": 24.4,
+            "H_mean_deg": 256.4,
+            "n_clusters": 29
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#EAD17C",
+            "accent_line_hex": "#D5BF44",
+            "soft_fill_hex": "#EED9A8",
+            "presence_pct": 47.6,
+            "mean_ink_share_pct": 8.98,
+            "L_med": 84.3,
+            "C_med": 45.2,
+            "H_mean_deg": 92.9,
+            "n_clusters": 16
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#C53B3E",
+            "accent_line_hex": "#C8383A",
+            "soft_fill_hex": "#C53B3E",
+            "presence_pct": 42.9,
+            "mean_ink_share_pct": 6.39,
+            "L_med": 46.2,
+            "C_med": 62.4,
+            "H_mean_deg": 29.1,
+            "n_clusters": 11
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#E5A6A8",
+            "accent_line_hex": "#DB7C80",
+            "soft_fill_hex": "#E8B0B2",
+            "presence_pct": 38.1,
+            "mean_ink_share_pct": 7.87,
+            "L_med": 74.0,
+            "C_med": 25.2,
+            "H_mean_deg": 19.4,
+            "n_clusters": 11
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#4976A7",
+            "accent_line_hex": "#4289D5",
+            "soft_fill_hex": "#537295",
+            "presence_pct": 38.1,
+            "mean_ink_share_pct": 8.89,
+            "L_med": 48.6,
+            "C_med": 30.6,
+            "H_mean_deg": 268.3,
+            "n_clusters": 10
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#5234B9",
+            "accent_line_hex": "#5439C4",
+            "soft_fill_hex": "#5234B9",
+            "presence_pct": 38.1,
+            "mean_ink_share_pct": 10.17,
+            "L_med": 33.5,
+            "C_med": 80.4,
+            "H_mean_deg": 305.8,
+            "n_clusters": 15
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#D4A687",
+            "accent_line_hex": "#EE7709",
+            "soft_fill_hex": "#F5C9AB",
+            "presence_pct": 23.8,
+            "mean_ink_share_pct": 5.7,
+            "L_med": 71.7,
+            "C_med": 26.0,
+            "H_mean_deg": 60.5,
+            "n_clusters": 8
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#BCD49B",
+            "accent_line_hex": "#8DB862",
+            "soft_fill_hex": "#CEE0B3",
+            "presence_pct": 23.8,
+            "mean_ink_share_pct": 3.76,
+            "L_med": 81.9,
+            "C_med": 31.4,
+            "H_mean_deg": 124.9,
+            "n_clusters": 6
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#80D2D8",
+            "accent_line_hex": "#80D2D8",
+            "soft_fill_hex": "#80D2D8",
+            "presence_pct": 14.3,
+            "mean_ink_share_pct": 2.9,
+            "L_med": 79.4,
+            "C_med": 25.8,
+            "H_mean_deg": 204.2,
+            "n_clusters": 3
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#E282C2",
+            "accent_line_hex": "#E282C2",
+            "soft_fill_hex": "#E282C2",
+            "presence_pct": 9.5,
+            "mean_ink_share_pct": 1.82,
+            "L_med": 66.5,
+            "C_med": 48.6,
+            "H_mean_deg": 339.2,
+            "n_clusters": 3
+          }
+        }
+      },
+      "Nature Nanotechnology": {
+        "n_pages": 48,
+        "whitespace_frac": {
+          "n": 48,
+          "median": 0.66,
+          "q25": 0.6,
+          "q75": 0.69,
+          "mean": 0.65,
+          "min": 0.46,
+          "max": 0.81
+        },
+        "chroma_ink_frac": {
+          "n": 48,
+          "median": 0.03,
+          "q25": 0.01,
+          "q75": 0.06,
+          "mean": 0.04,
+          "min": 0.0,
+          "max": 0.18
+        },
+        "chroma_med_Cstar": {
+          "n": 47,
+          "median": 26.9,
+          "q25": 21.15,
+          "q75": 35.7,
+          "mean": 29.12,
+          "min": 15.8,
+          "max": 63.8
+        },
+        "chroma_p90_Cstar": {
+          "n": 47,
+          "median": 56.2,
+          "q25": 34.9,
+          "q75": 70.75,
+          "mean": 56.13,
+          "min": 23.6,
+          "max": 128.9
+        },
+        "lightness_med_Lstar": {
+          "n": 47,
+          "median": 70.7,
+          "q25": 64.95,
+          "q75": 75.6,
+          "mean": 68.31,
+          "min": 32.0,
+          "max": 88.7
+        },
+        "cvd_deut_min_dE": {
+          "n": 46,
+          "median": 14.35,
+          "q25": 12.72,
+          "q75": 18.8,
+          "mean": 15.62,
+          "min": 1.9,
+          "max": 42.8
+        },
+        "cvd_prot_min_dE": {
+          "n": 46,
+          "median": 13.6,
+          "q25": 11.15,
+          "q75": 19.65,
+          "mean": 15.5,
+          "min": 4.5,
+          "max": 36.6
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#9BBEDD",
+            "accent_line_hex": "#82A4FB",
+            "soft_fill_hex": "#9EC0DE",
+            "presence_pct": 81.2,
+            "mean_ink_share_pct": 33.13,
+            "L_med": 75.4,
+            "C_med": 19.8,
+            "H_mean_deg": 257.3,
+            "n_clusters": 61
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#E4A5A5",
+            "accent_line_hex": "#EF7A7F",
+            "soft_fill_hex": "#E7B2B2",
+            "presence_pct": 54.2,
+            "mean_ink_share_pct": 13.9,
+            "L_med": 73.6,
+            "C_med": 25.0,
+            "H_mean_deg": 21.1,
+            "n_clusters": 45
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#7D64A1",
+            "accent_line_hex": "#6A4DB6",
+            "soft_fill_hex": "#9382A6",
+            "presence_pct": 52.1,
+            "mean_ink_share_pct": 9.59,
+            "L_med": 47.1,
+            "C_med": 37.0,
+            "H_mean_deg": 307.7,
+            "n_clusters": 37
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#CEB985",
+            "accent_line_hex": "#C2A040",
+            "soft_fill_hex": "#CCBD96",
+            "presence_pct": 39.6,
+            "mean_ink_share_pct": 10.08,
+            "L_med": 75.7,
+            "C_med": 29.0,
+            "H_mean_deg": 90.2,
+            "n_clusters": 34
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#A83E3A",
+            "accent_line_hex": "#AC3A2E",
+            "soft_fill_hex": "#9B6161",
+            "presence_pct": 33.3,
+            "mean_ink_share_pct": 5.94,
+            "L_med": 41.3,
+            "C_med": 50.5,
+            "H_mean_deg": 30.8,
+            "n_clusters": 22
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#E9A67F",
+            "accent_line_hex": "#DA8550",
+            "soft_fill_hex": "#E7B89C",
+            "presence_pct": 29.2,
+            "mean_ink_share_pct": 6.31,
+            "L_med": 73.7,
+            "C_med": 36.1,
+            "H_mean_deg": 56.9,
+            "n_clusters": 20
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#6D89BB",
+            "accent_line_hex": "#6383C0",
+            "soft_fill_hex": "#6F8CB7",
+            "presence_pct": 20.8,
+            "mean_ink_share_pct": 4.08,
+            "L_med": 56.9,
+            "C_med": 29.0,
+            "H_mean_deg": 275.3,
+            "n_clusters": 13
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#90BB86",
+            "accent_line_hex": "#60BE5E",
+            "soft_fill_hex": "#A5C09C",
+            "presence_pct": 18.8,
+            "mean_ink_share_pct": 3.83,
+            "L_med": 71.6,
+            "C_med": 33.3,
+            "H_mean_deg": 137.7,
+            "n_clusters": 13
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#C794B4",
+            "accent_line_hex": "#C794B4",
+            "soft_fill_hex": "#C99ABA",
+            "presence_pct": 12.5,
+            "mean_ink_share_pct": 1.73,
+            "L_med": 66.9,
+            "C_med": 26.2,
+            "H_mean_deg": 339.1,
+            "n_clusters": 6
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#87CCD3",
+            "accent_line_hex": "#87CCD3",
+            "soft_fill_hex": "#87CCD3",
+            "presence_pct": 10.4,
+            "mean_ink_share_pct": 1.14,
+            "L_med": 77.9,
+            "C_med": 22.5,
+            "H_mean_deg": 206.8,
+            "n_clusters": 5
+          },
+          "neutral_slate_grey": {
+            "empirical_medoid_hex": "#5D4448",
+            "accent_line_hex": "#5D4448",
+            "soft_fill_hex": "#5D4448",
+            "presence_pct": 6.2,
+            "mean_ink_share_pct": 0.61,
+            "L_med": 31.7,
+            "C_med": 11.3,
+            "H_mean_deg": 9.2,
+            "n_clusters": 3
+          }
+        }
+      },
+      "Nature Photonics": {
+        "n_pages": 194,
+        "whitespace_frac": {
+          "n": 194,
+          "median": 0.66,
+          "q25": 0.61,
+          "q75": 0.7,
+          "mean": 0.65,
+          "min": 0.37,
+          "max": 0.85
+        },
+        "chroma_ink_frac": {
+          "n": 194,
+          "median": 0.04,
+          "q25": 0.02,
+          "q75": 0.07,
+          "mean": 0.05,
+          "min": 0.0,
+          "max": 0.28
+        },
+        "chroma_med_Cstar": {
+          "n": 194,
+          "median": 30.65,
+          "q25": 23.25,
+          "q75": 40.1,
+          "mean": 32.59,
+          "min": 15.3,
+          "max": 80.4
+        },
+        "chroma_p90_Cstar": {
+          "n": 194,
+          "median": 52.05,
+          "q25": 43.38,
+          "q75": 68.45,
+          "mean": 55.95,
+          "min": 17.5,
+          "max": 127.0
+        },
+        "lightness_med_Lstar": {
+          "n": 194,
+          "median": 66.15,
+          "q25": 53.62,
+          "q75": 75.6,
+          "mean": 63.07,
+          "min": 11.9,
+          "max": 95.9
+        },
+        "cvd_deut_min_dE": {
+          "n": 191,
+          "median": 15.7,
+          "q25": 11.25,
+          "q75": 20.95,
+          "mean": 16.59,
+          "min": 1.6,
+          "max": 39.6
+        },
+        "cvd_prot_min_dE": {
+          "n": 191,
+          "median": 16.1,
+          "q25": 11.7,
+          "q75": 21.7,
+          "mean": 17.06,
+          "min": 1.1,
+          "max": 41.0
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#9AB5D6",
+            "accent_line_hex": "#719FE9",
+            "soft_fill_hex": "#9DB7D7",
+            "presence_pct": 70.1,
+            "mean_ink_share_pct": 19.7,
+            "L_med": 72.8,
+            "C_med": 19.5,
+            "H_mean_deg": 264.8,
+            "n_clusters": 184
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#446CA8",
+            "accent_line_hex": "#396BB3",
+            "soft_fill_hex": "#567097",
+            "presence_pct": 55.7,
+            "mean_ink_share_pct": 15.76,
+            "L_med": 45.2,
+            "C_med": 36.8,
+            "H_mean_deg": 277.6,
+            "n_clusters": 162
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#9AC59C",
+            "accent_line_hex": "#81CC76",
+            "soft_fill_hex": "#9DC2A1",
+            "presence_pct": 52.6,
+            "mean_ink_share_pct": 10.88,
+            "L_med": 75.6,
+            "C_med": 27.4,
+            "H_mean_deg": 144.1,
+            "n_clusters": 145
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#E1A1A1",
+            "accent_line_hex": "#EC7F79",
+            "soft_fill_hex": "#E7ABAD",
+            "presence_pct": 47.9,
+            "mean_ink_share_pct": 8.45,
+            "L_med": 72.2,
+            "C_med": 25.5,
+            "H_mean_deg": 21.6,
+            "n_clusters": 126
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#D4C28D",
+            "accent_line_hex": "#DFC357",
+            "soft_fill_hex": "#CBBD93",
+            "presence_pct": 40.7,
+            "mean_ink_share_pct": 8.8,
+            "L_med": 78.8,
+            "C_med": 29.1,
+            "H_mean_deg": 93.0,
+            "n_clusters": 115
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#7C5D9F",
+            "accent_line_hex": "#6D499B",
+            "soft_fill_hex": "#AA98BA",
+            "presence_pct": 40.2,
+            "mean_ink_share_pct": 10.96,
+            "L_med": 45.2,
+            "C_med": 40.8,
+            "H_mean_deg": 310.3,
+            "n_clusters": 128
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#D8A07F",
+            "accent_line_hex": "#E78045",
+            "soft_fill_hex": "#DFB79E",
+            "presence_pct": 30.9,
+            "mean_ink_share_pct": 7.16,
+            "L_med": 70.5,
+            "C_med": 30.2,
+            "H_mean_deg": 57.3,
+            "n_clusters": 94
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#AF4541",
+            "accent_line_hex": "#B63E39",
+            "soft_fill_hex": "#965C5D",
+            "presence_pct": 25.3,
+            "mean_ink_share_pct": 4.06,
+            "L_med": 43.8,
+            "C_med": 49.5,
+            "H_mean_deg": 29.8,
+            "n_clusters": 65
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#7FCFD5",
+            "accent_line_hex": "#53D7D1",
+            "soft_fill_hex": "#80C9D0",
+            "presence_pct": 21.1,
+            "mean_ink_share_pct": 3.5,
+            "L_med": 78.3,
+            "C_med": 25.4,
+            "H_mean_deg": 204.6,
+            "n_clusters": 48
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#BD8FA9",
+            "accent_line_hex": "#AF4689",
+            "soft_fill_hex": "#CAA3B9",
+            "presence_pct": 10.3,
+            "mean_ink_share_pct": 2.02,
+            "L_med": 64.4,
+            "C_med": 22.9,
+            "H_mean_deg": 342.1,
+            "n_clusters": 27
+          }
+        }
+      },
+      "Nature Physics": {
+        "n_pages": 11,
+        "whitespace_frac": {
+          "n": 11,
+          "median": 0.66,
+          "q25": 0.62,
+          "q75": 0.68,
+          "mean": 0.65,
+          "min": 0.53,
+          "max": 0.72
+        },
+        "chroma_ink_frac": {
+          "n": 11,
+          "median": 0.04,
+          "q25": 0.03,
+          "q75": 0.05,
+          "mean": 0.04,
+          "min": 0.02,
+          "max": 0.13
+        },
+        "chroma_med_Cstar": {
+          "n": 11,
+          "median": 29.4,
+          "q25": 24.45,
+          "q75": 38.0,
+          "mean": 31.14,
+          "min": 20.3,
+          "max": 45.5
+        },
+        "chroma_p90_Cstar": {
+          "n": 11,
+          "median": 43.4,
+          "q25": 40.65,
+          "q75": 52.25,
+          "mean": 47.5,
+          "min": 32.2,
+          "max": 75.2
+        },
+        "lightness_med_Lstar": {
+          "n": 11,
+          "median": 72.0,
+          "q25": 62.25,
+          "q75": 77.55,
+          "mean": 68.84,
+          "min": 49.5,
+          "max": 79.4
+        },
+        "cvd_deut_min_dE": {
+          "n": 11,
+          "median": 16.6,
+          "q25": 12.55,
+          "q75": 21.05,
+          "mean": 16.66,
+          "min": 5.6,
+          "max": 31.2
+        },
+        "cvd_prot_min_dE": {
+          "n": 11,
+          "median": 15.1,
+          "q25": 14.25,
+          "q75": 22.35,
+          "mean": 18.21,
+          "min": 10.8,
+          "max": 32.8
+        },
+        "canonical_hex_by_family": {
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#9FC496",
+            "accent_line_hex": "#83BC75",
+            "soft_fill_hex": "#AFCEAA",
+            "presence_pct": 72.7,
+            "mean_ink_share_pct": 33.23,
+            "L_med": 75.3,
+            "C_med": 28.0,
+            "H_mean_deg": 138.2,
+            "n_clusters": 16
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#5B7EB9",
+            "accent_line_hex": "#5A7DBD",
+            "soft_fill_hex": "#57709E",
+            "presence_pct": 63.6,
+            "mean_ink_share_pct": 12.22,
+            "L_med": 52.5,
+            "C_med": 35.4,
+            "H_mean_deg": 277.9,
+            "n_clusters": 9
+          },
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#A3BBDD",
+            "accent_line_hex": "#A3BBDD",
+            "soft_fill_hex": "#A6BEE0",
+            "presence_pct": 63.6,
+            "mean_ink_share_pct": 16.44,
+            "L_med": 75.1,
+            "C_med": 19.9,
+            "H_mean_deg": 268.3,
+            "n_clusters": 9
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#D4A4A0",
+            "accent_line_hex": "#D4A4A0",
+            "soft_fill_hex": "#D4A5A1",
+            "presence_pct": 63.6,
+            "mean_ink_share_pct": 10.89,
+            "L_med": 71.7,
+            "C_med": 19.4,
+            "H_mean_deg": 27.7,
+            "n_clusters": 10
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#B75A55",
+            "accent_line_hex": "#A8443E",
+            "soft_fill_hex": "#B75A55",
+            "presence_pct": 45.5,
+            "mean_ink_share_pct": 5.68,
+            "L_med": 49.5,
+            "C_med": 42.2,
+            "H_mean_deg": 28.6,
+            "n_clusters": 7
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#D9C07B",
+            "accent_line_hex": "#E2C16D",
+            "soft_fill_hex": "#D9C07B",
+            "presence_pct": 45.5,
+            "mean_ink_share_pct": 4.22,
+            "L_med": 78.3,
+            "C_med": 37.8,
+            "H_mean_deg": 90.2,
+            "n_clusters": 5
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#DAA67C",
+            "accent_line_hex": "#DAA67C",
+            "soft_fill_hex": "#DAA67C",
+            "presence_pct": 27.3,
+            "mean_ink_share_pct": 5.15,
+            "L_med": 71.9,
+            "C_med": 32.4,
+            "H_mean_deg": 64.4,
+            "n_clusters": 3
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#8559B5",
+            "accent_line_hex": "#8559B5",
+            "soft_fill_hex": "#8559B5",
+            "presence_pct": 18.2,
+            "mean_ink_share_pct": 3.7,
+            "L_med": 46.3,
+            "C_med": 55.9,
+            "H_mean_deg": 311.0,
+            "n_clusters": 3
+          }
+        }
+      },
+      "Nature Sensors": {
+        "n_pages": 6,
+        "whitespace_frac": {
+          "n": 6,
+          "median": 0.55,
+          "q25": 0.52,
+          "q75": 0.56,
+          "mean": 0.54,
+          "min": 0.48,
+          "max": 0.62
+        },
+        "chroma_ink_frac": {
+          "n": 6,
+          "median": 0.04,
+          "q25": 0.04,
+          "q75": 0.07,
+          "mean": 0.06,
+          "min": 0.0,
+          "max": 0.15
+        },
+        "chroma_med_Cstar": {
+          "n": 6,
+          "median": 23.95,
+          "q25": 21.05,
+          "q75": 31.65,
+          "mean": 27.82,
+          "min": 20.4,
+          "max": 44.3
+        },
+        "chroma_p90_Cstar": {
+          "n": 6,
+          "median": 48.55,
+          "q25": 42.6,
+          "q75": 53.75,
+          "mean": 46.77,
+          "min": 27.0,
+          "max": 60.4
+        },
+        "lightness_med_Lstar": {
+          "n": 6,
+          "median": 76.0,
+          "q25": 72.03,
+          "q75": 79.38,
+          "mean": 73.68,
+          "min": 58.9,
+          "max": 80.0
+        },
+        "cvd_deut_min_dE": {
+          "n": 5,
+          "median": 16.2,
+          "q25": 15.5,
+          "q75": 16.4,
+          "mean": 14.76,
+          "min": 5.2,
+          "max": 20.5
+        },
+        "cvd_prot_min_dE": {
+          "n": 5,
+          "median": 16.3,
+          "q25": 9.4,
+          "q75": 18.7,
+          "mean": 14.88,
+          "min": 8.7,
+          "max": 21.3
+        },
+        "canonical_hex_by_family": {
+          "gold_ochre": {
+            "empirical_medoid_hex": "#CFBA95",
+            "accent_line_hex": "#E5B65F",
+            "soft_fill_hex": "#CDBE9D",
+            "presence_pct": 66.7,
+            "mean_ink_share_pct": 34.22,
+            "L_med": 76.5,
+            "C_med": 21.5,
+            "H_mean_deg": 86.2,
+            "n_clusters": 9
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#7DB2B5",
+            "accent_line_hex": "#7DB2B5",
+            "soft_fill_hex": "#7DB2B5",
+            "presence_pct": 66.7,
+            "mean_ink_share_pct": 8.11,
+            "L_med": 69.2,
+            "C_med": 18.1,
+            "H_mean_deg": 203.4,
+            "n_clusters": 4
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#BED0A0",
+            "accent_line_hex": "#8BC774",
+            "soft_fill_hex": "#C3D0A6",
+            "presence_pct": 66.7,
+            "mean_ink_share_pct": 18.4,
+            "L_med": 81.1,
+            "C_med": 26.5,
+            "H_mean_deg": 123.7,
+            "n_clusters": 7
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#DD9864",
+            "accent_line_hex": "#E19662",
+            "soft_fill_hex": "#DD9864",
+            "presence_pct": 50.0,
+            "mean_ink_share_pct": 7.72,
+            "L_med": 68.4,
+            "C_med": 42.9,
+            "H_mean_deg": 61.4,
+            "n_clusters": 4
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#D6A8A8",
+            "accent_line_hex": "#D6A8A8",
+            "soft_fill_hex": "#D6A8A8",
+            "presence_pct": 50.0,
+            "mean_ink_share_pct": 5.12,
+            "L_med": 73.0,
+            "C_med": 18.2,
+            "H_mean_deg": 20.5,
+            "n_clusters": 3
+          }
+        }
+      },
+      "Science": {
+        "n_pages": 48,
+        "whitespace_frac": {
+          "n": 48,
+          "median": 0.64,
+          "q25": 0.6,
+          "q75": 0.69,
+          "mean": 0.63,
+          "min": 0.38,
+          "max": 0.77
+        },
+        "chroma_ink_frac": {
+          "n": 48,
+          "median": 0.04,
+          "q25": 0.03,
+          "q75": 0.07,
+          "mean": 0.05,
+          "min": 0.0,
+          "max": 0.23
+        },
+        "chroma_med_Cstar": {
+          "n": 48,
+          "median": 24.65,
+          "q25": 22.18,
+          "q75": 33.65,
+          "mean": 27.88,
+          "min": 18.6,
+          "max": 49.2
+        },
+        "chroma_p90_Cstar": {
+          "n": 48,
+          "median": 48.1,
+          "q25": 39.27,
+          "q75": 55.35,
+          "mean": 48.76,
+          "min": 23.6,
+          "max": 75.1
+        },
+        "lightness_med_Lstar": {
+          "n": 48,
+          "median": 69.4,
+          "q25": 61.92,
+          "q75": 73.75,
+          "mean": 66.52,
+          "min": 37.5,
+          "max": 87.2
+        },
+        "cvd_deut_min_dE": {
+          "n": 48,
+          "median": 15.15,
+          "q25": 11.67,
+          "q75": 20.5,
+          "mean": 16.3,
+          "min": 1.8,
+          "max": 35.6
+        },
+        "cvd_prot_min_dE": {
+          "n": 48,
+          "median": 15.2,
+          "q25": 11.67,
+          "q75": 20.48,
+          "mean": 16.97,
+          "min": 3.0,
+          "max": 45.3
+        },
+        "canonical_hex_by_family": {
+          "coral_salmon": {
+            "empirical_medoid_hex": "#DA9B9B",
+            "accent_line_hex": "#DE7A7B",
+            "soft_fill_hex": "#E1A5A6",
+            "presence_pct": 60.4,
+            "mean_ink_share_pct": 12.1,
+            "L_med": 69.9,
+            "C_med": 25.5,
+            "H_mean_deg": 21.1,
+            "n_clusters": 39
+          },
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#98B2D1",
+            "accent_line_hex": "#98B2D1",
+            "soft_fill_hex": "#9AB3D1",
+            "presence_pct": 60.4,
+            "mean_ink_share_pct": 14.98,
+            "L_med": 71.7,
+            "C_med": 18.4,
+            "H_mean_deg": 263.8,
+            "n_clusters": 37
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#55709D",
+            "accent_line_hex": "#3A65A5",
+            "soft_fill_hex": "#6179A0",
+            "presence_pct": 58.3,
+            "mean_ink_share_pct": 12.74,
+            "L_med": 46.9,
+            "C_med": 27.8,
+            "H_mean_deg": 275.7,
+            "n_clusters": 37
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#E7B08E",
+            "accent_line_hex": "#EDA169",
+            "soft_fill_hex": "#E8C0AB",
+            "presence_pct": 52.1,
+            "mean_ink_share_pct": 13.27,
+            "L_med": 76.0,
+            "C_med": 29.6,
+            "H_mean_deg": 58.2,
+            "n_clusters": 43
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#E1CE9D",
+            "accent_line_hex": "#EAD06D",
+            "soft_fill_hex": "#DCCCA6",
+            "presence_pct": 50.0,
+            "mean_ink_share_pct": 9.98,
+            "L_med": 83.2,
+            "C_med": 26.9,
+            "H_mean_deg": 91.9,
+            "n_clusters": 37
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#9EBB8A",
+            "accent_line_hex": "#84B668",
+            "soft_fill_hex": "#A7BE95",
+            "presence_pct": 47.9,
+            "mean_ink_share_pct": 11.76,
+            "L_med": 72.8,
+            "C_med": 28.7,
+            "H_mean_deg": 131.0,
+            "n_clusters": 39
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#A05D5B",
+            "accent_line_hex": "#C95454",
+            "soft_fill_hex": "#8A5D5B",
+            "presence_pct": 41.7,
+            "mean_ink_share_pct": 6.37,
+            "L_med": 47.2,
+            "C_med": 30.1,
+            "H_mean_deg": 26.2,
+            "n_clusters": 22
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#7DB8BF",
+            "accent_line_hex": "#7DB8BF",
+            "soft_fill_hex": "#85BDC5",
+            "presence_pct": 25.0,
+            "mean_ink_share_pct": 4.88,
+            "L_med": 71.2,
+            "C_med": 19.8,
+            "H_mean_deg": 209.4,
+            "n_clusters": 16
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#9D8AB4",
+            "accent_line_hex": "#9D8AB4",
+            "soft_fill_hex": "#A48DB1",
+            "presence_pct": 16.7,
+            "mean_ink_share_pct": 3.29,
+            "L_med": 60.4,
+            "C_med": 24.8,
+            "H_mean_deg": 308.3,
+            "n_clusters": 9
+          }
+        }
+      }
+    },
+    "by_fig_num_research": {
+      "Fig_1": {
+        "n_pages": 113,
+        "whitespace_frac": {
+          "n": 113,
+          "median": 0.64,
+          "q25": 0.59,
+          "q75": 0.68,
+          "mean": 0.63,
+          "min": 0.31,
+          "max": 0.81
+        },
+        "chroma_ink_frac": {
+          "n": 113,
+          "median": 0.05,
+          "q25": 0.03,
+          "q75": 0.08,
+          "mean": 0.06,
+          "min": 0.0,
+          "max": 0.19
+        },
+        "chroma_med_Cstar": {
+          "n": 111,
+          "median": 26.3,
+          "q25": 22.3,
+          "q75": 34.35,
+          "mean": 29.37,
+          "min": 15.3,
+          "max": 63.8
+        },
+        "chroma_p90_Cstar": {
+          "n": 111,
+          "median": 50.9,
+          "q25": 41.25,
+          "q75": 63.65,
+          "mean": 53.49,
+          "min": 18.9,
+          "max": 102.5
+        },
+        "lightness_med_Lstar": {
+          "n": 111,
+          "median": 69.9,
+          "q25": 58.1,
+          "q75": 77.1,
+          "mean": 66.75,
+          "min": 17.3,
+          "max": 95.9
+        },
+        "cvd_deut_min_dE": {
+          "n": 111,
+          "median": 15.2,
+          "q25": 11.35,
+          "q75": 19.55,
+          "mean": 16.2,
+          "min": 1.8,
+          "max": 45.7
+        },
+        "cvd_prot_min_dE": {
+          "n": 111,
+          "median": 15.7,
+          "q25": 12.15,
+          "q75": 20.3,
+          "mean": 17.02,
+          "min": 2.6,
+          "max": 55.4
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#9BB6D7",
+            "accent_line_hex": "#5A9FE5",
+            "soft_fill_hex": "#9CB7D8",
+            "presence_pct": 69.9,
+            "mean_ink_share_pct": 17.2,
+            "L_med": 73.1,
+            "C_med": 19.7,
+            "H_mean_deg": 265.2,
+            "n_clusters": 103
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#D4C08D",
+            "accent_line_hex": "#DEBD5D",
+            "soft_fill_hex": "#D1C29B",
+            "presence_pct": 61.9,
+            "mean_ink_share_pct": 15.15,
+            "L_med": 78.4,
+            "C_med": 28.3,
+            "H_mean_deg": 90.8,
+            "n_clusters": 116
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#9FC299",
+            "accent_line_hex": "#85C16B",
+            "soft_fill_hex": "#A4C5A1",
+            "presence_pct": 54.9,
+            "mean_ink_share_pct": 12.09,
+            "L_med": 75.0,
+            "C_med": 25.6,
+            "H_mean_deg": 139.5,
+            "n_clusters": 83
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#5D74A3",
+            "accent_line_hex": "#426FB6",
+            "soft_fill_hex": "#65769A",
+            "presence_pct": 51.3,
+            "mean_ink_share_pct": 13.55,
+            "L_med": 48.9,
+            "C_med": 28.5,
+            "H_mean_deg": 278.7,
+            "n_clusters": 80
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#E0A3A4",
+            "accent_line_hex": "#EB7E83",
+            "soft_fill_hex": "#E2A9AA",
+            "presence_pct": 45.1,
+            "mean_ink_share_pct": 8.57,
+            "L_med": 72.7,
+            "C_med": 24.0,
+            "H_mean_deg": 20.3,
+            "n_clusters": 74
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#D59F7C",
+            "accent_line_hex": "#D68854",
+            "soft_fill_hex": "#DFB499",
+            "presence_pct": 33.6,
+            "mean_ink_share_pct": 6.52,
+            "L_med": 69.8,
+            "C_med": 30.1,
+            "H_mean_deg": 58.9,
+            "n_clusters": 56
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#886BAC",
+            "accent_line_hex": "#69509D",
+            "soft_fill_hex": "#AE97BE",
+            "presence_pct": 30.1,
+            "mean_ink_share_pct": 6.24,
+            "L_med": 50.4,
+            "C_med": 39.5,
+            "H_mean_deg": 309.3,
+            "n_clusters": 53
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#AC4343",
+            "accent_line_hex": "#B53B3B",
+            "soft_fill_hex": "#945D5C",
+            "presence_pct": 26.5,
+            "mean_ink_share_pct": 3.75,
+            "L_med": 43.1,
+            "C_med": 48.6,
+            "H_mean_deg": 27.6,
+            "n_clusters": 35
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#8AC4C8",
+            "accent_line_hex": "#59D6CC",
+            "soft_fill_hex": "#8BC2C6",
+            "presence_pct": 23.9,
+            "mean_ink_share_pct": 4.78,
+            "L_med": 75.5,
+            "C_med": 19.5,
+            "H_mean_deg": 204.9,
+            "n_clusters": 33
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#C593B0",
+            "accent_line_hex": "#CB5599",
+            "soft_fill_hex": "#E3BCD3",
+            "presence_pct": 8.0,
+            "mean_ink_share_pct": 1.53,
+            "L_med": 66.5,
+            "C_med": 24.5,
+            "H_mean_deg": 341.3,
+            "n_clusters": 13
+          }
+        }
+      },
+      "Fig_2": {
+        "n_pages": 113,
+        "whitespace_frac": {
+          "n": 113,
+          "median": 0.66,
+          "q25": 0.62,
+          "q75": 0.7,
+          "mean": 0.65,
+          "min": 0.37,
+          "max": 0.81
+        },
+        "chroma_ink_frac": {
+          "n": 113,
+          "median": 0.04,
+          "q25": 0.03,
+          "q75": 0.07,
+          "mean": 0.05,
+          "min": 0.0,
+          "max": 0.28
+        },
+        "chroma_med_Cstar": {
+          "n": 113,
+          "median": 29.5,
+          "q25": 24.3,
+          "q75": 38.3,
+          "mean": 31.92,
+          "min": 13.2,
+          "max": 87.4
+        },
+        "chroma_p90_Cstar": {
+          "n": 113,
+          "median": 55.1,
+          "q25": 45.3,
+          "q75": 67.8,
+          "mean": 56.58,
+          "min": 20.8,
+          "max": 115.2
+        },
+        "lightness_med_Lstar": {
+          "n": 113,
+          "median": 68.3,
+          "q25": 58.7,
+          "q75": 75.2,
+          "mean": 65.46,
+          "min": 24.2,
+          "max": 88.7
+        },
+        "cvd_deut_min_dE": {
+          "n": 113,
+          "median": 15.8,
+          "q25": 11.6,
+          "q75": 20.4,
+          "mean": 16.38,
+          "min": 2.1,
+          "max": 36.0
+        },
+        "cvd_prot_min_dE": {
+          "n": 113,
+          "median": 16.3,
+          "q25": 12.1,
+          "q75": 21.9,
+          "mean": 17.33,
+          "min": 1.1,
+          "max": 45.3
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#9AB4D6",
+            "accent_line_hex": "#69A1F3",
+            "soft_fill_hex": "#9DB7D8",
+            "presence_pct": 66.4,
+            "mean_ink_share_pct": 18.66,
+            "L_med": 72.6,
+            "C_med": 19.8,
+            "H_mean_deg": 266.1,
+            "n_clusters": 106
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#D6C38E",
+            "accent_line_hex": "#E2CA64",
+            "soft_fill_hex": "#D1C199",
+            "presence_pct": 54.0,
+            "mean_ink_share_pct": 10.04,
+            "L_med": 79.2,
+            "C_med": 29.1,
+            "H_mean_deg": 92.5,
+            "n_clusters": 85
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#E3A3A2",
+            "accent_line_hex": "#E98885",
+            "soft_fill_hex": "#E7ADAD",
+            "presence_pct": 51.3,
+            "mean_ink_share_pct": 9.08,
+            "L_med": 72.9,
+            "C_med": 25.6,
+            "H_mean_deg": 22.5,
+            "n_clusters": 78
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#98BC90",
+            "accent_line_hex": "#80BF70",
+            "soft_fill_hex": "#9DBC97",
+            "presence_pct": 50.4,
+            "mean_ink_share_pct": 12.53,
+            "L_med": 72.7,
+            "C_med": 27.6,
+            "H_mean_deg": 138.2,
+            "n_clusters": 96
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#4A6FAA",
+            "accent_line_hex": "#3F6EB8",
+            "soft_fill_hex": "#5B749B",
+            "presence_pct": 46.0,
+            "mean_ink_share_pct": 12.48,
+            "L_med": 46.6,
+            "C_med": 36.1,
+            "H_mean_deg": 277.8,
+            "n_clusters": 73
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#DEA47F",
+            "accent_line_hex": "#DF8B51",
+            "soft_fill_hex": "#DEB59C",
+            "presence_pct": 39.8,
+            "mean_ink_share_pct": 9.0,
+            "L_med": 71.9,
+            "C_med": 32.4,
+            "H_mean_deg": 58.3,
+            "n_clusters": 69
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#8973A5",
+            "accent_line_hex": "#613EA8",
+            "soft_fill_hex": "#B9A5CB",
+            "presence_pct": 35.4,
+            "mean_ink_share_pct": 8.57,
+            "L_med": 52.1,
+            "C_med": 30.2,
+            "H_mean_deg": 308.9,
+            "n_clusters": 62
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#B44741",
+            "accent_line_hex": "#BE453E",
+            "soft_fill_hex": "#825552",
+            "presence_pct": 32.7,
+            "mean_ink_share_pct": 4.24,
+            "L_med": 45.0,
+            "C_med": 51.2,
+            "H_mean_deg": 31.0,
+            "n_clusters": 45
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#89CACD",
+            "accent_line_hex": "#0EDFEA",
+            "soft_fill_hex": "#88C5C8",
+            "presence_pct": 28.3,
+            "mean_ink_share_pct": 4.45,
+            "L_med": 77.3,
+            "C_med": 21.5,
+            "H_mean_deg": 202.1,
+            "n_clusters": 36
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#9A6C88",
+            "accent_line_hex": "#AD3F86",
+            "soft_fill_hex": "#B792A9",
+            "presence_pct": 8.0,
+            "mean_ink_share_pct": 1.53,
+            "L_med": 51.2,
+            "C_med": 24.0,
+            "H_mean_deg": 340.0,
+            "n_clusters": 10
+          }
+        }
+      },
+      "Fig_3": {
+        "n_pages": 113,
+        "whitespace_frac": {
+          "n": 113,
+          "median": 0.67,
+          "q25": 0.61,
+          "q75": 0.71,
+          "mean": 0.66,
+          "min": 0.4,
+          "max": 0.85
+        },
+        "chroma_ink_frac": {
+          "n": 113,
+          "median": 0.04,
+          "q25": 0.02,
+          "q75": 0.08,
+          "mean": 0.06,
+          "min": 0.0,
+          "max": 0.27
+        },
+        "chroma_med_Cstar": {
+          "n": 113,
+          "median": 31.4,
+          "q25": 23.6,
+          "q75": 40.8,
+          "mean": 34.34,
+          "min": 15.8,
+          "max": 86.0
+        },
+        "chroma_p90_Cstar": {
+          "n": 113,
+          "median": 54.3,
+          "q25": 42.5,
+          "q75": 70.7,
+          "mean": 57.25,
+          "min": 23.6,
+          "max": 129.4
+        },
+        "lightness_med_Lstar": {
+          "n": 113,
+          "median": 68.1,
+          "q25": 57.0,
+          "q75": 75.8,
+          "mean": 65.68,
+          "min": 23.3,
+          "max": 88.7
+        },
+        "cvd_deut_min_dE": {
+          "n": 113,
+          "median": 15.1,
+          "q25": 12.2,
+          "q75": 19.4,
+          "mean": 16.32,
+          "min": 1.6,
+          "max": 40.7
+        },
+        "cvd_prot_min_dE": {
+          "n": 113,
+          "median": 15.5,
+          "q25": 11.8,
+          "q75": 21.2,
+          "mean": 16.71,
+          "min": 2.2,
+          "max": 43.8
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#9BB9DB",
+            "accent_line_hex": "#8AA5E7",
+            "soft_fill_hex": "#9DBBDB",
+            "presence_pct": 77.0,
+            "mean_ink_share_pct": 18.68,
+            "L_med": 74.2,
+            "C_med": 20.4,
+            "H_mean_deg": 262.9,
+            "n_clusters": 118
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#E3A1A2",
+            "accent_line_hex": "#EA7B76",
+            "soft_fill_hex": "#E5ADAE",
+            "presence_pct": 54.0,
+            "mean_ink_share_pct": 9.95,
+            "L_med": 72.6,
+            "C_med": 26.0,
+            "H_mean_deg": 20.9,
+            "n_clusters": 87
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#4871AA",
+            "accent_line_hex": "#3E6BB1",
+            "soft_fill_hex": "#5878A1",
+            "presence_pct": 52.2,
+            "mean_ink_share_pct": 11.76,
+            "L_med": 47.0,
+            "C_med": 35.4,
+            "H_mean_deg": 275.9,
+            "n_clusters": 83
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#A1C89A",
+            "accent_line_hex": "#7EBE71",
+            "soft_fill_hex": "#B1CFAC",
+            "presence_pct": 47.8,
+            "mean_ink_share_pct": 11.69,
+            "L_med": 76.8,
+            "C_med": 29.1,
+            "H_mean_deg": 139.0,
+            "n_clusters": 91
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#E0CA8C",
+            "accent_line_hex": "#E4C654",
+            "soft_fill_hex": "#DDCDA5",
+            "presence_pct": 39.8,
+            "mean_ink_share_pct": 10.46,
+            "L_med": 81.9,
+            "C_med": 33.7,
+            "H_mean_deg": 91.6,
+            "n_clusters": 77
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#7D61A2",
+            "accent_line_hex": "#6F4CA7",
+            "soft_fill_hex": "#B2A1C6",
+            "presence_pct": 38.1,
+            "mean_ink_share_pct": 9.63,
+            "L_med": 46.3,
+            "C_med": 39.7,
+            "H_mean_deg": 308.6,
+            "n_clusters": 67
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#E5A276",
+            "accent_line_hex": "#E28B4E",
+            "soft_fill_hex": "#E2BDA5",
+            "presence_pct": 35.4,
+            "mean_ink_share_pct": 9.52,
+            "L_med": 72.1,
+            "C_med": 38.3,
+            "H_mean_deg": 59.3,
+            "n_clusters": 63
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#B04741",
+            "accent_line_hex": "#B03B33",
+            "soft_fill_hex": "#9A5B5D",
+            "presence_pct": 27.4,
+            "mean_ink_share_pct": 5.67,
+            "L_med": 44.4,
+            "C_med": 49.5,
+            "H_mean_deg": 30.8,
+            "n_clusters": 44
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#75C3CB",
+            "accent_line_hex": "#42BAA8",
+            "soft_fill_hex": "#79C3CD",
+            "presence_pct": 16.8,
+            "mean_ink_share_pct": 2.38,
+            "L_med": 74.4,
+            "C_med": 24.9,
+            "H_mean_deg": 207.0,
+            "n_clusters": 21
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#B3799A",
+            "accent_line_hex": "#E26BB6",
+            "soft_fill_hex": "#8E6B7E",
+            "presence_pct": 8.8,
+            "mean_ink_share_pct": 1.63,
+            "L_med": 57.5,
+            "C_med": 28.8,
+            "H_mean_deg": 342.8,
+            "n_clusters": 12
+          },
+          "neutral_slate_grey": {
+            "empirical_medoid_hex": "#D6BCB2",
+            "accent_line_hex": "#D6BCB2",
+            "soft_fill_hex": "#D6BCB2",
+            "presence_pct": 3.5,
+            "mean_ink_share_pct": 0.39,
+            "L_med": 78.2,
+            "C_med": 11.2,
+            "H_mean_deg": 48.4,
+            "n_clusters": 4
+          }
+        }
+      },
+      "Fig_4": {
+        "n_pages": 104,
+        "whitespace_frac": {
+          "n": 104,
+          "median": 0.67,
+          "q25": 0.61,
+          "q75": 0.72,
+          "mean": 0.66,
+          "min": 0.46,
+          "max": 0.85
+        },
+        "chroma_ink_frac": {
+          "n": 104,
+          "median": 0.04,
+          "q25": 0.02,
+          "q75": 0.07,
+          "mean": 0.05,
+          "min": 0.0,
+          "max": 0.24
+        },
+        "chroma_med_Cstar": {
+          "n": 104,
+          "median": 27.65,
+          "q25": 23.23,
+          "q75": 39.12,
+          "mean": 33.07,
+          "min": 15.3,
+          "max": 79.9
+        },
+        "chroma_p90_Cstar": {
+          "n": 104,
+          "median": 50.75,
+          "q25": 40.77,
+          "q75": 68.33,
+          "mean": 55.81,
+          "min": 19.5,
+          "max": 128.9
+        },
+        "lightness_med_Lstar": {
+          "n": 104,
+          "median": 69.95,
+          "q25": 56.75,
+          "q75": 75.55,
+          "mean": 65.54,
+          "min": 22.7,
+          "max": 89.4
+        },
+        "cvd_deut_min_dE": {
+          "n": 104,
+          "median": 15.0,
+          "q25": 9.73,
+          "q75": 21.18,
+          "mean": 16.1,
+          "min": 1.9,
+          "max": 42.8
+        },
+        "cvd_prot_min_dE": {
+          "n": 104,
+          "median": 14.45,
+          "q25": 10.78,
+          "q75": 21.62,
+          "mean": 16.34,
+          "min": 2.3,
+          "max": 39.4
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#A0B9DC",
+            "accent_line_hex": "#80A3EA",
+            "soft_fill_hex": "#A4BDDF",
+            "presence_pct": 70.2,
+            "mean_ink_share_pct": 16.82,
+            "L_med": 74.5,
+            "C_med": 20.0,
+            "H_mean_deg": 267.0,
+            "n_clusters": 95
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#E0A0A1",
+            "accent_line_hex": "#E37C81",
+            "soft_fill_hex": "#E8ACAD",
+            "presence_pct": 51.9,
+            "mean_ink_share_pct": 12.03,
+            "L_med": 71.9,
+            "C_med": 25.9,
+            "H_mean_deg": 20.8,
+            "n_clusters": 76
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#496CA2",
+            "accent_line_hex": "#366BB2",
+            "soft_fill_hex": "#596F94",
+            "presence_pct": 50.0,
+            "mean_ink_share_pct": 11.45,
+            "L_med": 45.2,
+            "C_med": 33.1,
+            "H_mean_deg": 276.5,
+            "n_clusters": 74
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#A2C69A",
+            "accent_line_hex": "#81C376",
+            "soft_fill_hex": "#B0CEA9",
+            "presence_pct": 48.1,
+            "mean_ink_share_pct": 11.84,
+            "L_med": 76.4,
+            "C_med": 27.6,
+            "H_mean_deg": 138.2,
+            "n_clusters": 82
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#E2C98D",
+            "accent_line_hex": "#EBC868",
+            "soft_fill_hex": "#D5C49C",
+            "presence_pct": 43.3,
+            "mean_ink_share_pct": 9.06,
+            "L_med": 81.7,
+            "C_med": 33.1,
+            "H_mean_deg": 89.5,
+            "n_clusters": 67
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#DDA480",
+            "accent_line_hex": "#E99153",
+            "soft_fill_hex": "#E9C0A6",
+            "presence_pct": 41.3,
+            "mean_ink_share_pct": 9.14,
+            "L_med": 72.0,
+            "C_med": 31.8,
+            "H_mean_deg": 58.8,
+            "n_clusters": 64
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#7B58A7",
+            "accent_line_hex": "#6841A5",
+            "soft_fill_hex": "#BDAACC",
+            "presence_pct": 41.3,
+            "mean_ink_share_pct": 9.53,
+            "L_med": 44.2,
+            "C_med": 48.4,
+            "H_mean_deg": 309.5,
+            "n_clusters": 67
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#AD4E48",
+            "accent_line_hex": "#BA4037",
+            "soft_fill_hex": "#9C6263",
+            "presence_pct": 32.7,
+            "mean_ink_share_pct": 6.0,
+            "L_med": 45.5,
+            "C_med": 44.6,
+            "H_mean_deg": 30.2,
+            "n_clusters": 50
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#85C8CF",
+            "accent_line_hex": "#33C1C1",
+            "soft_fill_hex": "#91D1D9",
+            "presence_pct": 19.2,
+            "mean_ink_share_pct": 4.56,
+            "L_med": 76.6,
+            "C_med": 21.9,
+            "H_mean_deg": 208.0,
+            "n_clusters": 24
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#CEA2BA",
+            "accent_line_hex": "#E171AB",
+            "soft_fill_hex": "#E1BBD1",
+            "presence_pct": 5.8,
+            "mean_ink_share_pct": 1.17,
+            "L_med": 71.2,
+            "C_med": 20.9,
+            "H_mean_deg": 343.3,
+            "n_clusters": 9
+          }
+        }
+      },
+      "Fig_5": {
+        "n_pages": 61,
+        "whitespace_frac": {
+          "n": 61,
+          "median": 0.65,
+          "q25": 0.61,
+          "q75": 0.68,
+          "mean": 0.65,
+          "min": 0.51,
+          "max": 0.82
+        },
+        "chroma_ink_frac": {
+          "n": 61,
+          "median": 0.05,
+          "q25": 0.01,
+          "q75": 0.07,
+          "mean": 0.05,
+          "min": 0.0,
+          "max": 0.27
+        },
+        "chroma_med_Cstar": {
+          "n": 61,
+          "median": 29.2,
+          "q25": 21.1,
+          "q75": 36.5,
+          "mean": 31.13,
+          "min": 15.4,
+          "max": 78.8
+        },
+        "chroma_p90_Cstar": {
+          "n": 61,
+          "median": 53.9,
+          "q25": 39.2,
+          "q75": 74.7,
+          "mean": 59.17,
+          "min": 21.3,
+          "max": 127.5
+        },
+        "lightness_med_Lstar": {
+          "n": 61,
+          "median": 68.8,
+          "q25": 58.8,
+          "q75": 77.3,
+          "mean": 65.74,
+          "min": 24.9,
+          "max": 87.1
+        },
+        "cvd_deut_min_dE": {
+          "n": 60,
+          "median": 15.7,
+          "q25": 13.05,
+          "q75": 20.55,
+          "mean": 16.99,
+          "min": 3.7,
+          "max": 49.4
+        },
+        "cvd_prot_min_dE": {
+          "n": 60,
+          "median": 15.95,
+          "q25": 13.3,
+          "q75": 18.75,
+          "mean": 17.07,
+          "min": 6.3,
+          "max": 43.2
+        },
+        "canonical_hex_by_family": {
+          "sky_cerulean_blue": {
+            "empirical_medoid_hex": "#9CBBDC",
+            "accent_line_hex": "#74B1F8",
+            "soft_fill_hex": "#9EBCDB",
+            "presence_pct": 63.9,
+            "mean_ink_share_pct": 20.58,
+            "L_med": 74.8,
+            "C_med": 19.9,
+            "H_mean_deg": 260.8,
+            "n_clusters": 59
+          },
+          "cobalt_navy_blue": {
+            "empirical_medoid_hex": "#4A72AA",
+            "accent_line_hex": "#4673BB",
+            "soft_fill_hex": "#506E91",
+            "presence_pct": 55.7,
+            "mean_ink_share_pct": 12.59,
+            "L_med": 47.5,
+            "C_med": 34.5,
+            "H_mean_deg": 274.9,
+            "n_clusters": 48
+          },
+          "sage_emerald_green": {
+            "empirical_medoid_hex": "#9DCF9A",
+            "accent_line_hex": "#7ECA81",
+            "soft_fill_hex": "#B2CFAE",
+            "presence_pct": 49.2,
+            "mean_ink_share_pct": 12.16,
+            "L_med": 78.6,
+            "C_med": 33.7,
+            "H_mean_deg": 141.3,
+            "n_clusters": 49
+          },
+          "coral_salmon": {
+            "empirical_medoid_hex": "#D99F9F",
+            "accent_line_hex": "#E18280",
+            "soft_fill_hex": "#E1AEAF",
+            "presence_pct": 42.6,
+            "mean_ink_share_pct": 9.66,
+            "L_med": 70.8,
+            "C_med": 23.1,
+            "H_mean_deg": 21.1,
+            "n_clusters": 40
+          },
+          "gold_ochre": {
+            "empirical_medoid_hex": "#DECB88",
+            "accent_line_hex": "#DDC560",
+            "soft_fill_hex": "#E5D8AF",
+            "presence_pct": 41.0,
+            "mean_ink_share_pct": 7.46,
+            "L_med": 81.9,
+            "C_med": 36.1,
+            "H_mean_deg": 94.6,
+            "n_clusters": 33
+          },
+          "violet_plum": {
+            "empirical_medoid_hex": "#674597",
+            "accent_line_hex": "#62399A",
+            "soft_fill_hex": "#9789AC",
+            "presence_pct": 37.7,
+            "mean_ink_share_pct": 9.94,
+            "L_med": 36.8,
+            "C_med": 51.2,
+            "H_mean_deg": 309.1,
+            "n_clusters": 41
+          },
+          "amber_orange": {
+            "empirical_medoid_hex": "#DFB399",
+            "accent_line_hex": "#EE8A3E",
+            "soft_fill_hex": "#E4BFA9",
+            "presence_pct": 37.7,
+            "mean_ink_share_pct": 7.66,
+            "L_med": 76.2,
+            "C_med": 23.0,
+            "H_mean_deg": 58.3,
+            "n_clusters": 28
+          },
+          "crimson_red": {
+            "empirical_medoid_hex": "#BB4C46",
+            "accent_line_hex": "#C73433",
+            "soft_fill_hex": "#9F605C",
+            "presence_pct": 29.5,
+            "mean_ink_share_pct": 5.01,
+            "L_med": 47.2,
+            "C_med": 51.8,
+            "H_mean_deg": 30.9,
+            "n_clusters": 23
+          },
+          "cyan_teal": {
+            "empirical_medoid_hex": "#71B3B8",
+            "accent_line_hex": "#71B3B8",
+            "soft_fill_hex": "#6FABB0",
+            "presence_pct": 23.0,
+            "mean_ink_share_pct": 4.74,
+            "L_med": 69.0,
+            "C_med": 21.8,
+            "H_mean_deg": 204.2,
+            "n_clusters": 17
+          },
+          "magenta_rose": {
+            "empirical_medoid_hex": "#EFBCD6",
+            "accent_line_hex": "#EFBCD6",
+            "soft_fill_hex": "#F2C9E1",
+            "presence_pct": 8.2,
+            "mean_ink_share_pct": 1.74,
+            "L_med": 81.3,
+            "C_med": 23.5,
+            "H_mean_deg": 344.3,
+            "n_clusters": 7
+          }
+        }
+      }
+    }
+  },
+  "vlm_palette_families_pct": {
+    "mono_accent": 30.5,
+    "wavelength_multi": 23.2,
+    "teal_coral_navy": 19.7,
+    "purple_gold_blue": 16.1,
+    "blue_amber_grey": 8.8,
+    "cobalt_crimson_slate": 1.7
+  },
+  "vlm_colormaps_pct": {
+    "none": 79.5,
+    "viridis_inferno": 15.5,
+    "gray": 3.1,
+    "thermal_ylorrd": 0.6,
+    "heatmap": 0.4,
+    "rainbow_jet": 0.4,
+    "diverging_rdbu": 0.4
+  },
+  "vlm_restraint_1to5": {
+    "n": 478,
+    "median": 4.0,
+    "q25": 4.0,
+    "q75": 4.0,
+    "mean": 3.87,
+    "min": 3.0,
+    "max": 4.0
+  }
+}

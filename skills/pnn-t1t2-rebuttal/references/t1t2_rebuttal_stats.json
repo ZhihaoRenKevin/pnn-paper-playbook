@@ -1,0 +1,198 @@
+{
+  "T1T2_primary_pr": {
+    "n_comments": 132,
+    "n_papers": 12,
+    "primary_concerns_pct": {
+      "C12": 17.4,
+      "C8": 9.1,
+      "C1": 9.1,
+      "C11": 7.6,
+      "C5": 7.6,
+      "C14": 7.6,
+      "C7": 7.6,
+      "C4": 6.8,
+      "C3": 6.1,
+      "C6": 6.1,
+      "C10": 5.3,
+      "C2": 4.5,
+      "C13": 3.0,
+      "C9": 2.3
+    },
+    "severity_pct": {
+      "minor": 50.0,
+      "major": 47.7,
+      "editorial": 2.3
+    },
+    "tactics_counts": {
+      "R6": 52,
+      "R2": 40,
+      "R4": 25,
+      "R8": 25,
+      "R7": 23,
+      "R3": 23,
+      "R1": 22,
+      "R5": 13,
+      "R10": 12,
+      "R9": 7
+    },
+    "rounds_counts": {
+      "1": 110,
+      "2": 16,
+      "3": 6
+    }
+  },
+  "Nature_Portfolio_T3_reference_pr": {
+    "n_comments": 2109,
+    "n_papers": 179,
+    "primary_concerns_pct": {
+      "C12": 16.9,
+      "C6": 10.5,
+      "C10": 10.2,
+      "C1": 7.5,
+      "C11": 7.3,
+      "C14": 7.0,
+      "C4": 6.5,
+      "C8": 6.1,
+      "C7": 5.7,
+      "C2": 5.1,
+      "C9": 4.7,
+      "C3": 4.6,
+      "C5": 3.6,
+      "C13": 2.8
+    },
+    "severity_pct": {
+      "major": 49.2,
+      "minor": 48.4,
+      "editorial": 2.4
+    },
+    "tactics_counts": {
+      "R2": 710,
+      "R7": 617,
+      "R4": 365,
+      "R3": 356,
+      "R1": 301,
+      "R6": 290,
+      "R8": 278,
+      "R5": 268,
+      "R10": 172,
+      "R9": 162
+    },
+    "rounds_counts": {
+      "1": 1917,
+      "2": 158,
+      "3": 20,
+      "R1": 12,
+      "R2": 2
+    }
+  },
+  "staged_t1t2_full_pr_files": [
+    {
+      "stem": "Nature Computational Science_23V3_128_Evolving scattering networks for engineering disorder",
+      "tier": "T2",
+      "journal": "Nature Computational Science",
+      "file": "Nature Computational Science_23V3_128_Evolving scattering networks for engineering disorder_PeerReview.txt",
+      "pages": 28,
+      "words": 9670,
+      "referees_detected": 3
+    },
+    {
+      "stem": "Nature Computational Science_24V4_429_Large-scale photonic computing with nonlinear disordered media",
+      "tier": "T2",
+      "journal": "Nature Computational Science",
+      "file": "Nature Computational Science_24V4_429_Large-scale photonic computing with nonlinear disordered media_PeerReview.txt",
+      "pages": 35,
+      "words": 4710,
+      "referees_detected": 3
+    },
+    {
+      "stem": "Nature Nanotechnology_26V21_932_Optical multistability in a compact microcavity enabled by near-exceptional coupling",
+      "tier": "T2",
+      "journal": "Nature Nanotechnology",
+      "file": "Nature Nanotechnology_26V21_932_Optical multistability in a compact microcavity enabled by near-exceptional coupling_PeerReview.txt",
+      "pages": 44,
+      "words": 9471,
+      "referees_detected": 2
+    },
+    {
+      "stem": "Nature Photonics_26V20_932_High-speed non-volatile barium titanate field-programmable photonic gate array",
+      "tier": "T2",
+      "journal": "Nature Photonics",
+      "file": "Nature Photonics_26V20_932_High-speed non-volatile barium titanate field-programmable photonic gate array_PeerReview.txt",
+      "pages": 13,
+      "words": 5614,
+      "referees_detected": 3
+    },
+    {
+      "stem": "Nature_21V589_52_Parallel convolutional processing using an integrated photonic tensor core",
+      "tier": "T1",
+      "journal": "Nature",
+      "file": "Nature_21V589_52_Parallel convolutional processing using an integrated photonic tensor core_PeerReview.txt",
+      "pages": 33,
+      "words": 16340,
+      "referees_detected": 3
+    },
+    {
+      "stem": "Nature_22V601_549_Deep physical neural networks trained with backpropagation",
+      "tier": "T1",
+      "journal": "Nature",
+      "file": "Nature_22V601_549_Deep physical neural networks trained with backpropagation_PeerReview.txt",
+      "pages": 28,
+      "words": 10889,
+      "referees_detected": 2
+    },
+    {
+      "stem": "Nature_24V627_80_Integrated lithium niobate microwave photonic processing engine",
+      "tier": "T1",
+      "journal": "Nature",
+      "file": "Nature_24V627_80_Integrated lithium niobate microwave photonic processing engine_PeerReview.txt",
+      "pages": 26,
+      "words": 10427,
+      "referees_detected": 3
+    },
+    {
+      "stem": "Nature_25V644_903_Optical generative models",
+      "tier": "T1",
+      "journal": "Nature",
+      "file": "Nature_25V644_903_Optical generative models_PeerReview.txt",
+      "pages": 75,
+      "words": 36992,
+      "referees_detected": 3
+    },
+    {
+      "stem": "Nature_25V645_354_Analog optical computer for AI inference and combinatorial optimization",
+      "tier": "T1",
+      "journal": "Nature",
+      "file": "Nature_25V645_354_Analog optical computer for AI inference and combinatorial optimization_PeerReview.txt",
+      "pages": 29,
+      "words": 12428,
+      "referees_detected": 3
+    },
+    {
+      "stem": "Nature_25V648_576_Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
+      "tier": "T1",
+      "journal": "Nature",
+      "file": "Nature_25V648_576_Programmable 200 GOPS Hopfield-inspired photonic Ising machine_PeerReview.txt",
+      "pages": 92,
+      "words": 36412,
+      "referees_detected": 4
+    },
+    {
+      "stem": "Nature_25V649_330_Programmable on-chip nonlinear photonics",
+      "tier": "T1",
+      "journal": "Nature",
+      "file": "Nature_25V649_330_Programmable on-chip nonlinear photonics_PeerReview.txt",
+      "pages": 56,
+      "words": 24828,
+      "referees_detected": 4
+    },
+    {
+      "stem": "Nature_26V657_377_Degree-of-polarization modulation for high-dimensional optical computing",
+      "tier": "T1",
+      "journal": "Nature",
+      "file": "Nature_26V657_377_Degree-of-polarization modulation for high-dimensional optical computing_PeerReview.txt",
+      "pages": 40,
+      "words": 17487,
+      "referees_detected": 4
+    }
+  ]
+}

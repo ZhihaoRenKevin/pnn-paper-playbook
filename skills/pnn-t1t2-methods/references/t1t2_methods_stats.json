@@ -1,0 +1,269 @@
+{
+  "T1_research": {
+    "n": 33,
+    "main_words": {
+      "n": 33,
+      "median": 5780.0,
+      "q25": 4476.0,
+      "q75": 6359.0,
+      "mean": 5693.55,
+      "min": 2925.0,
+      "max": 9692.0
+    },
+    "results_subheading_count": {
+      "n": 33,
+      "median": 12.0,
+      "q25": 12.0,
+      "q75": 12.0,
+      "mean": 11.48,
+      "min": 3.0,
+      "max": 12.0
+    },
+    "results_subheading_words": {
+      "n": 379,
+      "median": 7.0,
+      "q25": 3.0,
+      "q75": 9.0,
+      "mean": 6.55,
+      "min": 2.0,
+      "max": 11.0
+    },
+    "fig_refs_per_paper": {
+      "n": 33,
+      "median": 31.0,
+      "q25": 24.0,
+      "q75": 39.0,
+      "mean": 31.91,
+      "min": 11.0,
+      "max": 59.0
+    },
+    "ed_refs_per_paper": {
+      "n": 10,
+      "median": 7.0,
+      "q25": 3.75,
+      "q75": 10.0,
+      "mean": 9.2,
+      "min": 2.0,
+      "max": 26.0
+    },
+    "si_refs_per_paper": {
+      "n": 20,
+      "median": 13.5,
+      "q25": 7.5,
+      "q75": 18.0,
+      "mean": 13.2,
+      "min": 1.0,
+      "max": 33.0
+    },
+    "has_methods_pct": 57.6,
+    "methods_words": {
+      "n": 19,
+      "median": 2613.0,
+      "q25": 1735.0,
+      "q75": 3807.5,
+      "mean": 2794.74,
+      "min": 494.0,
+      "max": 6846.0
+    },
+    "methods_subheading_count": {
+      "n": 18,
+      "median": 15.0,
+      "q25": 13.0,
+      "q75": 15.0,
+      "mean": 13.17,
+      "min": 5.0,
+      "max": 15.0
+    },
+    "methods_topic_rates_pct": {
+      "fabrication": 78.9,
+      "optical_setup": 94.7,
+      "electrical_control": 63.2,
+      "training_or_calibration": 63.2,
+      "energy_or_speed_accounting": 47.4,
+      "digital_baseline_or_dataset": 63.2,
+      "simulation_or_modeling": 31.6
+    },
+    "data_avail_pct": 57.6,
+    "code_avail_pct": 39.4,
+    "github_zenodo_pct": 48.5,
+    "competing_pct": 66.7
+  },
+  "T2_research": {
+    "n": 80,
+    "main_words": {
+      "n": 80,
+      "median": 5316.5,
+      "q25": 4808.0,
+      "q75": 5671.5,
+      "mean": 5291.0,
+      "min": 3051.0,
+      "max": 9257.0
+    },
+    "results_subheading_count": {
+      "n": 80,
+      "median": 12.0,
+      "q25": 12.0,
+      "q75": 12.0,
+      "mean": 11.99,
+      "min": 11.0,
+      "max": 12.0
+    },
+    "results_subheading_words": {
+      "n": 959,
+      "median": 8.0,
+      "q25": 4.0,
+      "q75": 9.0,
+      "mean": 6.78,
+      "min": 2.0,
+      "max": 11.0
+    },
+    "fig_refs_per_paper": {
+      "n": 80,
+      "median": 37.0,
+      "q25": 26.0,
+      "q75": 46.0,
+      "mean": 37.2,
+      "min": 6.0,
+      "max": 81.0
+    },
+    "ed_refs_per_paper": {
+      "n": 11,
+      "median": 8.0,
+      "q25": 4.0,
+      "q75": 10.0,
+      "mean": 7.09,
+      "min": 2.0,
+      "max": 11.0
+    },
+    "si_refs_per_paper": {
+      "n": 77,
+      "median": 14.0,
+      "q25": 8.0,
+      "q75": 20.0,
+      "mean": 15.19,
+      "min": 1.0,
+      "max": 46.0
+    },
+    "has_methods_pct": 85.0,
+    "methods_words": {
+      "n": 68,
+      "median": 1038.0,
+      "q25": 586.0,
+      "q75": 1955.25,
+      "mean": 1397.51,
+      "min": 255.0,
+      "max": 4407.0
+    },
+    "methods_subheading_count": {
+      "n": 55,
+      "median": 11.0,
+      "q25": 7.5,
+      "q75": 15.0,
+      "mean": 10.76,
+      "min": 1.0,
+      "max": 15.0
+    },
+    "methods_topic_rates_pct": {
+      "fabrication": 55.9,
+      "optical_setup": 79.4,
+      "electrical_control": 54.4,
+      "training_or_calibration": 55.9,
+      "energy_or_speed_accounting": 11.8,
+      "digital_baseline_or_dataset": 48.5,
+      "simulation_or_modeling": 42.6
+    },
+    "data_avail_pct": 90.0,
+    "code_avail_pct": 67.5,
+    "github_zenodo_pct": 31.2,
+    "competing_pct": 96.2
+  },
+  "T1T2_research_all": {
+    "n": 113,
+    "main_words": {
+      "n": 113,
+      "median": 5352.0,
+      "q25": 4604.0,
+      "q75": 5970.0,
+      "mean": 5408.56,
+      "min": 2925.0,
+      "max": 9692.0
+    },
+    "results_subheading_count": {
+      "n": 113,
+      "median": 12.0,
+      "q25": 12.0,
+      "q75": 12.0,
+      "mean": 11.84,
+      "min": 3.0,
+      "max": 12.0
+    },
+    "results_subheading_words": {
+      "n": 1338,
+      "median": 8.0,
+      "q25": 3.0,
+      "q75": 9.0,
+      "mean": 6.72,
+      "min": 2.0,
+      "max": 11.0
+    },
+    "fig_refs_per_paper": {
+      "n": 113,
+      "median": 34.0,
+      "q25": 25.0,
+      "q75": 43.0,
+      "mean": 35.65,
+      "min": 6.0,
+      "max": 81.0
+    },
+    "ed_refs_per_paper": {
+      "n": 21,
+      "median": 8.0,
+      "q25": 3.0,
+      "q75": 10.0,
+      "mean": 8.1,
+      "min": 2.0,
+      "max": 26.0
+    },
+    "si_refs_per_paper": {
+      "n": 97,
+      "median": 14.0,
+      "q25": 8.0,
+      "q75": 20.0,
+      "mean": 14.78,
+      "min": 1.0,
+      "max": 46.0
+    },
+    "has_methods_pct": 77.0,
+    "methods_words": {
+      "n": 87,
+      "median": 1233.0,
+      "q25": 667.0,
+      "q75": 2518.5,
+      "mean": 1702.66,
+      "min": 255.0,
+      "max": 6846.0
+    },
+    "methods_subheading_count": {
+      "n": 73,
+      "median": 13.0,
+      "q25": 8.0,
+      "q75": 15.0,
+      "mean": 11.36,
+      "min": 1.0,
+      "max": 15.0
+    },
+    "methods_topic_rates_pct": {
+      "fabrication": 60.9,
+      "optical_setup": 82.8,
+      "electrical_control": 56.3,
+      "training_or_calibration": 57.5,
+      "energy_or_speed_accounting": 19.5,
+      "digital_baseline_or_dataset": 51.7,
+      "simulation_or_modeling": 40.2
+    },
+    "data_avail_pct": 80.5,
+    "code_avail_pct": 59.3,
+    "github_zenodo_pct": 36.3,
+    "competing_pct": 87.6
+  }
+}

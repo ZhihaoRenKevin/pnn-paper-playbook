@@ -1,0 +1,38 @@
+{
+  "Pre-LLM Human T1/T2 (<=2022)": {
+    "sent_mean": 26.32,
+    "sent_std": 12.12,
+    "short15_pct": 16.51,
+    "long28_pct": 37.8,
+    "ai_1k": 0.0,
+    "pt_1k": 0.7,
+    "em_1k": 0.48,
+    "def_1k": 0.0,
+    "notonly_1k": 0.0,
+    "n": 43
+  },
+  "Transition (2023)": {
+    "sent_mean": 27.1,
+    "sent_std": 12.84,
+    "short15_pct": 18.27,
+    "long28_pct": 40.07,
+    "ai_1k": 0.0,
+    "pt_1k": 0.88,
+    "em_1k": 0.18,
+    "def_1k": 0.0,
+    "notonly_1k": 0.0,
+    "n": 18
+  },
+  "Post-LLM Era (2024-2026)": {
+    "sent_mean": 25.03,
+    "sent_std": 11.87,
+    "short15_pct": 20.33,
+    "long28_pct": 32.94,
+    "ai_1k": 0.48,
+    "pt_1k": 1.57,
+    "em_1k": 0.3,
+    "def_1k": 0.0,
+    "notonly_1k": 0.0,
+    "n": 52
+  }
+}

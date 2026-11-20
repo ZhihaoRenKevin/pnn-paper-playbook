@@ -1,0 +1,791 @@
+{
+  "T1_research_benchmark": {
+    "compares_optical_sota_pct": 51.5,
+    "latency_decomposed_pct": 3.0,
+    "meas_proj_split_pct": 3.0,
+    "elec_baselines_top": [
+      [
+        "none",
+        25
+      ],
+      [
+        "n",
+        6
+      ],
+      [
+        "o",
+        3
+      ],
+      [
+        "e",
+        3
+      ],
+      [
+        "GPUs",
+        1
+      ],
+      [
+        "tensor processing units",
+        1
+      ],
+      [
+        "A10 GPU",
+        1
+      ],
+      [
+        "DSP",
+        1
+      ],
+      [
+        "NVIDIA Jetson Nano",
+        1
+      ],
+      [
+        "NVIDIA A100",
+        1
+      ]
+    ],
+    "metrics_pct": {
+      "acc": 81.8,
+      "TOPS": 27.3,
+      "latency": 27.3,
+      "loss": 24.2,
+      "BW": 21.2,
+      "photons_MAC": 18.2,
+      "none": 9.1,
+      "TOPS_W": 6.1,
+      "ENOB": 6.1,
+      "TOPS_mm2": 3.0,
+      "J_OP": 3.0,
+      "energy consumption": 3.0,
+      "memory size": 3.0,
+      "TOPS/W": 3.0
+    },
+    "energy_bounds_pct": {
+      "not_disclosed": 97.0,
+      "none": 3.0
+    },
+    "formats_pct": {
+      "bar_line": 63.6,
+      "ed_table": 24.2,
+      "main_table": 24.2,
+      "text_only": 21.2,
+      "loglog_scatter": 3.0
+    },
+    "fairness_pct": {
+      "none": 93.9,
+      "shows_losses": 3.0,
+      "matched_bits": 3.0,
+      "at_speed": 3.0
+    },
+    "tasks_top": [
+      [
+        "image classification",
+        4
+      ],
+      [
+        "Fashion-MNIST",
+        2
+      ],
+      [
+        "none",
+        2
+      ],
+      [
+        "pattern recognition",
+        1
+      ],
+      [
+        "language recognition",
+        1
+      ],
+      [
+        "autoencoder",
+        1
+      ],
+      [
+        "facial image recognition",
+        1
+      ],
+      [
+        "handwritten digit images",
+        1
+      ],
+      [
+        "digit recognition",
+        1
+      ],
+      [
+        "convolution operations",
+        1
+      ],
+      [
+        "audio and image classification tasks",
+        1
+      ],
+      [
+        "two-class classification",
+        1
+      ],
+      [
+        "four-class classification",
+        1
+      ],
+      [
+        "3-class ImageNet classification",
+        1
+      ],
+      [
+        "time-lapse video recognition",
+        1
+      ],
+      [
+        "solving ordinary differential equations",
+        1
+      ],
+      [
+        "generating ultra-wideband signals",
+        1
+      ],
+      [
+        "detecting edges in images",
+        1
+      ],
+      [
+        "medical diagnostic images",
+        1
+      ],
+      [
+        "all-optical focusing",
+        1
+      ],
+      [
+        "imaging hidden objects",
+        1
+      ],
+      [
+        "all-optical processing",
+        1
+      ],
+      [
+        "classifying the gaits of ten patients with Parkinson’s disease",
+        1
+      ],
+      [
+        "classifying the Modified National Institute of Standards and Technology (MNIST) handwritten digits dataset",
+        1
+      ],
+      [
+        "max-cut problem",
+        1
+      ]
+    ]
+  },
+  "T2_research_benchmark": {
+    "compares_optical_sota_pct": 37.5,
+    "latency_decomposed_pct": 0.0,
+    "meas_proj_split_pct": 0.0,
+    "elec_baselines_top": [
+      [
+        "none",
+        66
+      ],
+      [
+        "n",
+        8
+      ],
+      [
+        "o",
+        4
+      ],
+      [
+        "e",
+        4
+      ],
+      [
+        "32-bit graphic processing unit",
+        1
+      ],
+      [
+        "FPGA",
+        1
+      ],
+      [
+        "Intel Max",
+        1
+      ],
+      [
+        "graphics processing units",
+        1
+      ],
+      [
+        "field-programmable gate array",
+        1
+      ],
+      [
+        "64-bit electronic computer",
+        1
+      ],
+      [
+        "GPU",
+        1
+      ]
+    ],
+    "metrics_pct": {
+      "acc": 60.0,
+      "loss": 25.0,
+      "latency": 20.0,
+      "BW": 18.8,
+      "TOPS": 15.0,
+      "photons_MAC": 11.2,
+      "J_OP": 10.0,
+      "none": 8.8,
+      "TOPS_mm2": 5.0,
+      "ENOB": 2.5,
+      "TOPS_W": 1.2,
+      "Q-factor": 1.2,
+      "power": 1.2,
+      "memory_time": 1.2,
+      "area": 1.2
+    },
+    "energy_bounds_pct": {
+      "not_disclosed": 98.8,
+      "core_optical": 1.2,
+      "chip_io": 1.2
+    },
+    "formats_pct": {
+      "bar_line": 71.2,
+      "main_table": 27.5,
+      "text_only": 18.8,
+      "ed_table": 5.0,
+      "loglog_scatter": 5.0,
+      "radar": 2.5,
+      "si_table": 1.2
+    },
+    "fairness_pct": {
+      "none": 93.8,
+      "matched_bits": 5.0,
+      "shows_losses": 3.8,
+      "at_speed": 2.5
+    },
+    "tasks_top": [
+      [
+        "none",
+        6
+      ],
+      [
+        "image classification",
+        5
+      ],
+      [
+        "handwritten digits",
+        3
+      ],
+      [
+        "communication",
+        2
+      ],
+      [
+        "MNIST",
+        2
+      ],
+      [
+        "image recognition",
+        2
+      ],
+      [
+        "all-optical switching",
+        2
+      ],
+      [
+        "vowel recognition",
+        2
+      ],
+      [
+        "classifying COVID-19 X-ray lung images",
+        1
+      ],
+      [
+        "speech recognition",
+        1
+      ],
+      [
+        "predicting age from images of faces",
+        1
+      ],
+      [
+        "network-based material classification",
+        1
+      ],
+      [
+        "microstructure screening",
+        1
+      ],
+      [
+        "preferential attachment",
+        1
+      ],
+      [
+        "regression",
+        1
+      ],
+      [
+        "graph classification",
+        1
+      ],
+      [
+        "human motion generation",
+        1
+      ],
+      [
+        "single-shot photonic learning",
+        1
+      ],
+      [
+        "mult-task all-optical neural processing",
+        1
+      ],
+      [
+        "MaxCut",
+        1
+      ],
+      [
+        "fibre nonlinearity compensation",
+        1
+      ],
+      [
+        "mobile communication coding–decoding",
+        1
+      ],
+      [
+        "real-time multi-beam focusing",
+        1
+      ],
+      [
+        "vector classification",
+        1
+      ],
+      [
+        "image decoding",
+        1
+      ]
+    ]
+  },
+  "T1T2_research_all": {
+    "compares_optical_sota_pct": 41.6,
+    "latency_decomposed_pct": 0.9,
+    "meas_proj_split_pct": 0.9,
+    "elec_baselines_top": [
+      [
+        "none",
+        91
+      ],
+      [
+        "n",
+        14
+      ],
+      [
+        "o",
+        7
+      ],
+      [
+        "e",
+        7
+      ],
+      [
+        "32-bit graphic processing unit",
+        1
+      ],
+      [
+        "FPGA",
+        1
+      ],
+      [
+        "Intel Max",
+        1
+      ],
+      [
+        "graphics processing units",
+        1
+      ],
+      [
+        "field-programmable gate array",
+        1
+      ],
+      [
+        "64-bit electronic computer",
+        1
+      ],
+      [
+        "GPU",
+        1
+      ],
+      [
+        "GPUs",
+        1
+      ],
+      [
+        "tensor processing units",
+        1
+      ],
+      [
+        "A10 GPU",
+        1
+      ],
+      [
+        "DSP",
+        1
+      ],
+      [
+        "NVIDIA Jetson Nano",
+        1
+      ],
+      [
+        "NVIDIA A100",
+        1
+      ]
+    ],
+    "metrics_pct": {
+      "acc": 66.4,
+      "loss": 24.8,
+      "latency": 22.1,
+      "BW": 19.5,
+      "TOPS": 18.6,
+      "photons_MAC": 13.3,
+      "none": 8.8,
+      "J_OP": 8.0,
+      "TOPS_mm2": 4.4,
+      "ENOB": 3.5,
+      "TOPS_W": 2.7,
+      "Q-factor": 0.9,
+      "power": 0.9,
+      "memory_time": 0.9,
+      "area": 0.9,
+      "energy consumption": 0.9,
+      "memory size": 0.9,
+      "TOPS/W": 0.9
+    },
+    "energy_bounds_pct": {
+      "not_disclosed": 98.2,
+      "core_optical": 0.9,
+      "chip_io": 0.9,
+      "none": 0.9
+    },
+    "formats_pct": {
+      "bar_line": 69.0,
+      "main_table": 26.5,
+      "text_only": 19.5,
+      "ed_table": 10.6,
+      "loglog_scatter": 4.4,
+      "radar": 1.8,
+      "si_table": 0.9
+    },
+    "fairness_pct": {
+      "none": 93.8,
+      "matched_bits": 4.4,
+      "shows_losses": 3.5,
+      "at_speed": 2.7
+    },
+    "tasks_top": [
+      [
+        "image classification",
+        9
+      ],
+      [
+        "none",
+        8
+      ],
+      [
+        "MNIST",
+        3
+      ],
+      [
+        "handwritten digits",
+        3
+      ],
+      [
+        "communication",
+        2
+      ],
+      [
+        "image recognition",
+        2
+      ],
+      [
+        "all-optical switching",
+        2
+      ],
+      [
+        "vowel recognition",
+        2
+      ],
+      [
+        "object detection",
+        2
+      ],
+      [
+        "digit recognition",
+        2
+      ],
+      [
+        "Fashion-MNIST",
+        2
+      ],
+      [
+        "classifying COVID-19 X-ray lung images",
+        1
+      ],
+      [
+        "speech recognition",
+        1
+      ],
+      [
+        "predicting age from images of faces",
+        1
+      ],
+      [
+        "network-based material classification",
+        1
+      ],
+      [
+        "microstructure screening",
+        1
+      ],
+      [
+        "preferential attachment",
+        1
+      ],
+      [
+        "regression",
+        1
+      ],
+      [
+        "graph classification",
+        1
+      ],
+      [
+        "human motion generation",
+        1
+      ],
+      [
+        "single-shot photonic learning",
+        1
+      ],
+      [
+        "mult-task all-optical neural processing",
+        1
+      ],
+      [
+        "MaxCut",
+        1
+      ],
+      [
+        "fibre nonlinearity compensation",
+        1
+      ],
+      [
+        "mobile communication coding–decoding",
+        1
+      ]
+    ]
+  },
+  "deterministic_rates_T1": {
+    "mentions_GPU_named": 42.4,
+    "mentions_FPGA_or_ASIC": 21.2,
+    "mentions_TOPS_or_GOPS": 51.5,
+    "mentions_energy_per_op": 15.2,
+    "mentions_wall_plug_or_ADC_DAC": 45.5,
+    "mentions_ENOB_or_bits": 51.5,
+    "mentions_confusion_matrix": 36.4,
+    "mentions_ablation_or_control": 6.1,
+    "mentions_MNIST": 54.5,
+    "mentions_Fashion_MNIST": 27.3,
+    "mentions_CIFAR_or_ImageNet": 33.3,
+    "mentions_real_signal_or_scientific": 97.0,
+    "has_main_text_table": 9.1,
+    "has_extended_data_figs": 36.4
+  },
+  "deterministic_rates_T2": {
+    "mentions_GPU_named": 25.0,
+    "mentions_FPGA_or_ASIC": 16.2,
+    "mentions_TOPS_or_GOPS": 27.5,
+    "mentions_energy_per_op": 11.2,
+    "mentions_wall_plug_or_ADC_DAC": 25.0,
+    "mentions_ENOB_or_bits": 27.5,
+    "mentions_confusion_matrix": 33.8,
+    "mentions_ablation_or_control": 7.5,
+    "mentions_MNIST": 31.2,
+    "mentions_Fashion_MNIST": 15.0,
+    "mentions_CIFAR_or_ImageNet": 17.5,
+    "mentions_real_signal_or_scientific": 95.0,
+    "has_main_text_table": 16.2,
+    "has_extended_data_figs": 17.5
+  },
+  "reviews_separated_taxonomy": {
+    "n_major_reviews": 26,
+    "top_bench_axes": [
+      [
+        "scalability",
+        7
+      ],
+      [
+        "energy efficiency",
+        7
+      ],
+      [
+        "latency",
+        6
+      ],
+      [
+        "accuracy",
+        4
+      ],
+      [
+        "energy consumption",
+        3
+      ],
+      [
+        "speed",
+        3
+      ],
+      [
+        "performance",
+        3
+      ],
+      [
+        "bandwidth",
+        2
+      ],
+      [
+        "miniaturization",
+        2
+      ],
+      [
+        "integration complexity",
+        2
+      ],
+      [
+        "complexity",
+        2
+      ],
+      [
+        "throughput",
+        2
+      ],
+      [
+        "power efficiency",
+        2
+      ],
+      [
+        "data transfer reduction",
+        1
+      ],
+      [
+        "processing latency",
+        1
+      ],
+      [
+        "energy",
+        1
+      ],
+      [
+        "device performance metrics",
+        1
+      ],
+      [
+        "system integration efficiency",
+        1
+      ],
+      [
+        "multidimensional data processing capability",
+        1
+      ],
+      [
+        "computing speed",
+        1
+      ]
+    ],
+    "top_scaling_walls": [
+      [
+        "integration complexity",
+        4
+      ],
+      [
+        "thermal management",
+        3
+      ],
+      [
+        "manufacturing limitations",
+        2
+      ],
+      [
+        "power consumption",
+        2
+      ],
+      [
+        "material limitations",
+        2
+      ],
+      [
+        "fabrication precision",
+        2
+      ],
+      [
+        "entropy source integration",
+        1
+      ],
+      [
+        "hardware-software co-design complexity",
+        1
+      ],
+      [
+        "integration of analogue and digital components",
+        1
+      ],
+      [
+        "manufacturing complexity",
+        1
+      ],
+      [
+        "scalability of sensor networks",
+        1
+      ],
+      [
+        "manufacturability",
+        1
+      ],
+      [
+        "standardization",
+        1
+      ],
+      [
+        "pixel size limitations approaching light wavelength",
+        1
+      ],
+      [
+        "high power consumption in data transfer",
+        1
+      ],
+      [
+        "complexity in system integration",
+        1
+      ],
+      [
+        "system control complexity",
+        1
+      ],
+      [
+        "noise suppression",
+        1
+      ],
+      [
+        "training challenges",
+        1
+      ],
+      [
+        "interfacing requirements",
+        1
+      ]
+    ]
+  }
+}

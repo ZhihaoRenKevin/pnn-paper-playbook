@@ -1,0 +1,492 @@
+{
+  "heading_by_journal": {
+    "Nature": {
+      "untitled_closing": 4,
+      "Conclusion": 4,
+      "Discussion": 7,
+      "Discussion and conclusion": 3,
+      "Discussion and outlook": 1
+    },
+    "Nature Computational Science": {
+      "Discussion": 5
+    },
+    "Nature Electronics": {
+      "Conclusions": 12
+    },
+    "Nature Machine Intelligence": {
+      "Discussion and conclusion": 1,
+      "Discussion": 1
+    },
+    "Nature Materials": {
+      "Discussion": 1,
+      "untitled_closing": 2,
+      "Outlook": 1
+    },
+    "Nature Nanotechnology": {
+      "Conclusions": 7,
+      "untitled_closing": 1,
+      "Conclusion": 2
+    },
+    "Nature Photonics": {
+      "Summary": 1,
+      "untitled_closing": 11,
+      "Summary and outlook": 2,
+      "Discussion": 18,
+      "Conclusion": 6,
+      "Outlook": 1,
+      "Conclusions": 1,
+      "Discussion and conclusion": 2,
+      "Discussion and conclusions": 1
+    },
+    "Nature Physics": {
+      "Outlook": 1,
+      "Conclusions": 1,
+      "Discussion and outlook": 1
+    },
+    "Nature Sensors": {
+      "Discussion and conclusion": 1
+    },
+    "Science": {
+      "untitled_closing": 6,
+      "Outlook": 1,
+      "Discussion": 4,
+      "Discussion and outlook": 2,
+      "Conclusions": 1
+    }
+  },
+  "T1_conclusion": {
+    "heading_counts": {
+      "Discussion": 10,
+      "untitled_closing": 9,
+      "Conclusion": 4,
+      "Discussion and conclusion": 3,
+      "Discussion and outlook": 2,
+      "Scalability of ACCEL": 1,
+      "Summary of the results": 1,
+      "Complex Hadamard operations": 1,
+      "Outlook": 1,
+      "Conclusions": 1
+    },
+    "para_count": {
+      "n": 33,
+      "median": 1.0,
+      "q25": 1.0,
+      "q75": 1.0,
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "words": {
+      "n": 33,
+      "median": 502.0,
+      "q25": 247.0,
+      "q75": 639.0,
+      "mean": 516.06,
+      "min": 86.0,
+      "max": 1317.0
+    },
+    "move_presence_pct": {
+      "synthesis": 69.7,
+      "limitations": 36.4,
+      "horizon": 30.3,
+      "scaling_roadmap": 21.2,
+      "vs_electronics": 18.2
+    },
+    "lab_vs_physics_split_pct": 15.2,
+    "top_limitations": [
+      [
+        "none",
+        5
+      ],
+      [
+        "endurance of the pcm cells",
+        1
+      ],
+      [
+        "material design and device engineering",
+        1
+      ],
+      [
+        "limited only by the 20-mhz bandwidth",
+        1
+      ],
+      [
+        "weights stored in external memory",
+        1
+      ],
+      [
+        "primarily fully connected structures",
+        1
+      ],
+      [
+        "lack of integrated non-volatile photonic memory",
+        1
+      ],
+      [
+        "lack of multiplexing capability",
+        1
+      ],
+      [
+        "some systems may be well suited for accelerating a restricted class of computations",
+        1
+      ],
+      [
+        "pnns trained using pat can only provide significant benefits during inference",
+        1
+      ],
+      [
+        "bandwidths of the mrms",
+        1
+      ],
+      [
+        "sige pd and the tia",
+        1
+      ],
+      [
+        "processing is performed as the waves propagate within the chip",
+        1
+      ],
+      [
+        "complicated implementation of optical nonlinearity",
+        1
+      ],
+      [
+        "considerable power consumption of adcs",
+        1
+      ],
+      [
+        "vulnerability to noises and system errors",
+        1
+      ],
+      [
+        "real-time switching among processing functions",
+        1
+      ],
+      [
+        "task-oriented applications",
+        1
+      ],
+      [
+        "controllable (de-)multiplexers",
+        1
+      ],
+      [
+        "system imperfections",
+        1
+      ],
+      [
+        "complexity of light-wave propagation",
+        1
+      ],
+      [
+        "impossible to perfectly precise modelling",
+        1
+      ],
+      [
+        "relative immaturity of integrated photonics manufacturing",
+        1
+      ],
+      [
+        "scarcity of advanced packaging solutions involving photonics",
+        1
+      ],
+      [
+        "ptc occupies 350 mm2",
+        1
+      ]
+    ]
+  },
+  "T2_conclusion": {
+    "heading_counts": {
+      "Discussion": 25,
+      "Conclusions": 21,
+      "untitled_closing": 11,
+      "Conclusion": 8,
+      "Discussion and conclusion": 4,
+      "Outlook": 3,
+      "Summary and outlook": 2,
+      "In conclusion": 1,
+      "Summary": 1,
+      "write/read for our photonic memory": 1,
+      "Discussion and summary": 1,
+      "Discussion and conclusions": 1,
+      "Discussion and outlook": 1
+    },
+    "para_count": {
+      "n": 80,
+      "median": 1.0,
+      "q25": 1.0,
+      "q75": 1.0,
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "words": {
+      "n": 80,
+      "median": 464.5,
+      "q25": 172.5,
+      "q75": 655.75,
+      "mean": 478.14,
+      "min": 84.0,
+      "max": 1256.0
+    },
+    "move_presence_pct": {
+      "synthesis": 80.0,
+      "horizon": 31.2,
+      "limitations": 26.2,
+      "scaling_roadmap": 21.2,
+      "vs_electronics": 6.2
+    },
+    "lab_vs_physics_split_pct": 11.2,
+    "top_limitations": [
+      [
+        "none",
+        15
+      ],
+      [
+        "power consumption",
+        2
+      ],
+      [
+        "the computing performance (ops) of solo scales to petaops",
+        1
+      ],
+      [
+        "restricts the range of materials",
+        1
+      ],
+      [
+        "generalized to higher-order born series",
+        1
+      ],
+      [
+        "using a table-top femtosecond laser in this study compromises the energy efficiency",
+        1
+      ],
+      [
+        "the system is not best suited to implement isomorphisms of digital nns",
+        1
+      ],
+      [
+        "compromises the training simplicity",
+        1
+      ],
+      [
+        "integration density of silicon transistors is gradually approaching physical limits",
+        1
+      ],
+      [
+        "fabrication-induced errors",
+        1
+      ],
+      [
+        "coupling-induced optical power loss",
+        1
+      ],
+      [
+        "lack of a fully integrated neuron with network compatibility",
+        1
+      ],
+      [
+        "nonlinear version needs stable amplifiers",
+        1
+      ],
+      [
+        "time latency",
+        1
+      ],
+      [
+        "energy consumption",
+        1
+      ],
+      [
+        "device-to-device variations",
+        1
+      ],
+      [
+        "environmental fluctuations",
+        1
+      ],
+      [
+        "physical parameters were fixed during the experiment",
+        1
+      ],
+      [
+        "component count on chip could be reduced",
+        1
+      ],
+      [
+        "smaller band could be read using on-chip mixers",
+        1
+      ],
+      [
+        "scalability limitations",
+        1
+      ],
+      [
+        "prohibitive power costs",
+        1
+      ],
+      [
+        "fabrication yield",
+        1
+      ],
+      [
+        "integration density",
+        1
+      ],
+      [
+        "the network can be trained on significantly smaller datasets without the risk of overfitting",
+        1
+      ]
+    ]
+  },
+  "T1T2_conclusion_all": {
+    "heading_counts": {
+      "Discussion": 35,
+      "Conclusions": 22,
+      "untitled_closing": 20,
+      "Conclusion": 12,
+      "Discussion and conclusion": 7,
+      "Outlook": 4,
+      "Discussion and outlook": 3,
+      "Summary and outlook": 2,
+      "In conclusion": 1,
+      "Summary": 1,
+      "write/read for our photonic memory": 1,
+      "Discussion and summary": 1,
+      "Discussion and conclusions": 1,
+      "Scalability of ACCEL": 1,
+      "Summary of the results": 1,
+      "Complex Hadamard operations": 1
+    },
+    "para_count": {
+      "n": 113,
+      "median": 1.0,
+      "q25": 1.0,
+      "q75": 1.0,
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "words": {
+      "n": 113,
+      "median": 486.0,
+      "q25": 187.0,
+      "q75": 644.0,
+      "mean": 489.21,
+      "min": 84.0,
+      "max": 1317.0
+    },
+    "move_presence_pct": {
+      "synthesis": 77.0,
+      "horizon": 31.0,
+      "limitations": 29.2,
+      "scaling_roadmap": 21.2,
+      "vs_electronics": 9.7
+    },
+    "lab_vs_physics_split_pct": 12.4,
+    "top_limitations": [
+      [
+        "none",
+        20
+      ],
+      [
+        "power consumption",
+        2
+      ],
+      [
+        "the computing performance (ops) of solo scales to petaops",
+        1
+      ],
+      [
+        "restricts the range of materials",
+        1
+      ],
+      [
+        "generalized to higher-order born series",
+        1
+      ],
+      [
+        "using a table-top femtosecond laser in this study compromises the energy efficiency",
+        1
+      ],
+      [
+        "the system is not best suited to implement isomorphisms of digital nns",
+        1
+      ],
+      [
+        "compromises the training simplicity",
+        1
+      ],
+      [
+        "integration density of silicon transistors is gradually approaching physical limits",
+        1
+      ],
+      [
+        "fabrication-induced errors",
+        1
+      ],
+      [
+        "coupling-induced optical power loss",
+        1
+      ],
+      [
+        "lack of a fully integrated neuron with network compatibility",
+        1
+      ],
+      [
+        "nonlinear version needs stable amplifiers",
+        1
+      ],
+      [
+        "time latency",
+        1
+      ],
+      [
+        "energy consumption",
+        1
+      ],
+      [
+        "device-to-device variations",
+        1
+      ],
+      [
+        "environmental fluctuations",
+        1
+      ],
+      [
+        "physical parameters were fixed during the experiment",
+        1
+      ],
+      [
+        "component count on chip could be reduced",
+        1
+      ],
+      [
+        "smaller band could be read using on-chip mixers",
+        1
+      ],
+      [
+        "scalability limitations",
+        1
+      ],
+      [
+        "prohibitive power costs",
+        1
+      ],
+      [
+        "fabrication yield",
+        1
+      ],
+      [
+        "integration density",
+        1
+      ],
+      [
+        "the network can be trained on significantly smaller datasets without the risk of overfitting",
+        1
+      ]
+    ]
+  }
+}
